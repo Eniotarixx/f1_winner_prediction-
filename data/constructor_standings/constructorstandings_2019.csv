@@ -1,0 +1,11 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,739,15,mercedes,http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One,Mercedes,German,2019,21
+2,2,504,3,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,2019,21
+3,3,417,3,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian,2019,21
+4,4,145,0,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,2019,21
+5,5,91,0,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,2019,21
+6,6,85,0,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian,2019,21
+7,7,73,0,racing_point,http://en.wikipedia.org/wiki/Racing_Point_F1_Team,Racing Point,British,2019,21
+8,8,57,0,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss,2019,21
+9,9,28,0,haas,http://en.wikipedia.org/wiki/Haas_F1_Team,Haas F1 Team,American,2019,21
+10,10,1,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,2019,21

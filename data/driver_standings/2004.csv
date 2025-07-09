@@ -1,0 +1,26 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,148,13,michael_schumacher,,MSC,http://en.wikipedia.org/wiki/Michael_Schumacher,Michael,Schumacher,1969-01-03,German,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,114,2,barrichello,,BAR,http://en.wikipedia.org/wiki/Rubens_Barrichello,Rubens,Barrichello,1972-05-23,Brazilian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,85,0,button,22,BUT,http://en.wikipedia.org/wiki/Jenson_Button,Jenson,Button,1980-01-19,British,bar,http://en.wikipedia.org/wiki/British_American_Racing,BAR,British
+4,4,59,0,alonso,14,ALO,http://en.wikipedia.org/wiki/Fernando_Alonso,Fernando,Alonso,1981-07-29,Spanish,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+5,5,58,1,montoya,,MON,http://en.wikipedia.org/wiki/Juan_Pablo_Montoya,Juan,Pablo Montoya,1975-09-20,Colombian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+6,6,46,1,trulli,,TRU,http://en.wikipedia.org/wiki/Jarno_Trulli,Jarno,Trulli,1974-07-13,Italian,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+7,7,45,1,raikkonen,7,RAI,http://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen,Kimi,Räikkönen,1979-10-17,Finnish,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+8,8,34,0,sato,,SAT,http://en.wikipedia.org/wiki/Takuma_Sato,Takuma,Sato,1977-01-28,Japanese,bar,http://en.wikipedia.org/wiki/British_American_Racing,BAR,British
+9,9,24,0,ralf_schumacher,,SCH,http://en.wikipedia.org/wiki/Ralf_Schumacher,Ralf,Schumacher,1975-06-30,German,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+10,10,24,0,coulthard,,COU,http://en.wikipedia.org/wiki/David_Coulthard,David,Coulthard,1971-03-27,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+11,11,22,0,fisichella,,FIS,http://en.wikipedia.org/wiki/Giancarlo_Fisichella,Giancarlo,Fisichella,1973-01-14,Italian,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+12,12,12,0,massa,19,MAS,http://en.wikipedia.org/wiki/Felipe_Massa,Felipe,Massa,1981-04-25,Brazilian,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+13,13,7,0,webber,,WEB,http://en.wikipedia.org/wiki/Mark_Webber_(racing_driver),Mark,Webber,1976-08-27,Australian,jaguar,http://en.wikipedia.org/wiki/Jaguar_Racing,Jaguar,British
+14,14,6,0,panis,,,http://en.wikipedia.org/wiki/Olivier_Panis,Olivier,Panis,1966-09-02,French,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+15,15,6,0,pizzonia,,PIZ,http://en.wikipedia.org/wiki/Ant%C3%B4nio_Pizzonia,Antônio,Pizzonia,1980-09-11,Brazilian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+16,16,3,0,klien,,KLI,http://en.wikipedia.org/wiki/Christian_Klien,Christian,Klien,1983-02-07,Austrian,jaguar,http://en.wikipedia.org/wiki/Jaguar_Racing,Jaguar,British
+17,17,3,0,matta,,,http://en.wikipedia.org/wiki/Cristiano_da_Matta,Cristiano,da Matta,1973-09-19,Brazilian,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+18,18,3,0,heidfeld,,HEI,http://en.wikipedia.org/wiki/Nick_Heidfeld,Nick,Heidfeld,1977-05-10,German,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+19,19,2,0,glock,,GLO,http://en.wikipedia.org/wiki/Timo_Glock,Timo,Glock,1982-03-18,German,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+20,20,1,0,baumgartner,,,http://en.wikipedia.org/wiki/Zsolt_Baumgartner,Zsolt,Baumgartner,1981-01-01,Hungarian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+21,21,0,0,villeneuve,,VIL,http://en.wikipedia.org/wiki/Jacques_Villeneuve,Jacques,Villeneuve,1971-04-09,Canadian,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+22,22,0,0,zonta,,ZON,http://en.wikipedia.org/wiki/Ricardo_Zonta,Ricardo,Zonta,1976-03-23,Brazilian,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+23,23,0,0,gene,,,http://en.wikipedia.org/wiki/Marc_Gen%C3%A9,Marc,Gené,1974-03-29,Spanish,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+24,24,0,0,pantano,,,http://en.wikipedia.org/wiki/Giorgio_Pantano,Giorgio,Pantano,1979-02-04,Italian,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+25,25,0,0,bruni,,,http://en.wikipedia.org/wiki/Gianmaria_Bruni,Gianmaria,Bruni,1981-05-30,Italian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian

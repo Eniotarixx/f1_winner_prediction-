@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,70,3,lauda,,,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,55,3,scheckter,,,http://en.wikipedia.org/wiki/Jody_Scheckter,Jody,Scheckter,1950-01-29,South African,wolf,http://en.wikipedia.org/wiki/Walter_Wolf_Racing,Wolf,Canadian
+3,3,47,4,mario_andretti,,,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+4,4,41,1,reutemann,,,http://en.wikipedia.org/wiki/Carlos_Reutemann,Carlos,Reutemann,1942-04-12,Argentine,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+5,5,40,3,hunt,,,http://en.wikipedia.org/wiki/James_Hunt,James,Hunt,1947-08-29,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,25,0,mass,,,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+7,7,22,1,jones,,,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+8,8,20,1,nilsson,,,http://en.wikipedia.org/wiki/Gunnar_Nilsson,Gunnar,Nilsson,1948-11-20,Swedish,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+9,9,20,0,depailler,,,http://en.wikipedia.org/wiki/Patrick_Depailler,Patrick,Depailler,1944-08-09,French,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+10,10,18,1,laffite,,,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+11,11,12,0,stuck,,,http://en.wikipedia.org/wiki/Hans_Joachim_Stuck,Hans-Joachim,Stuck,1951-01-01,German,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+12,12,11,0,emerson_fittipaldi,,,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,Emerson,Fittipaldi,1946-12-12,Brazilian,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Fittipaldi,Brazilian
+13,13,9,0,watson,,,http://en.wikipedia.org/wiki/John_Watson_(racing_driver),John,Watson,1946-05-04,British,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+14,14,7,0,peterson,,,http://en.wikipedia.org/wiki/Ronnie_Peterson,Ronnie,Peterson,1944-02-14,Swedish,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+15,15,6,0,pace,,,http://en.wikipedia.org/wiki/Carlos_Pace,Carlos,Pace,1944-10-06,Brazilian,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+16,16,6,0,brambilla,,,http://en.wikipedia.org/wiki/Vittorio_Brambilla,Vittorio,Brambilla,1937-11-11,Italian,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+17,17,5,0,regazzoni,,,http://en.wikipedia.org/wiki/Clay_Regazzoni,Clay,Regazzoni,1939-09-05,Swiss,ensign,http://en.wikipedia.org/wiki/Ensign_%28racing_team%29,Ensign,British
+18,18,5,0,tambay,,,http://en.wikipedia.org/wiki/Patrick_Tambay,Patrick,Tambay,1949-06-25,French,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+19,19,1,0,jarier,,,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French,penske,http://en.wikipedia.org/wiki/Penske_Racing,Penske,American
+20,20,1,0,patrese,,,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+21,21,1,0,zorzi,,,http://en.wikipedia.org/wiki/Renzo_Zorzi,Renzo,Zorzi,1946-12-12,Italian,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+,-,0,0,keegan,,,http://en.wikipedia.org/wiki/Rupert_Keegan,Rupert,Keegan,1955-02-26,British,hesketh,http://en.wikipedia.org/wiki/Hesketh_Racing,Hesketh,British
+,-,0,0,neve,,,http://en.wikipedia.org/wiki/Patrick_Neve,Patrick,Nève,1949-10-13,Belgian,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,schuppan,,,http://en.wikipedia.org/wiki/Vern_Schuppan,Vern,Schuppan,1943-03-19,Australian,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+,-,0,0,hoffmann,,,http://en.wikipedia.org/wiki/Ingo_Hoffmann,Ingo,Hoffmann,1953-02-28,Brazilian,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Fittipaldi,Brazilian
+,-,0,0,ongais,,,http://en.wikipedia.org/wiki/Danny_Ongais,Danny,Ongais,1942-05-21,American,penske,http://en.wikipedia.org/wiki/Penske_Racing,Penske,American
+,-,0,0,ribeiro,,,http://en.wikipedia.org/wiki/Alex_Ribeiro,Alex,Ribeiro,1948-11-07,Brazilian,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,binder,,,http://en.wikipedia.org/wiki/Hans_Binder,Hans,Binder,1948-06-12,Austrian,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+,-,0,0,lunger,,,http://en.wikipedia.org/wiki/Brett_Lunger,Brett,Lunger,1945-11-14,American,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,ertl,,,http://en.wikipedia.org/wiki/Harald_Ertl,Harald,Ertl,1948-08-31,Austrian,hesketh,http://en.wikipedia.org/wiki/Hesketh_Racing,Hesketh,British

@@ -1,0 +1,18 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,74,3,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1982,16
+2,2,69,4,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1982,16
+3,3,62,4,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,1982,16
+4,4,58,1,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1982,16
+5,5,41,2,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1982,16
+6,6,30,1,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1982,16
+7,7,25,1,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1982,16
+8,8,20,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1982,16
+9,9,7,0,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss,1982,16
+10,10,5,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1982,16
+11,11,4,0,ats,http://en.wikipedia.org/wiki/ATS_(wheels),ATS,Italian,1982,16
+12,12,3,0,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian,1982,16
+13,13,1,0,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Fittipaldi,Brazilian,1982,16
+,-,0,0,march,http://en.wikipedia.org/wiki/March_Engineering,March,British,1982,16
+,-,0,0,ensign,http://en.wikipedia.org/wiki/Ensign_%28racing_team%29,Ensign,British,1982,16
+,-,0,0,toleman,http://en.wikipedia.org/wiki/Toleman,Toleman,British,1982,16
+,-,0,0,theodore,http://en.wikipedia.org/wiki/Theodore_Racing,Theodore,Hong Kong,1982,16

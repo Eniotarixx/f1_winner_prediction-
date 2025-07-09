@@ -1,0 +1,28 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,256,5,vettel,5,VET,http://en.wikipedia.org/wiki/Sebastian_Vettel,Sebastian,Vettel,1987-07-03,German,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+2,2,252,5,alonso,14,ALO,http://en.wikipedia.org/wiki/Fernando_Alonso,Fernando,Alonso,1981-07-29,Spanish,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,242,4,webber,,WEB,http://en.wikipedia.org/wiki/Mark_Webber_(racing_driver),Mark,Webber,1976-08-27,Australian,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+4,4,240,3,hamilton,44,HAM,http://en.wikipedia.org/wiki/Lewis_Hamilton,Lewis,Hamilton,1985-01-07,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+5,5,214,2,button,22,BUT,http://en.wikipedia.org/wiki/Jenson_Button,Jenson,Button,1980-01-19,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,144,0,massa,19,MAS,http://en.wikipedia.org/wiki/Felipe_Massa,Felipe,Massa,1981-04-25,Brazilian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+7,7,142,0,rosberg,6,ROS,http://en.wikipedia.org/wiki/Nico_Rosberg,Nico,Rosberg,1985-06-27,German,mercedes,http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One,Mercedes,German
+8,8,136,0,kubica,88,KUB,http://en.wikipedia.org/wiki/Robert_Kubica,Robert,Kubica,1984-12-07,Polish,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+9,9,72,0,michael_schumacher,,MSC,http://en.wikipedia.org/wiki/Michael_Schumacher,Michael,Schumacher,1969-01-03,German,mercedes,http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One,Mercedes,German
+10,10,47,0,barrichello,,BAR,http://en.wikipedia.org/wiki/Rubens_Barrichello,Rubens,Barrichello,1972-05-23,Brazilian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+11,11,47,0,sutil,99,SUT,http://en.wikipedia.org/wiki/Adrian_Sutil,Adrian,Sutil,1983-01-11,German,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,Force India,Indian
+12,12,32,0,kobayashi,10,KOB,http://en.wikipedia.org/wiki/Kamui_Kobayashi,Kamui,Kobayashi,1986-09-13,Japanese,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+13,13,27,0,petrov,,PET,http://en.wikipedia.org/wiki/Vitaly_Petrov,Vitaly,Petrov,1984-09-08,Russian,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+14,14,22,0,hulkenberg,27,HUL,http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg,Nico,Hülkenberg,1987-08-19,German,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+15,15,21,0,liuzzi,,LIU,http://en.wikipedia.org/wiki/Vitantonio_Liuzzi,Vitantonio,Liuzzi,1980-08-06,Italian,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,Force India,Indian
+16,16,8,0,buemi,,BUE,http://en.wikipedia.org/wiki/S%C3%A9bastien_Buemi,Sébastien,Buemi,1988-10-31,Swiss,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+17,17,6,0,rosa,,DLR,http://en.wikipedia.org/wiki/Pedro_de_la_Rosa,Pedro,de la Rosa,1971-02-24,Spanish,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+18,18,6,0,heidfeld,,HEI,http://en.wikipedia.org/wiki/Nick_Heidfeld,Nick,Heidfeld,1977-05-10,German,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+19,19,5,0,alguersuari,,ALG,http://en.wikipedia.org/wiki/Jaime_Alguersuari,Jaime,Alguersuari,1990-03-23,Spanish,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+20,20,0,0,kovalainen,,KOV,http://en.wikipedia.org/wiki/Heikki_Kovalainen,Heikki,Kovalainen,1981-10-19,Finnish,lotus_racing,http://en.wikipedia.org/wiki/Lotus_Racing,Lotus,Malaysian
+21,21,0,0,trulli,,TRU,http://en.wikipedia.org/wiki/Jarno_Trulli,Jarno,Trulli,1974-07-13,Italian,lotus_racing,http://en.wikipedia.org/wiki/Lotus_Racing,Lotus,Malaysian
+22,22,0,0,chandhok,,CHA,http://en.wikipedia.org/wiki/Karun_Chandhok,Karun,Chandhok,1984-01-19,Indian,hrt,http://en.wikipedia.org/wiki/Hispania_Racing,HRT,Spanish
+23,23,0,0,bruno_senna,,SEN,http://en.wikipedia.org/wiki/Bruno_Senna,Bruno,Senna,1983-10-15,Brazilian,hrt,http://en.wikipedia.org/wiki/Hispania_Racing,HRT,Spanish
+24,24,0,0,grassi,,DIG,http://en.wikipedia.org/wiki/Lucas_di_Grassi,Lucas,di Grassi,1984-08-11,Brazilian,virgin,http://en.wikipedia.org/wiki/Virgin_Racing,Virgin,British
+25,25,0,0,glock,,GLO,http://en.wikipedia.org/wiki/Timo_Glock,Timo,Glock,1982-03-18,German,virgin,http://en.wikipedia.org/wiki/Virgin_Racing,Virgin,British
+26,26,0,0,yamamoto,,YAM,http://en.wikipedia.org/wiki/Sakon_Yamamoto,Sakon,Yamamoto,1982-07-09,Japanese,hrt,http://en.wikipedia.org/wiki/Hispania_Racing,HRT,Spanish
+27,27,0,0,klien,,KLI,http://en.wikipedia.org/wiki/Christian_Klien,Christian,Klien,1983-02-07,Austrian,hrt,http://en.wikipedia.org/wiki/Hispania_Racing,HRT,Spanish

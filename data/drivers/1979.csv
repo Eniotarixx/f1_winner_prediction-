@@ -1,0 +1,31 @@
+driverId,url,givenName,familyName,dateOfBirth,nationality
+mario_andretti,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American
+arnoux,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,René,Arnoux,1948-07-04,French
+brambilla,http://en.wikipedia.org/wiki/Vittorio_Brambilla,Vittorio,Brambilla,1937-11-11,Italian
+brancatelli,http://en.wikipedia.org/wiki/Gianfranco_Brancatelli,Gianfranco,Brancatelli,1950-01-18,Italian
+daly,http://en.wikipedia.org/wiki/Derek_Daly,Derek,Daly,1953-03-11,Irish
+angelis,http://en.wikipedia.org/wiki/Elio_de_Angelis,Elio,de Angelis,1958-03-26,Italian
+depailler,http://en.wikipedia.org/wiki/Patrick_Depailler,Patrick,Depailler,1944-08-09,French
+emerson_fittipaldi,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,Emerson,Fittipaldi,1946-12-12,Brazilian
+gaillard,http://en.wikipedia.org/wiki/Patrick_Gaillard,Patrick,Gaillard,1952-02-12,French
+giacomelli,http://en.wikipedia.org/wiki/Bruno_Giacomelli,Bruno,Giacomelli,1952-09-10,Italian
+hunt,http://en.wikipedia.org/wiki/James_Hunt,James,Hunt,1947-08-29,British
+ickx,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian
+jabouille,http://en.wikipedia.org/wiki/Jean-Pierre_Jabouille,Jean-Pierre,Jabouille,1942-10-01,French
+jarier,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French
+jones,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian
+laffite,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French
+lammers,http://en.wikipedia.org/wiki/Jan_Lammers,Jan,Lammers,1956-06-02,Dutch
+lauda,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian
+lees,http://en.wikipedia.org/wiki/Geoff_Lees,Geoff,Lees,1951-05-01,British
+mass,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German
+merzario,http://en.wikipedia.org/wiki/Arturo_Merzario,Arturo,Merzario,1943-03-11,Italian
+patrese,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian
+piquet,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian
+pironi,http://en.wikipedia.org/wiki/Didier_Pironi,Didier,Pironi,1952-03-26,French
+rebaque,http://en.wikipedia.org/wiki/Hector_Rebaque,Hector,Rebaque,1956-02-05,Mexican
+regazzoni,http://en.wikipedia.org/wiki/Clay_Regazzoni,Clay,Regazzoni,1939-09-05,Swiss
+reutemann,http://en.wikipedia.org/wiki/Carlos_Reutemann,Carlos,Reutemann,1942-04-12,Argentine
+ribeiro,http://en.wikipedia.org/wiki/Alex_Ribeiro,Alex,Ribeiro,1948-11-07,Brazilian
+keke_rosberg,http://en.wikipedia.org/wiki/Keke_Rosberg,Keke,Rosberg,1948-12-06,Finnish
+scheckter,http://en.wikipedia.org/wiki/Jody_Scheckter,Jody,Scheckter,1950-01-29,South African

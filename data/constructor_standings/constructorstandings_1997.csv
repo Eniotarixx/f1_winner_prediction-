@@ -1,0 +1,13 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,123,8,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1997,17
+2,2,102,5,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1997,17
+3,3,67,1,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1997,17
+4,4,63,3,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1997,17
+5,5,33,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1997,17
+6,6,21,0,prost,http://en.wikipedia.org/wiki/Prost_Grand_Prix,Prost,French,1997,17
+7,7,16,0,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss,1997,17
+8,8,9,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1997,17
+9,9,6,0,stewart,http://en.wikipedia.org/wiki/Stewart_Grand_Prix,Stewart,British,1997,17
+10,10,2,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1997,17
+,-,0,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1997,17
+,-,0,0,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British,1997,17

@@ -1,0 +1,16 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,42,4,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British,1966,9
+2,2,31,2,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1966,9
+3,3,30,1,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British,1966,9
+4,4,22,1,brm,http://en.wikipedia.org/wiki/BRM,BRM,British,1966,9
+5,5,13,1,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British,1966,9
+6,6,8,0,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British,1966,9
+7,7,4,0,eagle-climax,http://en.wikipedia.org/wiki/Anglo_American_Racers,Eagle-Climax,American,1966,9
+8,8,3,0,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese,1966,9
+9,9,2,0,mclaren-ford,http://en.wikipedia.org/wiki/Team_McLaren,McLaren-Ford,British,1966,9
+10,10,1,0,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British,1966,9
+11,11,1,0,brabham-brm,http://en.wikipedia.org/wiki/Brabham,Brabham-BRM,British,1966,9
+12,12,1,0,mclaren-seren,http://en.wikipedia.org/wiki/Team_McLaren,McLaren-Serenissima,British,1966,9
+,-,0,0,cooper-ferrari,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Ferrari,British,1966,9
+,-,0,0,eagle-weslake,http://en.wikipedia.org/wiki/Anglo_American_Racers,Eagle-Weslake,American,1966,9
+,-,0,0,shannon,http://en.wikipedia.org/wiki/Shannon_(Formula_One),Shannon,British,1966,9

@@ -1,0 +1,15 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,118,7,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1994,16
+2,2,103,8,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1994,16
+3,3,71,1,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1994,16
+4,4,42,0,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1994,16
+5,5,28,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1994,16
+6,6,13,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1994,16
+7,7,13,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1994,16
+8,8,12,0,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss,1994,16
+9,9,9,0,footwork,http://en.wikipedia.org/wiki/Footwork_Arrows,Footwork,British,1994,16
+10,10,5,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1994,16
+11,11,2,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1994,16
+,-,0,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1994,16
+,-,0,0,simtek,http://en.wikipedia.org/wiki/Simtek,Simtek,British,1994,16
+,-,0,0,pacific,http://en.wikipedia.org/wiki/Pacific_Racing,Pacific,British,1994,16

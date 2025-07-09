@@ -1,0 +1,19 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,72,4,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1974,15
+2,2,65,3,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1974,15
+3,3,51,2,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1974,15
+4,4,42,3,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1974,15
+5,5,35,3,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1974,15
+6,6,15,0,hesketh,http://en.wikipedia.org/wiki/Hesketh_Racing,Hesketh,British,1974,15
+7,7,10,0,brm,http://en.wikipedia.org/wiki/BRM,BRM,British,1974,15
+8,8,7,0,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British,1974,15
+9,9,6,0,march,http://en.wikipedia.org/wiki/March_Engineering,March,British,1974,15
+10,10,4,0,iso_marlboro,http://en.wikipedia.org/wiki/Iso_Marlboro,Iso Marlboro,British,1974,15
+11,11,3,0,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British,1974,15
+12,12,1,0,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British,1974,15
+,-,0,0,parnelli,http://en.wikipedia.org/wiki/Parnelli,Parnelli,American,1974,15
+,-,0,0,trojan,http://en.wikipedia.org/wiki/Trojan_(Racing_team),Trojan,British,1974,15
+,-,0,0,penske,http://en.wikipedia.org/wiki/Penske_Racing,Penske,American,1974,15
+,-,0,0,token,http://en.wikipedia.org/wiki/Token_(Racing_team),Token,British,1974,15
+,-,0,0,ensign,http://en.wikipedia.org/wiki/Ensign_%28racing_team%29,Ensign,British,1974,15
+,-,0,0,amon,http://en.wikipedia.org/wiki/Amon_(Formula_One_team),Amon,New Zealander,1974,15

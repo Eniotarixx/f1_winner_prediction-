@@ -1,0 +1,14 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,45,3,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1964,10
+2,2,42,2,brm,http://en.wikipedia.org/wiki/BRM,BRM,British,1964,10
+3,3,37,3,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British,1964,10
+4,4,30,2,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British,1964,10
+5,5,16,0,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British,1964,10
+6,6,7,0,brabham-brm,http://en.wikipedia.org/wiki/Brabham,Brabham-BRM,British,1964,10
+7,7,5,0,brp,http://en.wikipedia.org/wiki/British_Racing_Partnership,BRP,British,1964,10
+8,8,3,0,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British,1964,10
+,-,0,0,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese,1964,10
+,-,0,0,scirocco,http://en.wikipedia.org/wiki/Scirocco-Powell,Scirocco,British,1964,10
+,-,0,0,derrington,http://en.wikipedia.org/wiki/Derrington-Francis,Derrington,British,1964,10
+,-,0,0,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German,1964,10
+,-,0,0,brabham-ford,http://en.wikipedia.org/wiki/Brabham,Brabham-Ford,British,1964,10

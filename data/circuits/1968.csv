@@ -1,0 +1,13 @@
+circuitId,url,circuitName,lat,long,locality,country
+brands_hatch,https://en.wikipedia.org/wiki/Brands_Hatch,Brands Hatch,51.3569,0.263056,Kent,UK
+essarts,https://en.wikipedia.org/wiki/Rouen-Les-Essarts,Rouen-Les-Essarts,49.3306,1.00458,Rouen,France
+jarama,https://en.wikipedia.org/wiki/Circuito_del_Jarama,Jarama,40.6171,-3.58558,Madrid,Spain
+kyalami,https://en.wikipedia.org/wiki/Kyalami,Kyalami,-25.9894,28.0767,Midrand,South Africa
+monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+monza,https://en.wikipedia.org/wiki/Monza_Circuit,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+nurburgring,https://en.wikipedia.org/wiki/N%C3%BCrburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany
+rodriguez,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,Autódromo Hermanos Rodríguez,19.4042,-99.0907,Mexico City,Mexico
+spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+tremblant,https://en.wikipedia.org/wiki/Circuit_Mont-Tremblant,Circuit Mont-Tremblant,46.1877,-74.6099,Quebec,Canada
+watkins_glen,https://en.wikipedia.org/wiki/Watkins_Glen_International,Watkins Glen,42.3369,-76.9272,New York State,USA
+zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands

@@ -1,0 +1,31 @@
+driverId,url,givenName,familyName,dateOfBirth,nationality
+ahrens,"http://en.wikipedia.org/wiki/Kurt_Ahrens,_Jr.",Kurt,Ahrens,1940-04-19,German
+amon,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander
+anderson,http://en.wikipedia.org/wiki/Bob_Anderson_(racing_driver),Bob,Anderson,1931-05-19,British
+attwood,http://en.wikipedia.org/wiki/Richard_Attwood,Richard,Attwood,1940-04-04,British
+baghetti,http://en.wikipedia.org/wiki/Giancarlo_Baghetti,Giancarlo,Baghetti,1934-12-25,Italian
+bandini,http://en.wikipedia.org/wiki/Lorenzo_Bandini,Lorenzo,Bandini,1935-12-21,Italian
+beltoise,http://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,Jean-Pierre,Beltoise,1937-04-26,French
+bonnier,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish
+botha,http://en.wikipedia.org/wiki/Luki_Botha,Luki,Botha,1930-01-16,South African
+jack_brabham,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian
+charlton,http://en.wikipedia.org/wiki/Dave_Charlton,Dave,Charlton,1936-10-27,South African
+clark,http://en.wikipedia.org/wiki/Jim_Clark,Jim,Clark,1936-03-04,British
+courage,http://en.wikipedia.org/wiki/Piers_Courage,Piers,Courage,1942-05-27,British
+fisher,http://en.wikipedia.org/wiki/Mike_Fisher_(driver),Mike,Fisher,1943-03-13,American
+ginther,http://en.wikipedia.org/wiki/Richie_Ginther,Richie,Ginther,1930-08-05,American
+gurney,http://en.wikipedia.org/wiki/Dan_Gurney,Dan,Gurney,1931-04-13,American
+hahne,http://en.wikipedia.org/wiki/Hubert_Hahne,Hubert,Hahne,1935-03-28,German
+hart,http://en.wikipedia.org/wiki/Brian_Hart,Brian,Hart,1936-09-07,British
+hill,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British
+hobbs,http://en.wikipedia.org/wiki/David_Hobbs_(racing_driver),David,Hobbs,1939-06-09,British
+hulme,http://en.wikipedia.org/wiki/Denny_Hulme,Denny,Hulme,1936-06-18,New Zealander
+ickx,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian
+irwin,http://en.wikipedia.org/wiki/Chris_Irwin,Chris,Irwin,1942-06-27,British
+tom_jones,http://en.wikipedia.org/wiki/Tom_Jones_(auto_racer),Tom,Jones,1943-04-26,American
+ligier,http://en.wikipedia.org/wiki/Guy_Ligier,Guy,Ligier,1930-07-12,French
+love,http://en.wikipedia.org/wiki/John_Love_(racing_driver),John,Love,1924-12-07,Rhodesian
+mclaren,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander
+moser,http://en.wikipedia.org/wiki/Silvio_Moser,Silvio,Moser,1941-04-24,Swiss
+oliver,http://en.wikipedia.org/wiki/Jackie_Oliver,Jackie,Oliver,1942-08-14,British
+parkes,http://en.wikipedia.org/wiki/Mike_Parkes,Mike,Parkes,1931-09-24,British

@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,30,3,fangio,,,http://en.wikipedia.org/wiki/Juan_Manuel_Fangio,Juan,Fangio,1911-06-24,Argentine,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,27,2,moss,,,http://en.wikipedia.org/wiki/Stirling_Moss,Stirling,Moss,1929-09-17,British,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+3,3,25,2,collins,,,http://en.wikipedia.org/wiki/Peter_Collins_(racing_driver),Peter,Collins,1931-11-06,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+4,4,22,0,behra,,,http://en.wikipedia.org/wiki/Jean_Behra,Jean,Behra,1921-02-16,French,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+5,5,8,1,flaherty,,,http://en.wikipedia.org/wiki/Pat_Flaherty_(racing_driver),Pat,Flaherty,1926-01-06,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+6,6,7.5,0,castellotti,,,http://en.wikipedia.org/wiki/Eugenio_Castellotti,Eugenio,Castellotti,1930-10-10,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+7,7,6,0,hanks,,,http://en.wikipedia.org/wiki/Sam_Hanks,Sam,Hanks,1914-07-13,American,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,Kurtis Kraft,American
+8,8,6,0,frere,,,http://en.wikipedia.org/wiki/Paul_Fr%C3%A8re,Paul,Frère,1917-01-30,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+9,9,6,0,godia,,,http://en.wikipedia.org/wiki/Paco_Godia,Paco,Godia,1921-03-21,Spanish,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+10,10,5,0,fairman,,,http://en.wikipedia.org/wiki/Jack_Fairman,Jack,Fairman,1913-03-15,British,connaught,http://en.wikipedia.org/wiki/Connaught_Engineering,Connaught,British
+11,11,4,1,musso,,,http://en.wikipedia.org/wiki/Luigi_Musso,Luigi,Musso,1924-07-28,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+12,12,4,0,hawthorn,,,http://en.wikipedia.org/wiki/Mike_Hawthorn,Mike,Hawthorn,1929-04-10,British,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+13,13,4,0,flockhart,,,http://en.wikipedia.org/wiki/Ron_Flockhart_(auto_racing),Ron,Flockhart,1923-06-16,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+14,14,4,0,freeland,,,http://en.wikipedia.org/wiki/Don_Freeland,Don,Freeland,1925-03-25,American,phillips,http://en.wikipedia.org/wiki/Phillips_(constructor),Phillips,American
+15,15,3,0,portago,,,http://en.wikipedia.org/wiki/Alfonso_de_Portago,Alfonso,de Portago,1928-10-11,Spanish,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+16,16,3,0,perdisa,,,http://en.wikipedia.org/wiki/Cesare_Perdisa,Cesare,Perdisa,1932-10-21,Italian,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+17,17,3,0,schell,,,http://en.wikipedia.org/wiki/Harry_Schell,Harry,Schell,1921-06-29,American,vanwall,http://en.wikipedia.org/wiki/Vanwall,Vanwall,British
+18,18,3,0,parsons,,,http://en.wikipedia.org/wiki/Johnnie_Parsons,Johnnie,Parsons,1918-07-04,American,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,Kurtis Kraft,American
+19,19,2,0,rosier,,,http://en.wikipedia.org/wiki/Louis_Rosier,Louis,Rosier,1905-11-05,French,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+20,20,2,0,villoresi,,,http://en.wikipedia.org/wiki/Luigi_Villoresi,Luigi,Villoresi,1909-05-16,Italian,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+21,21,2,0,gould,,,http://en.wikipedia.org/wiki/Horace_Gould,Horace,Gould,1918-09-20,British,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+22,22,2,0,ramos,,,http://en.wikipedia.org/wiki/Hernando_da_Silva_Ramos,Hernando,da Silva Ramos,1925-12-07,Brazilian,gordini,http://en.wikipedia.org/wiki/Gordini,Gordini,French
+23,23,2,0,gendebien,,,http://en.wikipedia.org/wiki/Olivier_Gendebien,Olivier,Gendebien,1924-01-12,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+24,24,2,0,dick_rathmann,,,http://en.wikipedia.org/wiki/Dick_Rathmann,Dick,Rathmann,1924-01-06,American,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,Kurtis Kraft,American
+25,25,1.5,0,gerini,,,http://en.wikipedia.org/wiki/Gerino_Gerini_(racing_driver),Gerino,Gerini,1928-08-10,Italian,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+26,26,1.5,0,landi,,,http://en.wikipedia.org/wiki/Chico_Landi,Chico,Landi,1907-07-14,Brazilian,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+27,27,1,0,paul_russo,,,http://en.wikipedia.org/wiki/Paul_Russo,Paul,Russo,1914-04-10,American,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,Kurtis Kraft,American
+,-,0,0,andre_pilette,,,http://en.wikipedia.org/wiki/Andr%C3%A9_Pilette,André,Pilette,1918-10-06,Belgian,gordini,http://en.wikipedia.org/wiki/Gordini,Gordini,French
+,-,0,0,piotti,,,http://en.wikipedia.org/wiki/Luigi_Piotti,Luigi,Piotti,1913-10-27,Italian,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+,-,0,0,oscar_gonzalez,,,http://en.wikipedia.org/wiki/%C3%93scar_Gonz%C3%A1lez_(racing_driver),Óscar,González,1923-11-10,Uruguayan,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian

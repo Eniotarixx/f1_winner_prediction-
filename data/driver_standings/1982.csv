@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,44,1,keke_rosberg,,,http://en.wikipedia.org/wiki/Keke_Rosberg,Keke,Rosberg,1948-12-06,Finnish,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+2,2,39,2,pironi,,,http://en.wikipedia.org/wiki/Didier_Pironi,Didier,Pironi,1952-03-26,French,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,39,2,watson,,,http://en.wikipedia.org/wiki/John_Watson_(racing_driver),John,Watson,1946-05-04,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+4,4,34,2,prost,,,http://en.wikipedia.org/wiki/Alain_Prost,Alain,Prost,1955-02-24,French,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+5,5,30,2,lauda,,,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,28,2,arnoux,,,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,René,Arnoux,1948-07-04,French,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+7,7,25,1,tambay,,,http://en.wikipedia.org/wiki/Patrick_Tambay,Patrick,Tambay,1949-06-25,French,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+8,8,25,1,alboreto,,,http://en.wikipedia.org/wiki/Michele_Alboreto,Michele,Alboreto,1956-12-23,Italian,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+9,9,23,1,angelis,,,http://en.wikipedia.org/wiki/Elio_de_Angelis,Elio,de Angelis,1958-03-26,Italian,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+10,10,21,1,patrese,,,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+11,11,20,1,piquet,,,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+12,12,15,0,cheever,,,http://en.wikipedia.org/wiki/Eddie_Cheever,Eddie,Cheever,1958-01-10,American,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+13,13,8,0,daly,,,http://en.wikipedia.org/wiki/Derek_Daly,Derek,Daly,1953-03-11,Irish,theodore,http://en.wikipedia.org/wiki/Theodore_Racing,Theodore,Hong Kong
+14,14,7,0,mansell,,,http://en.wikipedia.org/wiki/Nigel_Mansell,Nigel,Mansell,1953-08-08,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+15,15,6,0,gilles_villeneuve,,,http://en.wikipedia.org/wiki/Gilles_Villeneuve,Gilles,Villeneuve,1950-01-18,Canadian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+16,16,6,0,reutemann,,,http://en.wikipedia.org/wiki/Carlos_Reutemann,Carlos,Reutemann,1942-04-12,Argentine,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+17,17,5,0,cesaris,,,http://en.wikipedia.org/wiki/Andrea_de_Cesaris,Andrea,de Cesaris,1959-05-31,Italian,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss
+18,18,5,0,laffite,,,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+19,19,4,0,mario_andretti,,,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+20,20,3,0,jarier,,,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian
+21,21,3,0,surer,,,http://en.wikipedia.org/wiki/Marc_Surer,Marc,Surer,1951-09-18,Swiss,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+22,22,2,0,giacomelli,,,http://en.wikipedia.org/wiki/Bruno_Giacomelli,Bruno,Giacomelli,1952-09-10,Italian,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss
+23,23,2,0,salazar,,,http://en.wikipedia.org/wiki/Eliseo_Salazar,Eliseo,Salazar,1954-11-14,Chilean,ats,http://en.wikipedia.org/wiki/ATS_(wheels),ATS,Italian
+24,24,2,0,manfred_winkelhock,,,http://en.wikipedia.org/wiki/Manfred_Winkelhock,Manfred,Winkelhock,1951-10-06,German,ats,http://en.wikipedia.org/wiki/ATS_(wheels),ATS,Italian
+25,25,2,0,baldi,,,http://en.wikipedia.org/wiki/Mauro_Baldi,Mauro,Baldi,1954-01-31,Italian,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+26,26,1,0,serra,,,http://en.wikipedia.org/wiki/Chico_Serra,Chico,Serra,1957-02-03,Brazilian,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Fittipaldi,Brazilian
+,-,0,0,henton,,,http://en.wikipedia.org/wiki/Brian_Henton,Brian,Henton,1946-09-19,British,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+,-,0,0,mass,,,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,borgudd,,,http://en.wikipedia.org/wiki/Slim_Borgudd,Slim,Borgudd,1946-11-25,Swedish,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+,-,0,0,boesel,,,http://en.wikipedia.org/wiki/Raul_Boesel,Raul,Boesel,1957-12-04,Brazilian,march,http://en.wikipedia.org/wiki/March_Engineering,March,British

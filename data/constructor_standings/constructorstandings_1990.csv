@@ -1,0 +1,20 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,121,6,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1990,16
+2,2,110,6,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1990,16
+3,3,71,2,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1990,16
+4,4,57,2,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1990,16
+5,5,16,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1990,16
+6,6,11,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1990,16
+7,7,7,0,leyton,http://en.wikipedia.org/wiki/Leyton_House,Leyton House,British,1990,16
+8,8,3,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1990,16
+9,9,2,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1990,16
+10,10,2,0,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1990,16
+,-,0,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1990,16
+,-,0,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1990,16
+,-,0,0,onyx,http://en.wikipedia.org/wiki/Onyx_(racing_team),Onyx,British,1990,16
+,-,0,0,ags,http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,AGS,French,1990,16
+,-,0,0,dallara,http://en.wikipedia.org/wiki/Dallara,Dallara,Italian,1990,16
+,-,0,0,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian,1990,16
+,-,0,0,eurobrun,http://en.wikipedia.org/wiki/Euro_Brun,Euro Brun,Italian,1990,16
+,-,0,0,coloni,http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems,Coloni,Italian,1990,16
+,-,0,0,life,http://en.wikipedia.org/wiki/Life_(Racing_Team),Life,Italian,1990,16

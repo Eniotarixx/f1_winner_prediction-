@@ -1,0 +1,14 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,48,6,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British,1960,10
+2,2,34,2,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1960,10
+3,3,26,1,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1960,10
+4,4,8,0,brm,http://en.wikipedia.org/wiki/BRM,BRM,British,1960,10
+5,5,3,0,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British,1960,10
+6,6,3,0,cooper-castellotti,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Castellotti,British,1960,10
+7,7,1,0,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German,1960,10
+,-,0,0,behra-porsche,http://en.wikipedia.org/wiki/Behra-Porsche,Behra-Porsche,Italian,1960,10
+,-,0,0,scarab,http://en.wikipedia.org/wiki/Scarab_(constructor),Scarab,American,1960,10
+,-,0,0,aston_martin,http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One,Aston Martin,British,1960,10
+,-,0,0,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian,1960,10
+,-,0,0,jbw,http://en.wikipedia.org/wiki/JBW,JBW,British,1960,10
+,-,0,0,vanwall,http://en.wikipedia.org/wiki/Vanwall,Vanwall,British,1960,10

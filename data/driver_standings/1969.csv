@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,63,6,stewart,,,http://en.wikipedia.org/wiki/Jackie_Stewart,Jackie,Stewart,1939-06-11,British,matra-ford,http://en.wikipedia.org/wiki/Matra,Matra-Ford,French
+2,2,37,2,ickx,,,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian,brabham-ford,http://en.wikipedia.org/wiki/Brabham,Brabham-Ford,British
+3,3,26,0,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,mclaren-ford,http://en.wikipedia.org/wiki/Team_McLaren,McLaren-Ford,British
+4,4,22,1,rindt,,,http://en.wikipedia.org/wiki/Jochen_Rindt,Jochen,Rindt,1942-04-18,Austrian,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+5,5,21,0,beltoise,,,http://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,Jean-Pierre,Beltoise,1937-04-26,French,matra-ford,http://en.wikipedia.org/wiki/Matra,Matra-Ford,French
+6,6,20,1,hulme,,,http://en.wikipedia.org/wiki/Denny_Hulme,Denny,Hulme,1936-06-18,New Zealander,mclaren-ford,http://en.wikipedia.org/wiki/Team_McLaren,McLaren-Ford,British
+7,7,19,1,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+8,8,16,0,courage,,,http://en.wikipedia.org/wiki/Piers_Courage,Piers,Courage,1942-05-27,British,brabham-ford,http://en.wikipedia.org/wiki/Brabham,Brabham-Ford,British
+9,9,15,0,siffert,,,http://en.wikipedia.org/wiki/Jo_Siffert,Jo,Siffert,1936-07-07,Swiss,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+10,10,14,0,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,brabham-ford,http://en.wikipedia.org/wiki/Brabham,Brabham-Ford,British
+11,11,6,0,surtees,,,http://en.wikipedia.org/wiki/John_Surtees,John,Surtees,1934-02-11,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+12,12,4,0,amon,,,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+13,13,3,0,attwood,,,http://en.wikipedia.org/wiki/Richard_Attwood,Richard,Attwood,1940-04-04,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+14,14,3,0,elford,,,http://en.wikipedia.org/wiki/Vic_Elford,Vic,Elford,1935-06-10,British,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+15,15,3,0,rodriguez,,,http://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver),Pedro,Rodríguez,1940-01-18,Mexican,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+16,16,1,0,moser,,,http://en.wikipedia.org/wiki/Silvio_Moser,Silvio,Moser,1941-04-24,Swiss,brabham-ford,http://en.wikipedia.org/wiki/Brabham,Brabham-Ford,British
+17,17,1,0,oliver,,,http://en.wikipedia.org/wiki/Jackie_Oliver,Jackie,Oliver,1942-08-14,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+18,18,1,0,gavin,,,http://en.wikipedia.org/wiki/Johnny_Servoz-Gavin,Johnny,Servoz-Gavin,1942-01-18,French,matra-ford,http://en.wikipedia.org/wiki/Matra,Matra-Ford,French
+,-,0,0,lovely,,,http://en.wikipedia.org/wiki/Pete_Lovely,Pete,Lovely,1926-04-11,American,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+,-,0,0,tingle,,,http://en.wikipedia.org/wiki/Sam_Tingle,Sam,Tingle,1921-08-24,Rhodesian,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+,-,0,0,miles,,,http://en.wikipedia.org/wiki/John_Miles_(auto_racer),John,Miles,1943-06-14,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+,-,0,0,brack,,,http://en.wikipedia.org/wiki/Bill_Brack,Bill,Brack,1935-12-26,Canadian,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+,-,0,0,klerk,,,http://en.wikipedia.org/wiki/Peter_de_Klerk,Peter,de Klerk,1935-03-16,South African,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+,-,0,0,eaton,,,http://en.wikipedia.org/wiki/George_Eaton,George,Eaton,1945-11-12,Canadian,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+,-,0,0,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+,-,0,0,mario_andretti,,,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+,-,0,0,pease,,,http://en.wikipedia.org/wiki/Al_Pease,Al,Pease,1921-10-15,Canadian,eagle-climax,http://en.wikipedia.org/wiki/Anglo_American_Racers,Eagle-Climax,American
+,-,0,0,love,,,http://en.wikipedia.org/wiki/John_Love_(racing_driver),John,Love,1924-12-07,Rhodesian,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+,-,0,0,bell,,,http://en.wikipedia.org/wiki/Derek_Bell_(auto_racer),Derek,Bell,1941-10-31,British,mclaren-ford,http://en.wikipedia.org/wiki/Team_McLaren,McLaren-Ford,British
+,-,0,0,cordts,,,http://en.wikipedia.org/wiki/John_Cordts,John,Cordts,1935-07-23,Canadian,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British

@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,48,3,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+2,2,36,3,stewart,,,http://en.wikipedia.org/wiki/Jackie_Stewart,Jackie,Stewart,1939-06-11,British,matra-ford,http://en.wikipedia.org/wiki/Matra,Matra-Ford,French
+3,3,33,2,hulme,,,http://en.wikipedia.org/wiki/Denny_Hulme,Denny,Hulme,1936-06-18,New Zealander,mclaren-brm,http://en.wikipedia.org/wiki/McLaren_(racing),McLaren-BRM,British
+4,4,27,1,ickx,,,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+5,5,22,1,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,mclaren-ford,http://en.wikipedia.org/wiki/Team_McLaren,McLaren-Ford,British
+6,6,18,0,rodriguez,,,http://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver),Pedro,Rodríguez,1940-01-18,Mexican,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+7,7,12,1,siffert,,,http://en.wikipedia.org/wiki/Jo_Siffert,Jo,Siffert,1936-07-07,Swiss,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+8,8,12,0,surtees,,,http://en.wikipedia.org/wiki/John_Surtees,John,Surtees,1934-02-11,British,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese
+9,9,11,0,beltoise,,,http://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,Jean-Pierre,Beltoise,1937-04-26,French,matra-ford,http://en.wikipedia.org/wiki/Matra,Matra-Ford,French
+10,10,10,0,amon,,,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+11,11,9,1,clark,,,http://en.wikipedia.org/wiki/Jim_Clark,Jim,Clark,1936-03-04,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+12,12,8,0,rindt,,,http://en.wikipedia.org/wiki/Jochen_Rindt,Jochen,Rindt,1942-04-18,Austrian,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+13,13,6,0,attwood,,,http://en.wikipedia.org/wiki/Richard_Attwood,Richard,Attwood,1940-04-04,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+14,14,6,0,gavin,,,http://en.wikipedia.org/wiki/Johnny_Servoz-Gavin,Johnny,Servoz-Gavin,1942-01-18,French,matra-ford,http://en.wikipedia.org/wiki/Matra,Matra-Ford,French
+15,15,6,0,oliver,,,http://en.wikipedia.org/wiki/Jackie_Oliver,Jackie,Oliver,1942-08-14,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+16,16,6,0,scarfiotti,,,http://en.wikipedia.org/wiki/Ludovico_Scarfiotti,Ludovico,Scarfiotti,1933-10-18,Italian,cooper-brm,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-BRM,British
+17,17,5,0,bianchi,,BIA,http://en.wikipedia.org/wiki/Lucien_Bianchi,Lucien,Bianchi,1934-11-10,Belgian,cooper-brm,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-BRM,British
+18,18,5,0,elford,,,http://en.wikipedia.org/wiki/Vic_Elford,Vic,Elford,1935-06-10,British,cooper-brm,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-BRM,British
+19,19,4,0,redman,,,http://en.wikipedia.org/wiki/Brian_Redman,Brian,Redman,1937-03-09,British,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+20,20,4,0,courage,,,http://en.wikipedia.org/wiki/Piers_Courage,Piers,Courage,1942-05-27,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+21,21,3,0,gurney,,,http://en.wikipedia.org/wiki/Dan_Gurney,Dan,Gurney,1931-04-13,American,eagle-weslake,http://en.wikipedia.org/wiki/Anglo_American_Racers,Eagle-Weslake,American
+22,22,3,0,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+23,23,2,0,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+24,24,2,0,moser,,,http://en.wikipedia.org/wiki/Silvio_Moser,Silvio,Moser,1941-04-24,Swiss,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+,-,0,0,pescarolo,,,http://en.wikipedia.org/wiki/Henri_Pescarolo,Henri,Pescarolo,1942-09-25,French,matra,http://en.wikipedia.org/wiki/Matra,Matra,French
+,-,0,0,love,,,http://en.wikipedia.org/wiki/John_Love_(racing_driver),John,Love,1924-12-07,Rhodesian,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+,-,0,0,hahne,,,http://en.wikipedia.org/wiki/Hubert_Hahne,Hubert,Hahne,1935-03-28,German,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British
+,-,0,0,ahrens,,,"http://en.wikipedia.org/wiki/Kurt_Ahrens,_Jr.",Kurt,Ahrens,1940-04-19,German,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+,-,0,0,pretorius,,,http://en.wikipedia.org/wiki/Jackie_Pretorius,Jackie,Pretorius,1934-11-22,South African,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British
+,-,0,0,hobbs,,,http://en.wikipedia.org/wiki/David_Hobbs_(racing_driver),David,Hobbs,1939-06-09,British,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese

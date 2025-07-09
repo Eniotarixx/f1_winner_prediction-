@@ -1,0 +1,11 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,613.5,9,mercedes,http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One,Mercedes,German,2021,22
+2,2,585.5,11,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian,2021,22
+3,3,323.5,0,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,2021,22
+4,4,275,1,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,2021,22
+5,5,155,1,alpine,http://en.wikipedia.org/wiki/Alpine_F1_Team,Alpine F1 Team,French,2021,22
+6,6,142,0,alphatauri,http://en.wikipedia.org/wiki/Scuderia_AlphaTauri,AlphaTauri,Italian,2021,22
+7,7,77,0,aston_martin,http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One,Aston Martin,British,2021,22
+8,8,23,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,2021,22
+9,9,13,0,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss,2021,22
+10,10,0,0,haas,http://en.wikipedia.org/wiki/Haas_F1_Team,Haas F1 Team,American,2021,22

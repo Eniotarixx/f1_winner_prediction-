@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,51,2,hulme,,,http://en.wikipedia.org/wiki/Denny_Hulme,Denny,Hulme,1936-06-18,New Zealander,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+2,2,48,2,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,brabham-repco,http://en.wikipedia.org/wiki/Brabham,Brabham-Repco,British
+3,3,41,4,clark,,,http://en.wikipedia.org/wiki/Jim_Clark,Jim,Clark,1936-03-04,British,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+4,4,20,1,surtees,,,http://en.wikipedia.org/wiki/John_Surtees,John,Surtees,1934-02-11,British,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese
+5,5,20,0,amon,,,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+6,6,15,1,rodriguez,,,http://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver),Pedro,Rodríguez,1940-01-18,Mexican,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+7,7,15,0,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+8,8,13,1,gurney,,,http://en.wikipedia.org/wiki/Dan_Gurney,Dan,Gurney,1931-04-13,American,eagle-climax,http://en.wikipedia.org/wiki/Anglo_American_Racers,Eagle-Climax,American
+9,9,10,0,stewart,,,http://en.wikipedia.org/wiki/Jackie_Stewart,Jackie,Stewart,1939-06-11,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+10,10,9,0,spence,,,http://en.wikipedia.org/wiki/Mike_Spence,Mike,Spence,1936-12-30,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+11,11,6,0,love,,,http://en.wikipedia.org/wiki/John_Love_(racing_driver),John,Love,1924-12-07,Rhodesian,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+12,12,6,0,siffert,,,http://en.wikipedia.org/wiki/Jo_Siffert,Jo,Siffert,1936-07-07,Swiss,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+13,13,6,0,rindt,,,http://en.wikipedia.org/wiki/Jochen_Rindt,Jochen,Rindt,1942-04-18,Austrian,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+14,14,3,0,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,mclaren-brm,http://en.wikipedia.org/wiki/McLaren_(racing),McLaren-BRM,British
+15,15,3,0,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+16,16,2,0,irwin,,,http://en.wikipedia.org/wiki/Chris_Irwin,Chris,Irwin,1942-06-27,British,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+17,17,2,0,anderson,,,http://en.wikipedia.org/wiki/Bob_Anderson_(racing_driver),Bob,Anderson,1931-05-19,British,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British
+18,18,2,0,parkes,,,http://en.wikipedia.org/wiki/Mike_Parkes,Mike,Parkes,1931-09-24,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+19,19,1,0,ickx,,,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian,matra,http://en.wikipedia.org/wiki/Matra,Matra,French
+20,20,1,0,scarfiotti,,,http://en.wikipedia.org/wiki/Ludovico_Scarfiotti,Ludovico,Scarfiotti,1933-10-18,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+21,21,1,0,ligier,,,http://en.wikipedia.org/wiki/Guy_Ligier,Guy,Ligier,1930-07-12,French,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+,-,0,0,oliver,,,http://en.wikipedia.org/wiki/Jackie_Oliver,Jackie,Oliver,1942-08-14,British,lotus-ford,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Ford,British
+,-,0,0,beltoise,,,http://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,Jean-Pierre,Beltoise,1937-04-26,French,matra,http://en.wikipedia.org/wiki/Matra,Matra,French
+,-,0,0,rees,,,http://en.wikipedia.org/wiki/Alan_Rees_(racing_driver),Alan,Rees,1938-01-12,British,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+,-,0,0,hobbs,,,http://en.wikipedia.org/wiki/David_Hobbs_(racing_driver),David,Hobbs,1939-06-09,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+,-,0,0,williams,,,http://en.wikipedia.org/wiki/Jonathan_Williams_(racing_driver),Jonathan,Williams,1942-10-26,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+,-,0,0,attwood,,,http://en.wikipedia.org/wiki/Richard_Attwood,Richard,Attwood,1940-04-04,British,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+,-,0,0,fisher,,,http://en.wikipedia.org/wiki/Mike_Fisher_(driver),Mike,Fisher,1943-03-13,American,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+,-,0,0,charlton,,,http://en.wikipedia.org/wiki/Dave_Charlton,Dave,Charlton,1936-10-27,South African,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British
+,-,0,0,bandini,,,http://en.wikipedia.org/wiki/Lorenzo_Bandini,Lorenzo,Bandini,1935-12-21,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian

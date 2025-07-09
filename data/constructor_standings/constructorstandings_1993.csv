@@ -1,0 +1,14 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,168,10,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1993,16
+2,2,84,5,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1993,16
+3,3,72,1,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1993,16
+4,4,28,0,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1993,16
+5,5,23,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1993,16
+6,6,12,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1993,16
+7,7,12,0,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss,1993,16
+8,8,7,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1993,16
+9,9,4,0,footwork,http://en.wikipedia.org/wiki/Footwork_Arrows,Footwork,British,1993,16
+10,10,3,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1993,16
+11,11,3,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1993,16
+,-,0,0,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British,1993,16
+,-,0,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1993,16

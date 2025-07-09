@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,71,5,stewart,,,http://en.wikipedia.org/wiki/Jackie_Stewart,Jackie,Stewart,1939-06-11,British,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+2,2,55,3,emerson_fittipaldi,,,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,Emerson,Fittipaldi,1946-12-12,Brazilian,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+3,3,52,4,peterson,,,http://en.wikipedia.org/wiki/Ronnie_Peterson,Ronnie,Peterson,1944-02-14,Swedish,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+4,4,47,0,cevert,,,http://en.wikipedia.org/wiki/Fran%C3%A7ois_Cevert,François,Cevert,1944-02-25,French,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+5,5,38,2,revson,,,http://en.wikipedia.org/wiki/Peter_Revson,Peter,Revson,1939-02-27,American,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,26,1,hulme,,,http://en.wikipedia.org/wiki/Denny_Hulme,Denny,Hulme,1936-06-18,New Zealander,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+7,7,16,0,reutemann,,,http://en.wikipedia.org/wiki/Carlos_Reutemann,Carlos,Reutemann,1942-04-12,Argentine,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+8,8,14,0,hunt,,,http://en.wikipedia.org/wiki/James_Hunt,James,Hunt,1947-08-29,British,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+9,9,12,0,ickx,,,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+10,10,9,0,beltoise,,,http://en.wikipedia.org/wiki/Jean-Pierre_Beltoise,Jean-Pierre,Beltoise,1937-04-26,French,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+11,11,7,0,pace,,,http://en.wikipedia.org/wiki/Carlos_Pace,Carlos,Pace,1944-10-06,Brazilian,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+12,12,6,0,merzario,,,http://en.wikipedia.org/wiki/Arturo_Merzario,Arturo,Merzario,1943-03-11,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+13,13,5,0,follmer,,,http://en.wikipedia.org/wiki/George_Follmer,George,Follmer,1934-01-27,American,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+14,14,4,0,oliver,,,http://en.wikipedia.org/wiki/Jackie_Oliver,Jackie,Oliver,1942-08-14,British,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+15,15,3,0,adamich,,,http://en.wikipedia.org/wiki/Andrea_de_Adamich,Andrea,de Adamich,1941-10-03,Italian,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+16,16,3,0,wilson_fittipaldi,,,http://en.wikipedia.org/wiki/Wilson_Fittipaldi,Wilson,Fittipaldi,1943-12-25,Brazilian,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+17,17,2,0,lauda,,,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+18,18,2,0,regazzoni,,,http://en.wikipedia.org/wiki/Clay_Regazzoni,Clay,Regazzoni,1939-09-05,Swiss,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+19,19,1,0,ganley,,,http://en.wikipedia.org/wiki/Howden_Ganley,Howden,Ganley,1941-12-24,New Zealander,iso_marlboro,http://en.wikipedia.org/wiki/Iso_Marlboro,Iso Marlboro,British
+20,20,1,0,lennep,,,http://en.wikipedia.org/wiki/Gijs_Van_Lennep,Gijs,van Lennep,1942-03-16,Dutch,iso_marlboro,http://en.wikipedia.org/wiki/Iso_Marlboro,Iso Marlboro,British
+21,21,1,0,amon,,,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander,tecno,http://en.wikipedia.org/wiki/Tecno,Tecno,Italian
+,-,0,0,hailwood,,,http://en.wikipedia.org/wiki/Mike_Hailwood,Mike,Hailwood,1940-04-02,British,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+,-,0,0,beuttler,,,http://en.wikipedia.org/wiki/Mike_Beuttler,Mike,Beuttler,1940-04-13,British,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,mass,,,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+,-,0,0,pescarolo,,,http://en.wikipedia.org/wiki/Henri_Pescarolo,Henri,Pescarolo,1942-09-25,French,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+,-,0,0,galli,,,http://en.wikipedia.org/wiki/Nanni_Galli,Nanni,Galli,1940-10-02,Italian,iso_marlboro,http://en.wikipedia.org/wiki/Iso_Marlboro,Iso Marlboro,British
+,-,0,0,purley,,,http://en.wikipedia.org/wiki/David_Purley,David,Purley,1945-01-26,British,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,scheckter,,,http://en.wikipedia.org/wiki/Jody_Scheckter,Jody,Scheckter,1950-01-29,South African,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+,-,0,0,stommelen,,,http://en.wikipedia.org/wiki/Rolf_Stommelen,Rolf,Stommelen,1943-07-11,German,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British

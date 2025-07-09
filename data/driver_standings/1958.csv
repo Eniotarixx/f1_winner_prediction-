@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,42,1,hawthorn,,,http://en.wikipedia.org/wiki/Mike_Hawthorn,Mike,Hawthorn,1929-04-10,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,41,4,moss,,,http://en.wikipedia.org/wiki/Stirling_Moss,Stirling,Moss,1929-09-17,British,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper,British
+3,3,24,3,brooks,,,http://en.wikipedia.org/wiki/Tony_Brooks,Tony,Brooks,1932-02-25,British,vanwall,http://en.wikipedia.org/wiki/Vanwall,Vanwall,British
+4,4,15,0,salvadori,,,http://en.wikipedia.org/wiki/Roy_Salvadori,Roy,Salvadori,1922-05-12,British,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper,British
+5,5,14,1,collins,,,http://en.wikipedia.org/wiki/Peter_Collins_(racing_driver),Peter,Collins,1931-11-06,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+6,6,14,0,schell,,,http://en.wikipedia.org/wiki/Harry_Schell,Harry,Schell,1921-06-29,American,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+7,7,12,1,trintignant,,,http://en.wikipedia.org/wiki/Maurice_Trintignant,Maurice,Trintignant,1917-10-30,French,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper,British
+8,8,12,0,musso,,,http://en.wikipedia.org/wiki/Luigi_Musso,Luigi,Musso,1924-07-28,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+9,9,11,0,lewis-evans,,,http://en.wikipedia.org/wiki/Stuart_Lewis-Evans,Stuart,Lewis-Evans,1930-04-20,British,vanwall,http://en.wikipedia.org/wiki/Vanwall,Vanwall,British
+10,10,9,0,phil_hill,,,http://en.wikipedia.org/wiki/Phil_Hill,Phil,Hill,1927-04-20,American,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+11,11,9,0,trips,,,http://en.wikipedia.org/wiki/Wolfgang_Graf_Berghe_von_Trips,Wolfgang,von Trips,1928-05-04,German,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+12,12,9,0,behra,,,http://en.wikipedia.org/wiki/Jean_Behra,Jean,Behra,1921-02-16,French,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+13,13,8,1,bryan,,,http://en.wikipedia.org/wiki/Jimmy_Bryan,Jimmy,Bryan,1926-01-28,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+14,14,7,0,fangio,,,http://en.wikipedia.org/wiki/Juan_Manuel_Fangio,Juan,Fangio,1911-06-24,Argentine,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+15,15,6,0,george_amick,,,http://en.wikipedia.org/wiki/George_Amick,George,Amick,1924-10-24,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+16,16,4,0,boyd,,,http://en.wikipedia.org/wiki/Johnny_Boyd,Johnny,Boyd,1926-08-19,American,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,Kurtis Kraft,American
+17,17,4,0,bettenhausen,,,http://en.wikipedia.org/wiki/Tony_Bettenhausen,Tony,Bettenhausen,1916-09-12,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+18,18,3,0,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper,British
+19,19,3,0,allison,,,http://en.wikipedia.org/wiki/Cliff_Allison,Cliff,Allison,1932-02-08,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+20,20,3,0,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+21,21,2,0,rathmann,,,http://en.wikipedia.org/wiki/Jim_Rathmann,Jim,Rathmann,1928-07-16,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+,-,0,0,gregory,,,http://en.wikipedia.org/wiki/Masten_Gregory,Masten,Gregory,1932-02-29,American,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+,-,0,0,shelby,,,http://en.wikipedia.org/wiki/Carroll_Shelby,Carroll,Shelby,1923-01-11,American,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+,-,0,0,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper,British
+,-,0,0,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+,-,0,0,gendebien,,,http://en.wikipedia.org/wiki/Olivier_Gendebien,Olivier,Gendebien,1924-01-12,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+,-,0,0,reece,,,http://en.wikipedia.org/wiki/Jimmy_Reece,Jimmy,Reece,1929-11-17,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+,-,0,0,barth,,,http://en.wikipedia.org/wiki/Edgar_Barth,Edgar,Barth,1917-01-26,German,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German
+,-,0,0,burgess,,,http://en.wikipedia.org/wiki/Ian_Burgess,Ian,Burgess,1930-07-06,British,cooper,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper,British
+,-,0,0,menditeguy,,,http://en.wikipedia.org/wiki/Carlos_Menditeguy,Carlos,Menditeguy,1914-08-10,Argentine,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian

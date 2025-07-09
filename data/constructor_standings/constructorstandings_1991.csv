@@ -1,0 +1,20 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,139,8,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1991,16
+2,2,125,7,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1991,16
+3,3,55.5,0,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1991,16
+4,4,38.5,1,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1991,16
+5,5,13,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1991,16
+6,6,12,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1991,16
+7,7,6,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1991,16
+8,8,5,0,dallara,http://en.wikipedia.org/wiki/Dallara,Dallara,Italian,1991,16
+9,9,3,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1991,16
+10,10,3,0,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1991,16
+11,11,1,0,leyton,http://en.wikipedia.org/wiki/Leyton_House,Leyton House,British,1991,16
+12,12,1,0,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British,1991,16
+13,13,1,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1991,16
+,-,0,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1991,16
+,-,0,0,lambo,http://en.wikipedia.org/wiki/Modena_(racing_team),Lambo,Italian,1991,16
+,-,0,0,ags,http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,AGS,French,1991,16
+,-,0,0,fondmetal,http://en.wikipedia.org/wiki/Fondmetal,Fondmetal,Italian,1991,16
+,-,0,0,footwork,http://en.wikipedia.org/wiki/Footwork_Arrows,Footwork,British,1991,16
+,-,0,0,coloni,http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems,Coloni,Italian,1991,16

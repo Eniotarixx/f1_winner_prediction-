@@ -1,0 +1,12 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,172,8,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,2008,18
+2,2,151,6,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,2008,18
+3,3,135,1,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German,2008,18
+4,4,80,2,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,2008,18
+5,5,56,0,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese,2008,18
+6,6,39,1,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian,2008,18
+7,7,29,0,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian,2008,18
+8,8,26,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,2008,18
+9,9,14,0,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese,2008,18
+10,10,0,0,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,Force India,Indian,2008,18
+11,11,0,0,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese,2008,18

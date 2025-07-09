@@ -1,0 +1,10 @@
+circuitId,url,circuitName,lat,long,locality,country
+bremgarten,https://en.wikipedia.org/wiki/Circuit_Bremgarten,Circuit Bremgarten,46.9589,7.40194,Bern,Switzerland
+galvez,https://en.wikipedia.org/wiki/Autódromo_Oscar_y_Juan_Gálvez,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,Buenos Aires,Argentina
+indianapolis,https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,USA
+monza,https://en.wikipedia.org/wiki/Monza_Circuit,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+nurburgring,https://en.wikipedia.org/wiki/N%C3%BCrburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany
+pedralbes,https://en.wikipedia.org/wiki/Pedralbes_Circuit,Circuit de Pedralbes,41.3903,2.11667,Barcelona,Spain
+reims,https://en.wikipedia.org/wiki/Reims-Gueux,Reims-Gueux,49.2542,3.93083,Reims,France
+silverstone,https://en.wikipedia.org/wiki/Silverstone_Circuit,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium

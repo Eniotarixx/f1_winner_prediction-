@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,40,2,surtees,,,http://en.wikipedia.org/wiki/John_Surtees,John,Surtees,1934-02-11,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,39,2,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+3,3,32,3,clark,,,http://en.wikipedia.org/wiki/Jim_Clark,Jim,Clark,1936-03-04,British,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British
+4,4,23,1,bandini,,,http://en.wikipedia.org/wiki/Lorenzo_Bandini,Lorenzo,Bandini,1935-12-21,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+5,5,23,0,ginther,,,http://en.wikipedia.org/wiki/Richie_Ginther,Richie,Ginther,1930-08-05,American,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+6,6,19,2,gurney,,,http://en.wikipedia.org/wiki/Dan_Gurney,Dan,Gurney,1931-04-13,American,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British
+7,7,13,0,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+8,8,11,0,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British
+9,9,11,0,arundell,,,http://en.wikipedia.org/wiki/Peter_Arundell,Peter,Arundell,1933-11-08,British,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British
+10,10,7,0,siffert,,,http://en.wikipedia.org/wiki/Jo_Siffert,Jo,Siffert,1936-07-07,Swiss,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+11,11,5,0,anderson,,,http://en.wikipedia.org/wiki/Bob_Anderson_(racing_driver),Bob,Anderson,1931-05-19,British,brabham-climax,http://en.wikipedia.org/wiki/Brabham,Brabham-Climax,British
+12,12,4,0,spence,,,http://en.wikipedia.org/wiki/Mike_Spence,Mike,Spence,1936-12-30,British,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British
+13,13,4,0,maggs,,,http://en.wikipedia.org/wiki/Tony_Maggs,Tony,Maggs,1937-02-09,South African,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+14,14,4,0,ireland,,,http://en.wikipedia.org/wiki/Innes_Ireland,Innes,Ireland,1930-06-12,British,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+15,15,3,0,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+16,16,2,0,amon,,,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+17,17,2,0,trintignant,,,http://en.wikipedia.org/wiki/Maurice_Trintignant,Maurice,Trintignant,1917-10-30,French,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+18,18,2,0,hansgen,,,http://en.wikipedia.org/wiki/Walt_Hansgen,Walt,Hansgen,1919-10-28,American,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British
+19,19,1,0,phil_hill,,,http://en.wikipedia.org/wiki/Phil_Hill,Phil,Hill,1927-04-20,American,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+20,20,1,0,trevor_taylor,,,http://en.wikipedia.org/wiki/Trevor_Taylor,Trevor,Taylor,1936-12-26,British,brp,http://en.wikipedia.org/wiki/British_Racing_Partnership,BRP,British
+21,21,1,0,hailwood,,,http://en.wikipedia.org/wiki/Mike_Hailwood,Mike,Hailwood,1940-04-02,British,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+22,22,1,0,rodriguez,,,http://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver),Pedro,Rodríguez,1940-01-18,Mexican,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+,-,0,0,baghetti,,,http://en.wikipedia.org/wiki/Giancarlo_Baghetti,Giancarlo,Baghetti,1934-12-25,Italian,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+,-,0,0,mitter,,,http://en.wikipedia.org/wiki/Gerhard_Mitter,Gerhard,Mitter,1935-08-30,German,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British
+,-,0,0,scarfiotti,,,http://en.wikipedia.org/wiki/Ludovico_Scarfiotti,Ludovico,Scarfiotti,1933-10-18,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+,-,0,0,solana,,,http://en.wikipedia.org/wiki/Mois%C3%A9s_Solana,Moisés,Solana,1935-12-26,Mexican,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British
+,-,0,0,revson,,,http://en.wikipedia.org/wiki/Peter_Revson,Peter,Revson,1939-02-27,American,lotus-brm,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-BRM,British
+,-,0,0,sharp,,,http://en.wikipedia.org/wiki/Hap_Sharp,Hap,Sharp,1928-01-01,American,brabham-brm,http://en.wikipedia.org/wiki/Brabham,Brabham-BRM,British
+,-,0,0,bucknum,,,http://en.wikipedia.org/wiki/Ronnie_Bucknum,Ronnie,Bucknum,1936-04-05,American,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese
+,-,0,0,taylor,,,http://en.wikipedia.org/wiki/John_Taylor_(racer),John,Taylor,1933-03-23,British,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British

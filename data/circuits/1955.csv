@@ -1,0 +1,8 @@
+circuitId,url,circuitName,lat,long,locality,country
+aintree,https://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit,Aintree,53.4769,-2.94056,Liverpool,UK
+galvez,https://en.wikipedia.org/wiki/Autódromo_Oscar_y_Juan_Gálvez,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,Buenos Aires,Argentina
+indianapolis,https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway,Indianapolis Motor Speedway,39.795,-86.2347,Indianapolis,USA
+monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+monza,https://en.wikipedia.org/wiki/Monza_Circuit,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands

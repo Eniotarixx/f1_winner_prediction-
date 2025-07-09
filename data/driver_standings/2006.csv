@@ -1,0 +1,28 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,134,7,alonso,14,ALO,http://en.wikipedia.org/wiki/Fernando_Alonso,Fernando,Alonso,1981-07-29,Spanish,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+2,2,121,7,michael_schumacher,,MSC,http://en.wikipedia.org/wiki/Michael_Schumacher,Michael,Schumacher,1969-01-03,German,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,80,2,massa,19,MAS,http://en.wikipedia.org/wiki/Felipe_Massa,Felipe,Massa,1981-04-25,Brazilian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+4,4,72,1,fisichella,,FIS,http://en.wikipedia.org/wiki/Giancarlo_Fisichella,Giancarlo,Fisichella,1973-01-14,Italian,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+5,5,65,0,raikkonen,7,RAI,http://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen,Kimi,Räikkönen,1979-10-17,Finnish,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,56,1,button,22,BUT,http://en.wikipedia.org/wiki/Jenson_Button,Jenson,Button,1980-01-19,British,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese
+7,7,30,0,barrichello,,BAR,http://en.wikipedia.org/wiki/Rubens_Barrichello,Rubens,Barrichello,1972-05-23,Brazilian,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese
+8,8,26,0,montoya,,MON,http://en.wikipedia.org/wiki/Juan_Pablo_Montoya,Juan,Pablo Montoya,1975-09-20,Colombian,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+9,9,23,0,heidfeld,,HEI,http://en.wikipedia.org/wiki/Nick_Heidfeld,Nick,Heidfeld,1977-05-10,German,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German
+10,10,20,0,ralf_schumacher,,SCH,http://en.wikipedia.org/wiki/Ralf_Schumacher,Ralf,Schumacher,1975-06-30,German,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+11,11,19,0,rosa,,DLR,http://en.wikipedia.org/wiki/Pedro_de_la_Rosa,Pedro,de la Rosa,1971-02-24,Spanish,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+12,12,15,0,trulli,,TRU,http://en.wikipedia.org/wiki/Jarno_Trulli,Jarno,Trulli,1974-07-13,Italian,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+13,13,14,0,coulthard,,COU,http://en.wikipedia.org/wiki/David_Coulthard,David,Coulthard,1971-03-27,British,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+14,14,7,0,webber,,WEB,http://en.wikipedia.org/wiki/Mark_Webber_(racing_driver),Mark,Webber,1976-08-27,Australian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+15,15,7,0,villeneuve,,VIL,http://en.wikipedia.org/wiki/Jacques_Villeneuve,Jacques,Villeneuve,1971-04-09,Canadian,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German
+16,16,6,0,kubica,88,KUB,http://en.wikipedia.org/wiki/Robert_Kubica,Robert,Kubica,1984-12-07,Polish,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German
+17,17,4,0,rosberg,6,ROS,http://en.wikipedia.org/wiki/Nico_Rosberg,Nico,Rosberg,1985-06-27,German,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+18,18,2,0,klien,,KLI,http://en.wikipedia.org/wiki/Christian_Klien,Christian,Klien,1983-02-07,Austrian,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+19,19,1,0,liuzzi,,LIU,http://en.wikipedia.org/wiki/Vitantonio_Liuzzi,Vitantonio,Liuzzi,1980-08-06,Italian,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+20,20,0,0,speed,,SPE,http://en.wikipedia.org/wiki/Scott_Speed,Scott,Speed,1983-01-24,American,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+21,21,0,0,monteiro,,TMO,http://en.wikipedia.org/wiki/Tiago_Monteiro,Tiago,Monteiro,1976-07-24,Portuguese,mf1,http://en.wikipedia.org/wiki/Midland_F1_Racing,MF1,Russian
+22,22,0,0,albers,,ALB,http://en.wikipedia.org/wiki/Christijan_Albers,Christijan,Albers,1979-04-16,Dutch,mf1,http://en.wikipedia.org/wiki/Midland_F1_Racing,MF1,Russian
+23,23,0,0,sato,,SAT,http://en.wikipedia.org/wiki/Takuma_Sato,Takuma,Sato,1977-01-28,Japanese,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese
+24,24,0,0,doornbos,,DOO,http://en.wikipedia.org/wiki/Robert_Doornbos,Robert,Doornbos,1981-09-23,Dutch,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+25,25,0,0,ide,,IDE,http://en.wikipedia.org/wiki/Yuji_Ide,Yuji,Ide,1975-01-21,Japanese,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese
+26,26,0,0,yamamoto,,YAM,http://en.wikipedia.org/wiki/Sakon_Yamamoto,Sakon,Yamamoto,1982-07-09,Japanese,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese
+27,27,0,0,montagny,,FMO,http://en.wikipedia.org/wiki/Franck_Montagny,Franck,Montagny,1978-01-05,French,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese

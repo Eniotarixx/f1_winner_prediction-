@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,72,4,prost,,,http://en.wikipedia.org/wiki/Alain_Prost,Alain,Prost,1955-02-24,French,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+2,2,70,5,mansell,,,http://en.wikipedia.org/wiki/Nigel_Mansell,Nigel,Mansell,1953-08-08,British,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+3,3,69,4,piquet,,,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+4,4,55,2,senna,,,http://en.wikipedia.org/wiki/Ayrton_Senna,Ayrton,Senna,1960-03-21,Brazilian,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+5,5,23,0,johansson,,,http://en.wikipedia.org/wiki/Stefan_Johansson,Stefan,Johansson,1956-09-08,Swedish,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+6,6,22,0,keke_rosberg,,,http://en.wikipedia.org/wiki/Keke_Rosberg,Keke,Rosberg,1948-12-06,Finnish,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+7,7,17,1,berger,,,http://en.wikipedia.org/wiki/Gerhard_Berger,Gerhard,Berger,1959-08-27,Austrian,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian
+8,8,14,0,laffite,,,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+9,9,14,0,alboreto,,,http://en.wikipedia.org/wiki/Michele_Alboreto,Michele,Alboreto,1956-12-23,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+10,10,14,0,arnoux,,,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,René,Arnoux,1948-07-04,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+11,11,8,0,brundle,,,http://en.wikipedia.org/wiki/Martin_Brundle,Martin,Brundle,1959-06-01,British,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+12,12,4,0,jones,,,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British
+13,13,3,0,dumfries,,,http://en.wikipedia.org/wiki/Johnny_Dumfries,Johnny,Dumfries,1958-04-26,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+14,14,3,0,streiff,,,http://en.wikipedia.org/wiki/Philippe_Streiff,Philippe,Streiff,1955-06-26,French,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+15,15,2,0,tambay,,,http://en.wikipedia.org/wiki/Patrick_Tambay,Patrick,Tambay,1949-06-25,French,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British
+16,16,2,0,fabi,,,http://en.wikipedia.org/wiki/Teo_Fabi,Teo,Fabi,1955-03-09,Italian,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian
+17,17,2,0,patrese,,,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+18,18,1,0,danner,,,http://en.wikipedia.org/wiki/Christian_Danner,Christian,Danner,1958-04-04,German,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian
+19,19,1,0,alliot,,,http://en.wikipedia.org/wiki/Philippe_Alliot,Philippe,Alliot,1954-07-27,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+,-,0,0,boutsen,,,http://en.wikipedia.org/wiki/Thierry_Boutsen,Thierry,Boutsen,1957-07-13,Belgian,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+,-,0,0,warwick,,,http://en.wikipedia.org/wiki/Derek_Warwick,Derek,Warwick,1954-08-27,British,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+,-,0,0,palmer,,,http://en.wikipedia.org/wiki/Jonathan_Palmer,Jonathan,Palmer,1956-11-07,British,zakspeed,http://en.wikipedia.org/wiki/Zakspeed,Zakspeed,German
+,-,0,0,rothengatter,,,http://en.wikipedia.org/wiki/Huub_Rothengatter,Huub,Rothengatter,1954-10-08,Dutch,zakspeed,http://en.wikipedia.org/wiki/Zakspeed,Zakspeed,German
+,-,0,0,cesaris,,,http://en.wikipedia.org/wiki/Andrea_de_Cesaris,Andrea,de Cesaris,1959-05-31,Italian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+,-,0,0,angelis,,,http://en.wikipedia.org/wiki/Elio_de_Angelis,Elio,de Angelis,1958-03-26,Italian,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+,-,0,0,surer,,,http://en.wikipedia.org/wiki/Marc_Surer,Marc,Surer,1951-09-18,Swiss,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+,-,0,0,ghinzani,,,http://en.wikipedia.org/wiki/Piercarlo_Ghinzani,Piercarlo,Ghinzani,1952-01-16,Italian,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian
+,-,0,0,berg,,,http://en.wikipedia.org/wiki/Allen_Berg,Allen,Berg,1961-08-01,Canadian,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian
+,-,0,0,nannini,,,http://en.wikipedia.org/wiki/Alessandro_Nannini,Alessandro,Nannini,1959-07-07,Italian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+,-,0,0,caffi,,,http://en.wikipedia.org/wiki/Alex_Caffi,Alex,Caffi,1964-03-18,Italian,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian

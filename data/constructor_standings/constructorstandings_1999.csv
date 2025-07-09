@@ -1,0 +1,12 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,128,6,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1999,16
+2,2,124,7,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1999,16
+3,3,61,2,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1999,16
+4,4,36,1,stewart,http://en.wikipedia.org/wiki/Stewart_Grand_Prix,Stewart,British,1999,16
+5,5,35,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1999,16
+6,6,16,0,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1999,16
+7,7,9,0,prost,http://en.wikipedia.org/wiki/Prost_Grand_Prix,Prost,French,1999,16
+8,8,5,0,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss,1999,16
+9,9,1,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1999,16
+10,10,1,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1999,16
+,-,0,0,bar,http://en.wikipedia.org/wiki/British_American_Racing,BAR,British,1999,16

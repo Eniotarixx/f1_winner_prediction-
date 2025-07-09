@@ -1,0 +1,17 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,137,9,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1987,16
+2,2,76,3,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1987,16
+3,3,64,2,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1987,16
+4,4,53,2,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1987,16
+5,5,28,0,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1987,16
+6,6,11,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1987,16
+7,7,11,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1987,16
+8,8,10,0,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1987,16
+9,9,3,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1987,16
+10,10,2,0,zakspeed,http://en.wikipedia.org/wiki/Zakspeed,Zakspeed,German,1987,16
+11,11,1,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1987,16
+12,12,1,0,ags,http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,AGS,French,1987,16
+13,13,1,0,march,http://en.wikipedia.org/wiki/March_Engineering,March,British,1987,16
+,-,0,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1987,16
+,-,0,0,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian,1987,16
+,-,0,0,coloni,http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems,Coloni,Italian,1987,16

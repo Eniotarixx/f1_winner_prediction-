@@ -1,0 +1,15 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,45,5,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1961,8
+2,2,35,3,lotus-climax,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Climax,British,1961,8
+3,3,22,0,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German,1961,8
+4,4,14,0,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British,1961,8
+5,5,7,0,brm,http://en.wikipedia.org/wiki/BRM,BRM,British,1961,8
+,-,0,0,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British,1961,8
+,-,0,0,gilby,http://en.wikipedia.org/wiki/Gilby,Gilby,British,1961,8
+,-,0,0,lotus-maserati,http://en.wikipedia.org/wiki/Team_Lotus,Lotus-Maserati,British,1961,8
+,-,0,0,ferguson,http://en.wikipedia.org/wiki/Ferguson_Research_Ltd.,Ferguson,British,1961,8
+,-,0,0,de_tomaso-alfa_romeo,http://en.wikipedia.org/wiki/De_Tomaso,De Tomaso-Alfa Romeo,Italian,1961,8
+,-,0,0,emeryson,http://en.wikipedia.org/wiki/Emeryson,Emeryson,British,1961,8
+,-,0,0,de_tomaso-osca,http://en.wikipedia.org/wiki/De_Tomaso,De Tomaso-Osca,Italian,1961,8
+,-,0,0,jbw,http://en.wikipedia.org/wiki/JBW,JBW,British,1961,8
+,-,0,0,mbm,http://en.wikipedia.org/wiki/Monteverdi_Basel_Motors,MBM,Swiss,1961,8

@@ -1,0 +1,31 @@
+driverId,url,givenName,familyName,dateOfBirth,nationality
+amon,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander
+anderson,http://en.wikipedia.org/wiki/Bob_Anderson_(racing_driver),Bob,Anderson,1931-05-19,British
+arundell,http://en.wikipedia.org/wiki/Peter_Arundell,Peter,Arundell,1933-11-08,British
+attwood,http://en.wikipedia.org/wiki/Richard_Attwood,Richard,Attwood,1940-04-04,British
+baghetti,http://en.wikipedia.org/wiki/Giancarlo_Baghetti,Giancarlo,Baghetti,1934-12-25,Italian
+bandini,http://en.wikipedia.org/wiki/Lorenzo_Bandini,Lorenzo,Bandini,1935-12-21,Italian
+barth,http://en.wikipedia.org/wiki/Edgar_Barth,Edgar,Barth,1917-01-26,German
+bonnier,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish
+jack_brabham,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian
+bucknum,http://en.wikipedia.org/wiki/Ronnie_Bucknum,Ronnie,Bucknum,1936-04-05,American
+cabral,http://en.wikipedia.org/wiki/Mario_de_Araujo_Cabral,Mário de Araújo,Cabral,1934-01-15,Portuguese
+clark,http://en.wikipedia.org/wiki/Jim_Clark,Jim,Clark,1936-03-04,British
+collomb,http://en.wikipedia.org/wiki/Bernard_Collomb,Bernard,Collomb,1930-10-07,French
+beaufort,http://en.wikipedia.org/wiki/Carel_Godin_de_Beaufort,Carel Godin,de Beaufort,1934-04-10,Dutch
+gardner,http://en.wikipedia.org/wiki/Frank_Gardner_(driver),Frank,Gardner,1930-10-01,Australian
+ginther,http://en.wikipedia.org/wiki/Richie_Ginther,Richie,Ginther,1930-08-05,American
+gurney,http://en.wikipedia.org/wiki/Dan_Gurney,Dan,Gurney,1931-04-13,American
+hailwood,http://en.wikipedia.org/wiki/Mike_Hailwood,Mike,Hailwood,1940-04-02,British
+hansgen,http://en.wikipedia.org/wiki/Walt_Hansgen,Walt,Hansgen,1919-10-28,American
+hill,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British
+phil_hill,http://en.wikipedia.org/wiki/Phil_Hill,Phil,Hill,1927-04-20,American
+ireland,http://en.wikipedia.org/wiki/Innes_Ireland,Innes,Ireland,1930-06-12,British
+love,http://en.wikipedia.org/wiki/John_Love_(racing_driver),John,Love,1924-12-07,Rhodesian
+maggs,http://en.wikipedia.org/wiki/Tony_Maggs,Tony,Maggs,1937-02-09,South African
+mclaren,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander
+mitter,http://en.wikipedia.org/wiki/Gerhard_Mitter,Gerhard,Mitter,1935-08-30,German
+andre_pilette,http://en.wikipedia.org/wiki/Andr%C3%A9_Pilette,André,Pilette,1918-10-06,Belgian
+raby,http://en.wikipedia.org/wiki/Ian_Raby,Ian,Raby,1921-09-22,British
+revson,http://en.wikipedia.org/wiki/Peter_Revson,Peter,Revson,1939-02-27,American
+rindt,http://en.wikipedia.org/wiki/Jochen_Rindt,Jochen,Rindt,1942-04-18,Austrian

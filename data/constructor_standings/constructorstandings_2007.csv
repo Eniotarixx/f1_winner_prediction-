@@ -1,0 +1,12 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,204,9,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,2007,17
+2,2,101,0,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German,2007,17
+3,3,51,0,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,2007,17
+4,4,33,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,2007,17
+5,5,24,0,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian,2007,17
+6,6,13,0,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese,2007,17
+7,7,8,0,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian,2007,17
+8,8,6,0,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese,2007,17
+9,9,4,0,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese,2007,17
+10,10,1,0,spyker,http://en.wikipedia.org/wiki/Spyker_F1,Spyker,Dutch,2007,17
+,E,0,8,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,2007,17

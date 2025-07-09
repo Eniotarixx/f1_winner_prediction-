@@ -1,0 +1,18 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,90,6,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1985,16
+2,2,82,2,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1985,16
+3,3,71,4,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1985,16
+4,4,71,3,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1985,16
+5,5,26,1,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1985,16
+6,6,23,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1985,16
+7,7,16,0,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,1985,16
+8,8,14,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1985,16
+9,9,7,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1985,16
+,-,0,0,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian,1985,16
+,-,0,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1985,16
+,-,0,0,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss,1985,16
+,-,0,0,ram,http://en.wikipedia.org/wiki/RAM_Racing,RAM,British,1985,16
+,-,0,0,zakspeed,http://en.wikipedia.org/wiki/Zakspeed,Zakspeed,German,1985,16
+,-,0,0,toleman,http://en.wikipedia.org/wiki/Toleman,Toleman,British,1985,16
+,-,0,0,spirit,http://en.wikipedia.org/wiki/Spirit_(racing_team),Spirit,British,1985,16
+,-,0,0,lola,http://en.wikipedia.org/wiki/MasterCard_Lola,Lola,British,1985,16

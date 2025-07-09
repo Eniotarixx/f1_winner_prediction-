@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,51,3,scheckter,,,http://en.wikipedia.org/wiki/Jody_Scheckter,Jody,Scheckter,1950-01-29,South African,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,47,3,gilles_villeneuve,,,http://en.wikipedia.org/wiki/Gilles_Villeneuve,Gilles,Villeneuve,1950-01-18,Canadian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,40,4,jones,,,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+4,4,36,2,laffite,,,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+5,5,29,1,regazzoni,,,http://en.wikipedia.org/wiki/Clay_Regazzoni,Clay,Regazzoni,1939-09-05,Swiss,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+6,6,20,1,depailler,,,http://en.wikipedia.org/wiki/Patrick_Depailler,Patrick,Depailler,1944-08-09,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+7,7,20,0,reutemann,,,http://en.wikipedia.org/wiki/Carlos_Reutemann,Carlos,Reutemann,1942-04-12,Argentine,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+8,8,17,0,arnoux,,,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,René,Arnoux,1948-07-04,French,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+9,9,15,0,watson,,,http://en.wikipedia.org/wiki/John_Watson_(racing_driver),John,Watson,1946-05-04,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+10,10,14,0,pironi,,,http://en.wikipedia.org/wiki/Didier_Pironi,Didier,Pironi,1952-03-26,French,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+11,11,14,0,jarier,,,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+12,12,14,0,mario_andretti,,,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+13,13,9,1,jabouille,,,http://en.wikipedia.org/wiki/Jean-Pierre_Jabouille,Jean-Pierre,Jabouille,1942-10-01,French,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+14,14,4,0,lauda,,,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian,brabham-alfa_romeo,http://en.wikipedia.org/wiki/Brabham,Brabham-Alfa Romeo,British
+15,15,3,0,angelis,,,http://en.wikipedia.org/wiki/Elio_de_Angelis,Elio,de Angelis,1958-03-26,Italian,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+16,16,3,0,piquet,,,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian,brabham-alfa_romeo,http://en.wikipedia.org/wiki/Brabham,Brabham-Alfa Romeo,British
+17,17,3,0,ickx,,,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+18,18,3,0,mass,,,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+19,19,2,0,stuck,,,http://en.wikipedia.org/wiki/Hans_Joachim_Stuck,Hans-Joachim,Stuck,1951-01-01,German,ats,http://en.wikipedia.org/wiki/ATS_(wheels),ATS,Italian
+20,20,2,0,patrese,,,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+21,21,1,0,emerson_fittipaldi,,,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,Emerson,Fittipaldi,1946-12-12,Brazilian,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Fittipaldi,Brazilian
+,-,0,0,rebaque,,,http://en.wikipedia.org/wiki/Hector_Rebaque,Hector,Rebaque,1956-02-05,Mexican,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+,-,0,0,tambay,,,http://en.wikipedia.org/wiki/Patrick_Tambay,Patrick,Tambay,1949-06-25,French,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+,-,0,0,zunino,,,http://en.wikipedia.org/wiki/Ricardo_Zunino,Ricardo,Zunino,1949-04-13,Argentine,brabham-ford,http://en.wikipedia.org/wiki/Brabham,Brabham-Ford,British
+,-,0,0,lees,,,http://en.wikipedia.org/wiki/Geoff_Lees,Geoff,Lees,1951-05-01,British,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+,-,0,0,daly,,,http://en.wikipedia.org/wiki/Derek_Daly,Derek,Daly,1953-03-11,Irish,ensign,http://en.wikipedia.org/wiki/Ensign_%28racing_team%29,Ensign,British
+,-,0,0,hunt,,,http://en.wikipedia.org/wiki/James_Hunt,James,Hunt,1947-08-29,British,wolf,http://en.wikipedia.org/wiki/Walter_Wolf_Racing,Wolf,Canadian
+,-,0,0,lammers,,,http://en.wikipedia.org/wiki/Jan_Lammers,Jan,Lammers,1956-06-02,Dutch,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+,-,0,0,keke_rosberg,,,http://en.wikipedia.org/wiki/Keke_Rosberg,Keke,Rosberg,1948-12-06,Finnish,wolf,http://en.wikipedia.org/wiki/Walter_Wolf_Racing,Wolf,Canadian
+,-,0,0,brambilla,,,http://en.wikipedia.org/wiki/Vittorio_Brambilla,Vittorio,Brambilla,1937-11-11,Italian,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss

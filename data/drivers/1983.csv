@@ -1,0 +1,31 @@
+driverId,url,givenName,familyName,dateOfBirth,nationality
+acheson,http://en.wikipedia.org/wiki/Kenny_Acheson,Kenny,Acheson,1957-11-27,British
+alboreto,http://en.wikipedia.org/wiki/Michele_Alboreto,Michele,Alboreto,1956-12-23,Italian
+arnoux,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,René,Arnoux,1948-07-04,French
+baldi,http://en.wikipedia.org/wiki/Mauro_Baldi,Mauro,Baldi,1954-01-31,Italian
+boesel,http://en.wikipedia.org/wiki/Raul_Boesel,Raul,Boesel,1957-12-04,Brazilian
+boutsen,http://en.wikipedia.org/wiki/Thierry_Boutsen,Thierry,Boutsen,1957-07-13,Belgian
+cecotto,http://en.wikipedia.org/wiki/Johnny_Cecotto,Johnny,Cecotto,1956-01-25,Venezuelan
+cheever,http://en.wikipedia.org/wiki/Eddie_Cheever,Eddie,Cheever,1958-01-10,American
+angelis,http://en.wikipedia.org/wiki/Elio_de_Angelis,Elio,de Angelis,1958-03-26,Italian
+cesaris,http://en.wikipedia.org/wiki/Andrea_de_Cesaris,Andrea,de Cesaris,1959-05-31,Italian
+corrado_fabi,http://en.wikipedia.org/wiki/Corrado_Fabi,Corrado,Fabi,1961-04-12,Italian
+ghinzani,http://en.wikipedia.org/wiki/Piercarlo_Ghinzani,Piercarlo,Ghinzani,1952-01-16,Italian
+giacomelli,http://en.wikipedia.org/wiki/Bruno_Giacomelli,Bruno,Giacomelli,1952-09-10,Italian
+guerrero,http://en.wikipedia.org/wiki/Roberto_Guerrero,Roberto,Guerrero,1958-11-16,Colombian
+jarier,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French
+johansson,http://en.wikipedia.org/wiki/Stefan_Johansson,Stefan,Johansson,1956-09-08,Swedish
+jones,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian
+laffite,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French
+lauda,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian
+mansell,http://en.wikipedia.org/wiki/Nigel_Mansell,Nigel,Mansell,1953-08-08,British
+palmer,http://en.wikipedia.org/wiki/Jonathan_Palmer,Jonathan,Palmer,1956-11-07,British
+patrese,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian
+piquet,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian
+prost,http://en.wikipedia.org/wiki/Alain_Prost,Alain,Prost,1955-02-24,French
+keke_rosberg,http://en.wikipedia.org/wiki/Keke_Rosberg,Keke,Rosberg,1948-12-06,Finnish
+salazar,http://en.wikipedia.org/wiki/Eliseo_Salazar,Eliseo,Salazar,1954-11-14,Chilean
+schlesser,http://en.wikipedia.org/wiki/Jean-Louis_Schlesser,Jean-Louis,Schlesser,1948-09-12,French
+serra,http://en.wikipedia.org/wiki/Chico_Serra,Chico,Serra,1957-02-03,Brazilian
+sullivan,http://en.wikipedia.org/wiki/Danny_Sullivan,Danny,Sullivan,1950-03-09,American
+surer,http://en.wikipedia.org/wiki/Marc_Surer,Marc,Surer,1951-09-18,Swiss

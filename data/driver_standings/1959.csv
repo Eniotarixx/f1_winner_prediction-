@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,31,2,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+2,2,27,2,brooks,,,http://en.wikipedia.org/wiki/Tony_Brooks,Tony,Brooks,1932-02-25,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,25.5,2,moss,,,http://en.wikipedia.org/wiki/Stirling_Moss,Stirling,Moss,1929-09-17,British,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+4,4,20,0,phil_hill,,,http://en.wikipedia.org/wiki/Phil_Hill,Phil,Hill,1927-04-20,American,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+5,5,19,0,trintignant,,,http://en.wikipedia.org/wiki/Maurice_Trintignant,Maurice,Trintignant,1917-10-30,French,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+6,6,16.5,1,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+7,7,13,0,gurney,,,http://en.wikipedia.org/wiki/Dan_Gurney,Dan,Gurney,1931-04-13,American,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+8,8,10,1,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+9,9,10,0,gregory,,,http://en.wikipedia.org/wiki/Masten_Gregory,Masten,Gregory,1932-02-29,American,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+10,10,8,1,ward,,,http://en.wikipedia.org/wiki/Rodger_Ward,Rodger,Ward,1921-01-10,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+11,11,6,0,rathmann,,,http://en.wikipedia.org/wiki/Jim_Rathmann,Jim,Rathmann,1928-07-16,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+12,12,5,0,thomson,,,http://en.wikipedia.org/wiki/Johnny_Thomson,Johnny,Thomson,1922-04-09,American,lesovsky,http://en.wikipedia.org/wiki/Lesovsky,Lesovsky,American
+13,13,5,0,schell,,,http://en.wikipedia.org/wiki/Harry_Schell,Harry,Schell,1921-06-29,American,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+14,14,5,0,ireland,,,http://en.wikipedia.org/wiki/Innes_Ireland,Innes,Ireland,1930-06-12,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+15,15,3,0,gendebien,,,http://en.wikipedia.org/wiki/Olivier_Gendebien,Olivier,Gendebien,1924-01-12,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+16,16,3,0,bettenhausen,,,http://en.wikipedia.org/wiki/Tony_Bettenhausen,Tony,Bettenhausen,1916-09-12,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+17,17,2,0,allison,,,http://en.wikipedia.org/wiki/Cliff_Allison,Cliff,Allison,1932-02-08,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+18,18,2,0,behra,,,http://en.wikipedia.org/wiki/Jean_Behra,Jean,Behra,1921-02-16,French,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+19,19,2,0,goldsmith,,,http://en.wikipedia.org/wiki/Paul_Goldsmith,Paul,Goldsmith,1925-10-02,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+,-,0,0,salvadori,,,http://en.wikipedia.org/wiki/Roy_Salvadori,Roy,Salvadori,1922-05-12,British,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+,-,0,0,flockhart,,,http://en.wikipedia.org/wiki/Ron_Flockhart_(auto_racing),Ron,Flockhart,1923-06-16,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+,-,0,0,burgess,,,http://en.wikipedia.org/wiki/Ian_Burgess,Ian,Burgess,1930-07-06,British,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+,-,0,0,trips,,,http://en.wikipedia.org/wiki/Wolfgang_Graf_Berghe_von_Trips,Wolfgang,von Trips,1928-05-04,German,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German
+,-,0,0,boyd,,,http://en.wikipedia.org/wiki/Johnny_Boyd,Johnny,Boyd,1926-08-19,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+,-,0,0,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+,-,0,0,darter,,,http://en.wikipedia.org/wiki/Duane_Carter,Duane,Carter,1913-05-05,American,kurtis_kraft,http://en.wikipedia.org/wiki/Kurtis_Kraft,Kurtis Kraft,American
+,-,0,0,blanchard,,,http://en.wikipedia.org/wiki/Harry_Blanchard,Harry,Blanchard,1929-06-13,American,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German
+,-,0,0,shelby,,,http://en.wikipedia.org/wiki/Carroll_Shelby,Carroll,Shelby,1923-01-11,American,aston_martin,http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One,Aston Martin,British
+,-,0,0,scarlatti,,,http://en.wikipedia.org/wiki/Giorgio_Scarlatti,Giorgio,Scarlatti,1921-10-02,Italian,maserati,http://en.wikipedia.org/wiki/Maserati,Maserati,Italian
+,-,0,0,stacey,,,http://en.wikipedia.org/wiki/Alan_Stacey,Alan,Stacey,1933-08-29,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British

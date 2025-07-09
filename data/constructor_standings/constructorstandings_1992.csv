@@ -1,0 +1,17 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,164,10,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1992,16
+2,2,99,5,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1992,16
+3,3,91,1,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1992,16
+4,4,21,0,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1992,16
+5,5,13,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1992,16
+6,6,8,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1992,16
+7,7,6,0,footwork,http://en.wikipedia.org/wiki/Footwork_Arrows,Footwork,British,1992,16
+8,8,6,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1992,16
+9,9,3,0,march,http://en.wikipedia.org/wiki/March_Engineering,March,British,1992,16
+10,10,2,0,dallara,http://en.wikipedia.org/wiki/Dallara,Dallara,Italian,1992,16
+11,11,1,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1992,16
+12,12,1,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1992,16
+13,13,1,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1992,16
+,-,0,0,fondmetal,http://en.wikipedia.org/wiki/Fondmetal,Fondmetal,Italian,1992,16
+,-,0,0,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1992,16
+,-,0,0,moda,http://en.wikipedia.org/wiki/Andrea_Moda_Formula,Andrea Moda,Italian,1992,16

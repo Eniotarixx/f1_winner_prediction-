@@ -1,0 +1,26 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,95,6,button,22,BUT,http://en.wikipedia.org/wiki/Jenson_Button,Jenson,Button,1980-01-19,British,brawn,http://en.wikipedia.org/wiki/Brawn_GP,Brawn,British
+2,2,84,4,vettel,5,VET,http://en.wikipedia.org/wiki/Sebastian_Vettel,Sebastian,Vettel,1987-07-03,German,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+3,3,77,2,barrichello,,BAR,http://en.wikipedia.org/wiki/Rubens_Barrichello,Rubens,Barrichello,1972-05-23,Brazilian,brawn,http://en.wikipedia.org/wiki/Brawn_GP,Brawn,British
+4,4,69.5,2,webber,,WEB,http://en.wikipedia.org/wiki/Mark_Webber_(racing_driver),Mark,Webber,1976-08-27,Australian,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian
+5,5,49,2,hamilton,44,HAM,http://en.wikipedia.org/wiki/Lewis_Hamilton,Lewis,Hamilton,1985-01-07,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,48,1,raikkonen,7,RAI,http://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen,Kimi,Räikkönen,1979-10-17,Finnish,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+7,7,34.5,0,rosberg,6,ROS,http://en.wikipedia.org/wiki/Nico_Rosberg,Nico,Rosberg,1985-06-27,German,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+8,8,32.5,0,trulli,,TRU,http://en.wikipedia.org/wiki/Jarno_Trulli,Jarno,Trulli,1974-07-13,Italian,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+9,9,26,0,alonso,14,ALO,http://en.wikipedia.org/wiki/Fernando_Alonso,Fernando,Alonso,1981-07-29,Spanish,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+10,10,24,0,glock,,GLO,http://en.wikipedia.org/wiki/Timo_Glock,Timo,Glock,1982-03-18,German,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+11,11,22,0,massa,19,MAS,http://en.wikipedia.org/wiki/Felipe_Massa,Felipe,Massa,1981-04-25,Brazilian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+12,12,22,0,kovalainen,,KOV,http://en.wikipedia.org/wiki/Heikki_Kovalainen,Heikki,Kovalainen,1981-10-19,Finnish,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+13,13,19,0,heidfeld,,HEI,http://en.wikipedia.org/wiki/Nick_Heidfeld,Nick,Heidfeld,1977-05-10,German,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German
+14,14,17,0,kubica,88,KUB,http://en.wikipedia.org/wiki/Robert_Kubica,Robert,Kubica,1984-12-07,Polish,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German
+15,15,8,0,fisichella,,FIS,http://en.wikipedia.org/wiki/Giancarlo_Fisichella,Giancarlo,Fisichella,1973-01-14,Italian,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,Force India,Indian
+16,16,6,0,buemi,,BUE,http://en.wikipedia.org/wiki/S%C3%A9bastien_Buemi,Sébastien,Buemi,1988-10-31,Swiss,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+17,17,5,0,sutil,99,SUT,http://en.wikipedia.org/wiki/Adrian_Sutil,Adrian,Sutil,1983-01-11,German,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,Force India,Indian
+18,18,3,0,kobayashi,10,KOB,http://en.wikipedia.org/wiki/Kamui_Kobayashi,Kamui,Kobayashi,1986-09-13,Japanese,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese
+19,19,2,0,bourdais,,BOU,http://en.wikipedia.org/wiki/S%C3%A9bastien_Bourdais,Sébastien,Bourdais,1979-02-28,French,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+20,20,0,0,nakajima,,NAK,http://en.wikipedia.org/wiki/Kazuki_Nakajima,Kazuki,Nakajima,1985-01-11,Japanese,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+21,21,0,0,piquet_jr,,PIQ,"http://en.wikipedia.org/wiki/Nelson_Piquet,_Jr.",Nelson,Piquet Jr.,1985-07-25,Brazilian,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+22,22,0,0,liuzzi,,LIU,http://en.wikipedia.org/wiki/Vitantonio_Liuzzi,Vitantonio,Liuzzi,1980-08-06,Italian,force_india,http://en.wikipedia.org/wiki/Racing_Point_Force_India,Force India,Indian
+23,23,0,0,grosjean,8,GRO,http://en.wikipedia.org/wiki/Romain_Grosjean,Romain,Grosjean,1986-04-17,French,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French
+24,24,0,0,alguersuari,,ALG,http://en.wikipedia.org/wiki/Jaime_Alguersuari,Jaime,Alguersuari,1990-03-23,Spanish,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian
+25,25,0,0,badoer,,BAD,http://en.wikipedia.org/wiki/Luca_Badoer,Luca,Badoer,1971-01-25,Italian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian

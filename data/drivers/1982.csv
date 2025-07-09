@@ -1,0 +1,31 @@
+driverId,url,givenName,familyName,dateOfBirth,nationality
+alboreto,http://en.wikipedia.org/wiki/Michele_Alboreto,Michele,Alboreto,1956-12-23,Italian
+mario_andretti,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American
+arnoux,http://en.wikipedia.org/wiki/Ren%C3%A9_Arnoux,René,Arnoux,1948-07-04,French
+baldi,http://en.wikipedia.org/wiki/Mauro_Baldi,Mauro,Baldi,1954-01-31,Italian
+boesel,http://en.wikipedia.org/wiki/Raul_Boesel,Raul,Boesel,1957-12-04,Brazilian
+borgudd,http://en.wikipedia.org/wiki/Slim_Borgudd,Slim,Borgudd,1946-11-25,Swedish
+byrne,http://en.wikipedia.org/wiki/Tommy_Byrne_%28racing_driver%29,Tommy,Byrne,1958-05-06,Irish
+cheever,http://en.wikipedia.org/wiki/Eddie_Cheever,Eddie,Cheever,1958-01-10,American
+daly,http://en.wikipedia.org/wiki/Derek_Daly,Derek,Daly,1953-03-11,Irish
+angelis,http://en.wikipedia.org/wiki/Elio_de_Angelis,Elio,de Angelis,1958-03-26,Italian
+cesaris,http://en.wikipedia.org/wiki/Andrea_de_Cesaris,Andrea,de Cesaris,1959-05-31,Italian
+villota,http://en.wikipedia.org/wiki/Emilio_de_Villota,Emilio,de Villota,1946-07-26,Spanish
+fabi,http://en.wikipedia.org/wiki/Teo_Fabi,Teo,Fabi,1955-03-09,Italian
+giacomelli,http://en.wikipedia.org/wiki/Bruno_Giacomelli,Bruno,Giacomelli,1952-09-10,Italian
+guerrero,http://en.wikipedia.org/wiki/Roberto_Guerrero,Roberto,Guerrero,1958-11-16,Colombian
+henton,http://en.wikipedia.org/wiki/Brian_Henton,Brian,Henton,1946-09-19,British
+jarier,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French
+keegan,http://en.wikipedia.org/wiki/Rupert_Keegan,Rupert,Keegan,1955-02-26,British
+laffite,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French
+lammers,http://en.wikipedia.org/wiki/Jan_Lammers,Jan,Lammers,1956-06-02,Dutch
+lauda,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian
+lees,http://en.wikipedia.org/wiki/Geoff_Lees,Geoff,Lees,1951-05-01,British
+mansell,http://en.wikipedia.org/wiki/Nigel_Mansell,Nigel,Mansell,1953-08-08,British
+mass,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German
+moreno,http://en.wikipedia.org/wiki/Roberto_Moreno,Roberto,Moreno,1959-02-11,Brazilian
+paletti,http://en.wikipedia.org/wiki/Riccardo_Paletti,Riccardo,Paletti,1958-06-15,Italian
+patrese,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian
+piquet,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian
+pironi,http://en.wikipedia.org/wiki/Didier_Pironi,Didier,Pironi,1952-03-26,French
+prost,http://en.wikipedia.org/wiki/Alain_Prost,Alain,Prost,1955-02-24,French

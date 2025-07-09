@@ -1,0 +1,19 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,199,15,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1988,16
+2,2,65,1,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1988,16
+3,3,39,0,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1988,16
+4,4,23,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1988,16
+5,5,23,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1988,16
+6,6,22,0,march,http://en.wikipedia.org/wiki/March_Engineering,March,British,1988,16
+7,7,20,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1988,16
+8,8,5,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1988,16
+9,9,3,0,rial,http://en.wikipedia.org/wiki/Rial_%28racing_team%29,Rial,German,1988,16
+10,10,1,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1988,16
+,-,0,0,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French,1988,16
+,-,0,0,dallara,http://en.wikipedia.org/wiki/Dallara,Dallara,Italian,1988,16
+,-,0,0,ags,http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,AGS,French,1988,16
+,-,0,0,coloni,http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems,Coloni,Italian,1988,16
+,-,0,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1988,16
+,-,0,0,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian,1988,16
+,-,0,0,eurobrun,http://en.wikipedia.org/wiki/Euro_Brun,Euro Brun,Italian,1988,16
+,-,0,0,zakspeed,http://en.wikipedia.org/wiki/Zakspeed,Zakspeed,German,1988,16

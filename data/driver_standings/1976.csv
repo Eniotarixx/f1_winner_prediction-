@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,66,6,hunt,,,http://en.wikipedia.org/wiki/James_Hunt,James,Hunt,1947-08-29,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+2,2,64,5,lauda,,,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+3,3,48,1,scheckter,,,http://en.wikipedia.org/wiki/Jody_Scheckter,Jody,Scheckter,1950-01-29,South African,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+4,4,39,0,depailler,,,http://en.wikipedia.org/wiki/Patrick_Depailler,Patrick,Depailler,1944-08-09,French,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+5,5,31,1,regazzoni,,,http://en.wikipedia.org/wiki/Clay_Regazzoni,Clay,Regazzoni,1939-09-05,Swiss,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+6,6,22,1,mario_andretti,,,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+7,7,20,1,watson,,,http://en.wikipedia.org/wiki/John_Watson_(racing_driver),John,Watson,1946-05-04,British,penske,http://en.wikipedia.org/wiki/Penske_Racing,Penske,American
+8,8,20,0,laffite,,,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+9,9,19,0,mass,,,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+10,10,11,0,nilsson,,,http://en.wikipedia.org/wiki/Gunnar_Nilsson,Gunnar,Nilsson,1948-11-20,Swedish,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+11,11,10,1,peterson,,,http://en.wikipedia.org/wiki/Ronnie_Peterson,Ronnie,Peterson,1944-02-14,Swedish,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+12,12,10,0,pryce,,,http://en.wikipedia.org/wiki/Tom_Pryce,Tom,Pryce,1949-06-11,British,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+13,13,8,0,stuck,,,http://en.wikipedia.org/wiki/Hans_Joachim_Stuck,Hans-Joachim,Stuck,1951-01-01,German,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+14,14,7,0,pace,,,http://en.wikipedia.org/wiki/Carlos_Pace,Carlos,Pace,1944-10-06,Brazilian,brabham-alfa_romeo,http://en.wikipedia.org/wiki/Brabham,Brabham-Alfa Romeo,British
+15,15,7,0,jones,,,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+16,16,3,0,reutemann,,,http://en.wikipedia.org/wiki/Carlos_Reutemann,Carlos,Reutemann,1942-04-12,Argentine,brabham-alfa_romeo,http://en.wikipedia.org/wiki/Brabham,Brabham-Alfa Romeo,British
+17,17,3,0,emerson_fittipaldi,,,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,Emerson,Fittipaldi,1946-12-12,Brazilian,fittipaldi,http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29,Fittipaldi,Brazilian
+18,18,2,0,amon,,,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander,ensign,http://en.wikipedia.org/wiki/Ensign_%28racing_team%29,Ensign,British
+19,19,1,0,brambilla,,,http://en.wikipedia.org/wiki/Vittorio_Brambilla,Vittorio,Brambilla,1937-11-11,Italian,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+20,20,1,0,stommelen,,,http://en.wikipedia.org/wiki/Rolf_Stommelen,Rolf,Stommelen,1943-07-11,German,brabham-alfa_romeo,http://en.wikipedia.org/wiki/Brabham,Brabham-Alfa Romeo,British
+,-,0,0,ertl,,,http://en.wikipedia.org/wiki/Harald_Ertl,Harald,Ertl,1948-08-31,Austrian,hesketh,http://en.wikipedia.org/wiki/Hesketh_Racing,Hesketh,British
+,-,0,0,jarier,,,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French,shadow,http://en.wikipedia.org/wiki/Shadow_Racing_Cars,Shadow,British
+,-,0,0,ickx,,,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian,wolf,http://en.wikipedia.org/wiki/Walter_Wolf_Racing,Wolf,Canadian
+,-,0,0,perkins,,,http://en.wikipedia.org/wiki/Larry_Perkins,Larry,Perkins,1950-03-18,Australian,boro,http://en.wikipedia.org/wiki/Boro_(Formula_One),Boro,Dutch
+,-,0,0,pescarolo,,,http://en.wikipedia.org/wiki/Henri_Pescarolo,Henri,Pescarolo,1942-09-25,French,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+,-,0,0,merzario,,,http://en.wikipedia.org/wiki/Arturo_Merzario,Arturo,Merzario,1943-03-11,Italian,march,http://en.wikipedia.org/wiki/March_Engineering,March,British
+,-,0,0,zorzi,,,http://en.wikipedia.org/wiki/Renzo_Zorzi,Renzo,Zorzi,1946-12-12,Italian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+,-,0,0,takahara,,,http://en.wikipedia.org/wiki/Noritake_Takahara,Noritake,Takahara,1951-06-06,Japanese,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British
+,-,0,0,leclere,,,http://en.wikipedia.org/wiki/Michel_Lecl%C3%A8re,Michel,Leclère,1946-03-18,French,wolf,http://en.wikipedia.org/wiki/Walter_Wolf_Racing,Wolf,Canadian
+,-,0,0,lunger,,,http://en.wikipedia.org/wiki/Brett_Lunger,Brett,Lunger,1945-11-14,American,surtees,http://en.wikipedia.org/wiki/Surtees,Surtees,British

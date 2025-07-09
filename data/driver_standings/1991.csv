@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,96,7,senna,,,http://en.wikipedia.org/wiki/Ayrton_Senna,Ayrton,Senna,1960-03-21,Brazilian,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+2,2,72,5,mansell,,,http://en.wikipedia.org/wiki/Nigel_Mansell,Nigel,Mansell,1953-08-08,British,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+3,3,53,2,patrese,,,http://en.wikipedia.org/wiki/Riccardo_Patrese,Riccardo,Patrese,1954-04-17,Italian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+4,4,43,1,berger,,,http://en.wikipedia.org/wiki/Gerhard_Berger,Gerhard,Berger,1959-08-27,Austrian,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+5,5,34,0,prost,,,http://en.wikipedia.org/wiki/Alain_Prost,Alain,Prost,1955-02-24,French,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+6,6,26.5,1,piquet,,,http://en.wikipedia.org/wiki/Nelson_Piquet,Nelson,Piquet,1952-08-17,Brazilian,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian
+7,7,21,0,alesi,,,http://en.wikipedia.org/wiki/Jean_Alesi,Jean,Alesi,1964-06-11,French,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+8,8,10,0,modena,,,http://en.wikipedia.org/wiki/Stefano_Modena,Stefano,Modena,1963-05-12,Italian,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+9,9,9,0,cesaris,,,http://en.wikipedia.org/wiki/Andrea_de_Cesaris,Andrea,de Cesaris,1959-05-31,Italian,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+10,10,8,0,moreno,,,http://en.wikipedia.org/wiki/Roberto_Moreno,Roberto,Moreno,1959-02-11,Brazilian,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian
+11,11,6,0,martini,,,http://en.wikipedia.org/wiki/Pierluigi_Martini,Pierluigi,Martini,1961-04-23,Italian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+12,12,4,0,lehto,,,http://en.wikipedia.org/wiki/Jyrki_J%C3%A4rvilehto,Jyrki,Järvilehto,1966-01-31,Finnish,dallara,http://en.wikipedia.org/wiki/Dallara,Dallara,Italian
+13,13,4,0,gachot,,,http://en.wikipedia.org/wiki/Bertrand_Gachot,Bertrand,Gachot,1962-12-23,Belgian,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+14,14,4,0,michael_schumacher,,MSC,http://en.wikipedia.org/wiki/Michael_Schumacher,Michael,Schumacher,1969-01-03,German,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+15,15,2,0,satoru_nakajima,,,http://en.wikipedia.org/wiki/Satoru_Nakajima,Satoru,Nakajima,1953-02-23,Japanese,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British
+16,16,2,0,hakkinen,,,http://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen,Mika,Häkkinen,1968-09-28,Finnish,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+17,17,2,0,brundle,,,http://en.wikipedia.org/wiki/Martin_Brundle,Martin,Brundle,1959-06-01,British,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+18,18,1,0,pirro,,,http://en.wikipedia.org/wiki/Emanuele_Pirro,Emanuele,Pirro,1962-01-12,Italian,dallara,http://en.wikipedia.org/wiki/Dallara,Dallara,Italian
+19,19,1,0,blundell,,,http://en.wikipedia.org/wiki/Mark_Blundell,Mark,Blundell,1966-04-08,British,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British
+20,20,1,0,capelli,,,http://en.wikipedia.org/wiki/Ivan_Capelli,Ivan,Capelli,1963-05-24,Italian,leyton,http://en.wikipedia.org/wiki/Leyton_House,Leyton House,British
+21,21,1,0,bernard,,,http://en.wikipedia.org/wiki/%C3%89ric_Bernard,Éric,Bernard,1964-08-24,French,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French
+22,22,1,0,suzuki,,,http://en.wikipedia.org/wiki/Aguri_Suzuki,Aguri,Suzuki,1960-09-08,Japanese,larrousse,http://en.wikipedia.org/wiki/Larrousse,Larrousse,French
+23,23,1,0,bailey,,,http://en.wikipedia.org/wiki/Julian_Bailey,Julian,Bailey,1961-10-09,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+24,24,0.5,0,morbidelli,,,http://en.wikipedia.org/wiki/Gianni_Morbidelli,Gianni,Morbidelli,1968-01-13,Italian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+,-,0,0,gugelmin,,,http://en.wikipedia.org/wiki/Maur%C3%ADcio_Gugelmin,Maurício,Gugelmin,1963-04-20,Brazilian,leyton,http://en.wikipedia.org/wiki/Leyton_House,Leyton House,British
+,-,0,0,boutsen,,,http://en.wikipedia.org/wiki/Thierry_Boutsen,Thierry,Boutsen,1957-07-13,Belgian,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+,-,0,0,herbert,,,http://en.wikipedia.org/wiki/Johnny_Herbert,Johnny,Herbert,1964-06-25,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+,-,0,0,larini,,,http://en.wikipedia.org/wiki/Nicola_Larini,Nicola,Larini,1964-03-19,Italian,lambo,http://en.wikipedia.org/wiki/Modena_(racing_team),Lambo,Italian
+,-,0,0,comas,,,http://en.wikipedia.org/wiki/%C3%89rik_Comas,Érik,Comas,1963-09-28,French,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French
+,-,0,0,tarquini,,,http://en.wikipedia.org/wiki/Gabriele_Tarquini,Gabriele,Tarquini,1962-03-02,Italian,ags,http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives,AGS,French

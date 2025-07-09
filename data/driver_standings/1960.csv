@@ -1,0 +1,31 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,43,5,jack_brabham,,,http://en.wikipedia.org/wiki/Jack_Brabham,Jack,Brabham,1926-04-02,Australian,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+2,2,34,1,mclaren,,,http://en.wikipedia.org/wiki/Bruce_McLaren,Bruce,McLaren,1937-08-30,New Zealander,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+3,3,19,2,moss,,,http://en.wikipedia.org/wiki/Stirling_Moss,Stirling,Moss,1929-09-17,British,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+4,4,18,0,ireland,,,http://en.wikipedia.org/wiki/Innes_Ireland,Innes,Ireland,1930-06-12,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+5,5,16,1,phil_hill,,,http://en.wikipedia.org/wiki/Phil_Hill,Phil,Hill,1927-04-20,American,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+6,6,10,0,gendebien,,,http://en.wikipedia.org/wiki/Olivier_Gendebien,Olivier,Gendebien,1924-01-12,Belgian,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+7,7,10,0,trips,,,http://en.wikipedia.org/wiki/Wolfgang_Graf_Berghe_von_Trips,Wolfgang,von Trips,1928-05-04,German,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+8,8,8,1,rathmann,,,http://en.wikipedia.org/wiki/Jim_Rathmann,Jim,Rathmann,1928-07-16,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+9,9,8,0,ginther,,,http://en.wikipedia.org/wiki/Richie_Ginther,Richie,Ginther,1930-08-05,American,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+10,10,8,0,clark,,,http://en.wikipedia.org/wiki/Jim_Clark,Jim,Clark,1936-03-04,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+11,11,7,0,brooks,,,http://en.wikipedia.org/wiki/Tony_Brooks,Tony,Brooks,1932-02-25,British,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+12,12,6,0,surtees,,,http://en.wikipedia.org/wiki/John_Surtees,John,Surtees,1934-02-11,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+13,13,6,0,allison,,,http://en.wikipedia.org/wiki/Cliff_Allison,Cliff,Allison,1932-02-08,British,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+14,14,6,0,ward,,,http://en.wikipedia.org/wiki/Rodger_Ward,Rodger,Ward,1921-01-10,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+15,15,4,0,hill,,,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+16,16,4,0,mairesse,,,http://en.wikipedia.org/wiki/Willy_Mairesse,Willy,Mairesse,1928-10-01,Belgian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+17,17,4,0,goldsmith,,,http://en.wikipedia.org/wiki/Paul_Goldsmith,Paul,Goldsmith,1925-10-02,American,epperly,http://en.wikipedia.org/wiki/Epperly,Epperly,American
+18,18,4,0,bonnier,,,http://en.wikipedia.org/wiki/Joakim_Bonnier,Jo,Bonnier,1930-01-31,Swedish,brm,http://en.wikipedia.org/wiki/BRM,BRM,British
+19,19,3,0,henry_taylor,,,http://en.wikipedia.org/wiki/Henry_Taylor_(racing_driver),Henry,Taylor,1932-12-16,British,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+20,20,3,0,menditeguy,,,http://en.wikipedia.org/wiki/Carlos_Menditeguy,Carlos,Menditeguy,1914-08-10,Argentine,cooper-maserati,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Maserati,British
+21,21,3,0,branson,,,http://en.wikipedia.org/wiki/Don_Branson,Don,Branson,1920-06-02,American,phillips,http://en.wikipedia.org/wiki/Phillips_(constructor),Phillips,American
+22,22,3,0,cabianca,,,http://en.wikipedia.org/wiki/Giulio_Cabianca,Giulio,Cabianca,1923-02-19,Italian,cooper-castellotti,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Castellotti,British
+23,23,2,0,thomson,,,http://en.wikipedia.org/wiki/Johnny_Thomson,Johnny,Thomson,1922-04-09,American,lesovsky,http://en.wikipedia.org/wiki/Lesovsky,Lesovsky,American
+24,24,1,0,bianchi,,BIA,http://en.wikipedia.org/wiki/Lucien_Bianchi,Lucien,Bianchi,1934-11-10,Belgian,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+25,25,1,0,flockhart,,,http://en.wikipedia.org/wiki/Ron_Flockhart_(auto_racing),Ron,Flockhart,1923-06-16,British,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British
+26,26,1,0,johnson,,,http://en.wikipedia.org/wiki/Eddie_Johnson_(auto_racer),Eddie,Johnson,1919-02-10,American,trevis,http://en.wikipedia.org/wiki/Trevis,Trevis,American
+27,27,1,0,herrmann,,,http://en.wikipedia.org/wiki/Hans_Herrmann,Hans,Herrmann,1928-02-23,German,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German
+,-,0,0,trintignant,,,http://en.wikipedia.org/wiki/Maurice_Trintignant,Maurice,Trintignant,1917-10-30,French,cooper-climax,http://en.wikipedia.org/wiki/Cooper_Car_Company,Cooper-Climax,British
+,-,0,0,ruby,,,http://en.wikipedia.org/wiki/Lloyd_Ruby,Lloyd,Ruby,1928-01-12,American,watson,http://en.wikipedia.org/wiki/A.J._Watson,Watson,American
+,-,0,0,barth,,,http://en.wikipedia.org/wiki/Edgar_Barth,Edgar,Barth,1917-01-26,German,porsche,http://en.wikipedia.org/wiki/Porsche_in_Formula_One,Porsche,German

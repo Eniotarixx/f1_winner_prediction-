@@ -1,0 +1,13 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,206,8,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,2006,18
+2,2,201,9,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,2006,18
+3,3,110,0,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,2006,18
+4,4,86,1,honda,http://en.wikipedia.org/wiki/Honda_Racing_F1,Honda,Japanese,2006,18
+5,5,36,0,bmw_sauber,http://en.wikipedia.org/wiki/BMW_Sauber,BMW Sauber,German,2006,18
+6,6,35,0,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese,2006,18
+7,7,16,0,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian,2006,18
+8,8,11,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,2006,18
+9,9,1,0,toro_rosso,http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso,Toro Rosso,Italian,2006,18
+10,10,0,0,mf1,http://en.wikipedia.org/wiki/Midland_F1_Racing,MF1,Russian,2006,18
+11,11,0,0,super_aguri,http://en.wikipedia.org/wiki/Super_Aguri_F1,Super Aguri,Japanese,2006,18
+12,12,0,0,spyker_mf1,http://en.wikipedia.org/wiki/Midland_F1_Racing,Spyker MF1,Dutch,2006,18

@@ -1,0 +1,16 @@
+circuitId,url,circuitName,lat,long,locality,country
+brands_hatch,https://en.wikipedia.org/wiki/Brands_Hatch,Brands Hatch,51.3569,0.263056,Kent,UK
+detroit,https://en.wikipedia.org/wiki/Detroit_street_circuit,Detroit Street Circuit,42.3298,-83.0401,Detroit,USA
+hockenheimring,https://en.wikipedia.org/wiki/Hockenheimring,Hockenheimring,49.3278,8.56583,Hockenheim,Germany
+imola,https://en.wikipedia.org/wiki/Imola_Circuit,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,Imola,Italy
+jacarepagua,https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,Rio de Janeiro,Brazil
+kyalami,https://en.wikipedia.org/wiki/Kyalami,Kyalami,-25.9894,28.0767,Midrand,South Africa
+long_beach,"https://en.wikipedia.org/wiki/Long_Beach,_California",Long Beach,33.7651,-118.189,California,USA
+monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
+monza,https://en.wikipedia.org/wiki/Monza_Circuit,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
+red_bull_ring,https://en.wikipedia.org/wiki/Red_Bull_Ring,Red Bull Ring,47.2197,14.7647,Spielberg,Austria
+ricard,https://en.wikipedia.org/wiki/Circuit_Paul_Ricard,Circuit Paul Ricard,43.2506,5.79167,Le Castellet,France
+silverstone,https://en.wikipedia.org/wiki/Silverstone_Circuit,Silverstone Circuit,52.0786,-1.01694,Silverstone,UK
+spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
+villeneuve,https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve,Circuit Gilles Villeneuve,45.5,-73.5228,Montreal,Canada
+zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands

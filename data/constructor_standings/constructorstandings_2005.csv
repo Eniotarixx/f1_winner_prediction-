@@ -1,0 +1,11 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,191,8,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,2005,19
+2,2,182,10,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,2005,19
+3,3,100,1,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,2005,19
+4,4,88,0,toyota,http://en.wikipedia.org/wiki/Toyota_Racing,Toyota,Japanese,2005,19
+5,5,66,0,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,2005,19
+6,6,38,0,bar,http://en.wikipedia.org/wiki/British_American_Racing,BAR,British,2005,19
+7,7,34,0,red_bull,http://en.wikipedia.org/wiki/Red_Bull_Racing,Red Bull,Austrian,2005,19
+8,8,20,0,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss,2005,19
+9,9,12,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,2005,19
+10,10,7,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,2005,19

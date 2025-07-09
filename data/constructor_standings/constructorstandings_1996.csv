@@ -1,0 +1,12 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,175,12,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1996,16
+2,2,70,3,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1996,16
+3,3,68,0,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian,1996,16
+4,4,49,0,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1996,16
+5,5,22,0,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish,1996,16
+6,6,15,1,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1996,16
+7,7,11,0,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss,1996,16
+8,8,5,0,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1996,16
+9,9,1,0,footwork,http://en.wikipedia.org/wiki/Footwork_Arrows,Footwork,British,1996,16
+,-,0,0,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian,1996,16
+,-,0,0,forti,http://en.wikipedia.org/wiki/Forti,Forti,Italian,1996,16

@@ -1,0 +1,17 @@
+position,positionText,points,wins,constructorId,url,name,nationality,season,round
+1,1,89,4,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian,1983,15
+2,2,79,4,renault,http://en.wikipedia.org/wiki/Renault_in_Formula_One,Renault,French,1983,15
+3,3,72,4,brabham,http://en.wikipedia.org/wiki/Brabham,Brabham,British,1983,15
+4,4,38,1,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British,1983,15
+5,5,34,1,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British,1983,15
+6,6,18,0,alfa,http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One,Alfa Romeo,Swiss,1983,15
+7,7,12,1,tyrrell,http://en.wikipedia.org/wiki/Tyrrell_Racing,Tyrrell,British,1983,15
+8,8,12,0,team_lotus,http://en.wikipedia.org/wiki/Team_Lotus,Team Lotus,British,1983,15
+9,9,10,0,toleman,http://en.wikipedia.org/wiki/Toleman,Toleman,British,1983,15
+10,10,4,0,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British,1983,15
+11,11,1,0,theodore,http://en.wikipedia.org/wiki/Theodore_Racing,Theodore,Hong Kong,1983,15
+,-,0,0,ligier,http://en.wikipedia.org/wiki/Ligier,Ligier,French,1983,15
+,-,0,0,spirit,http://en.wikipedia.org/wiki/Spirit_(racing_team),Spirit,British,1983,15
+,-,0,0,ats,http://en.wikipedia.org/wiki/ATS_(wheels),ATS,Italian,1983,15
+,-,0,0,osella,http://en.wikipedia.org/wiki/Osella,Osella,Italian,1983,15
+,-,0,0,ram,http://en.wikipedia.org/wiki/RAM_Racing,RAM,British,1983,15

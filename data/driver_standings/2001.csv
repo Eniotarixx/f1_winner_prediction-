@@ -1,0 +1,27 @@
+position,positionText,points,wins,driverId,permanentNumber,code,url,givenName,familyName,dateOfBirth,nationality,constructorId,cons_url,cons_name,cons_nationality
+1,1,123,9,michael_schumacher,,MSC,http://en.wikipedia.org/wiki/Michael_Schumacher,Michael,Schumacher,1969-01-03,German,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+2,2,65,2,coulthard,,COU,http://en.wikipedia.org/wiki/David_Coulthard,David,Coulthard,1971-03-27,British,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+3,3,56,0,barrichello,,BAR,http://en.wikipedia.org/wiki/Rubens_Barrichello,Rubens,Barrichello,1972-05-23,Brazilian,ferrari,http://en.wikipedia.org/wiki/Scuderia_Ferrari,Ferrari,Italian
+4,4,49,3,ralf_schumacher,,SCH,http://en.wikipedia.org/wiki/Ralf_Schumacher,Ralf,Schumacher,1975-06-30,German,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+5,5,37,2,hakkinen,,,http://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen,Mika,Häkkinen,1968-09-28,Finnish,mclaren,http://en.wikipedia.org/wiki/McLaren,McLaren,British
+6,6,31,1,montoya,,MON,http://en.wikipedia.org/wiki/Juan_Pablo_Montoya,Juan,Pablo Montoya,1975-09-20,Colombian,williams,http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering,Williams,British
+7,7,12,0,villeneuve,,VIL,http://en.wikipedia.org/wiki/Jacques_Villeneuve,Jacques,Villeneuve,1971-04-09,Canadian,bar,http://en.wikipedia.org/wiki/British_American_Racing,BAR,British
+8,8,12,0,heidfeld,,HEI,http://en.wikipedia.org/wiki/Nick_Heidfeld,Nick,Heidfeld,1977-05-10,German,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+9,9,12,0,trulli,,TRU,http://en.wikipedia.org/wiki/Jarno_Trulli,Jarno,Trulli,1974-07-13,Italian,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+10,10,9,0,raikkonen,7,RAI,http://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen,Kimi,Räikkönen,1979-10-17,Finnish,sauber,http://en.wikipedia.org/wiki/Sauber_Motorsport,Sauber,Swiss
+11,11,8,0,fisichella,,FIS,http://en.wikipedia.org/wiki/Giancarlo_Fisichella,Giancarlo,Fisichella,1973-01-14,Italian,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian
+12,12,6,0,irvine,,,http://en.wikipedia.org/wiki/Eddie_Irvine,Eddie,Irvine,1965-11-10,British,jaguar,http://en.wikipedia.org/wiki/Jaguar_Racing,Jaguar,British
+13,13,6,0,frentzen,,,http://en.wikipedia.org/wiki/Heinz-Harald_Frentzen,Heinz-Harald,Frentzen,1967-05-18,German,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+14,14,5,0,panis,,,http://en.wikipedia.org/wiki/Olivier_Panis,Olivier,Panis,1966-09-02,French,bar,http://en.wikipedia.org/wiki/British_American_Racing,BAR,British
+15,15,5,0,alesi,,,http://en.wikipedia.org/wiki/Jean_Alesi,Jean,Alesi,1964-06-11,French,prost,http://en.wikipedia.org/wiki/Prost_Grand_Prix,Prost,French
+16,16,3,0,rosa,,DLR,http://en.wikipedia.org/wiki/Pedro_de_la_Rosa,Pedro,de la Rosa,1971-02-24,Spanish,jaguar,http://en.wikipedia.org/wiki/Jaguar_Racing,Jaguar,British
+17,17,2,0,button,22,BUT,http://en.wikipedia.org/wiki/Jenson_Button,Jenson,Button,1980-01-19,British,benetton,http://en.wikipedia.org/wiki/Benetton_Formula,Benetton,Italian
+18,18,1,0,verstappen,,,http://en.wikipedia.org/wiki/Jos_Verstappen,Jos,Verstappen,1972-03-04,Dutch,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+,-,0,0,zonta,,ZON,http://en.wikipedia.org/wiki/Ricardo_Zonta,Ricardo,Zonta,1976-03-23,Brazilian,jordan,http://en.wikipedia.org/wiki/Jordan_Grand_Prix,Jordan,Irish
+,-,0,0,burti,,,http://en.wikipedia.org/wiki/Luciano_Burti,Luciano,Burti,1975-03-05,Brazilian,jaguar,http://en.wikipedia.org/wiki/Jaguar_Racing,Jaguar,British
+,-,0,0,bernoldi,,,http://en.wikipedia.org/wiki/Enrique_Bernoldi,Enrique,Bernoldi,1978-10-19,Brazilian,arrows,http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International,Arrows,British
+,-,0,0,marques,,,http://en.wikipedia.org/wiki/Tarso_Marques,Tarso,Marques,1976-01-19,Brazilian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+,-,0,0,alonso,14,ALO,http://en.wikipedia.org/wiki/Fernando_Alonso,Fernando,Alonso,1981-07-29,Spanish,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian
+,-,0,0,enge,,,http://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Enge,Tomáš,Enge,1976-09-11,Czech,prost,http://en.wikipedia.org/wiki/Prost_Grand_Prix,Prost,French
+,-,0,0,mazzacane,,,http://en.wikipedia.org/wiki/Gast%C3%B3n_Mazzacane,Gastón,Mazzacane,1975-05-08,Argentine,prost,http://en.wikipedia.org/wiki/Prost_Grand_Prix,Prost,French
+,-,0,0,yoong,,,http://en.wikipedia.org/wiki/Alex_Yoong,Alex,Yoong,1976-07-20,Malaysian,minardi,http://en.wikipedia.org/wiki/Minardi,Minardi,Italian

@@ -1,0 +1,31 @@
+driverId,url,givenName,familyName,dateOfBirth,nationality
+amon,http://en.wikipedia.org/wiki/Chris_Amon,Chris,Amon,1943-07-20,New Zealander
+mario_andretti,http://en.wikipedia.org/wiki/Mario_Andretti,Mario,Andretti,1940-02-28,American
+ashley,http://en.wikipedia.org/wiki/Ian_Ashley,Ian,Ashley,1947-10-26,British
+brambilla,http://en.wikipedia.org/wiki/Vittorio_Brambilla,Vittorio,Brambilla,1937-11-11,Italian
+brise,http://en.wikipedia.org/wiki/Tony_Brise,Tony,Brise,1952-03-28,British
+charlton,http://en.wikipedia.org/wiki/Dave_Charlton,Dave,Charlton,1936-10-27,South African
+crawford,http://en.wikipedia.org/wiki/Jim_Crawford_(driver),Jim,Crawford,1948-02-13,British
+depailler,http://en.wikipedia.org/wiki/Patrick_Depailler,Patrick,Depailler,1944-08-09,French
+donohue,http://en.wikipedia.org/wiki/Mark_Donohue,Mark,Donohue,1937-03-18,American
+ertl,http://en.wikipedia.org/wiki/Harald_Ertl,Harald,Ertl,1948-08-31,Austrian
+evans,http://en.wikipedia.org/wiki/Bob_Evans_(race_driver),Bob,Evans,1947-06-11,British
+emerson_fittipaldi,http://en.wikipedia.org/wiki/Emerson_Fittipaldi,Emerson,Fittipaldi,1946-12-12,Brazilian
+wilson_fittipaldi,http://en.wikipedia.org/wiki/Wilson_Fittipaldi,Wilson,Fittipaldi,1943-12-25,Brazilian
+fushida,http://en.wikipedia.org/wiki/Hiroshi_Fushida,Hiroshi,Fushida,1946-03-10,Japanese
+henton,http://en.wikipedia.org/wiki/Brian_Henton,Brian,Henton,1946-09-19,British
+hill,http://en.wikipedia.org/wiki/Graham_Hill,Graham,Hill,1929-02-15,British
+hunt,http://en.wikipedia.org/wiki/James_Hunt,James,Hunt,1947-08-29,British
+ickx,http://en.wikipedia.org/wiki/Jacky_Ickx,Jacky,Ickx,1945-01-01,Belgian
+jabouille,http://en.wikipedia.org/wiki/Jean-Pierre_Jabouille,Jean-Pierre,Jabouille,1942-10-01,French
+jarier,http://en.wikipedia.org/wiki/Jean-Pierre_Jarier,Jean-Pierre,Jarier,1946-07-10,French
+jones,http://en.wikipedia.org/wiki/Alan_Jones_(Formula_1),Alan,Jones,1946-11-02,Australian
+keizan,http://en.wikipedia.org/wiki/Eddie_Keizan,Eddie,Keizan,1944-09-12,South African
+laffite,http://en.wikipedia.org/wiki/Jacques_Laffite,Jacques,Laffite,1943-11-21,French
+lauda,http://en.wikipedia.org/wiki/Niki_Lauda,Niki,Lauda,1949-02-22,Austrian
+leclere,http://en.wikipedia.org/wiki/Michel_Lecl%C3%A8re,Michel,Leclère,1946-03-18,French
+lombardi,http://en.wikipedia.org/wiki/Lella_Lombardi,Lella,Lombardi,1941-03-26,Italian
+lunger,http://en.wikipedia.org/wiki/Brett_Lunger,Brett,Lunger,1945-11-14,American
+magee,http://en.wikipedia.org/wiki/Damien_Magee,Damien,Magee,1945-11-17,British
+mass,http://en.wikipedia.org/wiki/Jochen_Mass,Jochen,Mass,1946-09-30,German
+merzario,http://en.wikipedia.org/wiki/Arturo_Merzario,Arturo,Merzario,1943-03-11,Italian
