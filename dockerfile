@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY dump_into_csv.py .
 
-CMD ["python", "dump_into_csv.py"]
+CMD ["python", "-u", "dump_into_csv.py"]
