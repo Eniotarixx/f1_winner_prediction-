@@ -1,8 +1,16 @@
 import requests
 import pandas as pd
+from google.cloud import bigquery
+from google.api_core import exceptions
 import os
 import time
 #season 1955 to 2025
+
+
+#Authentifaiciton by setting up an 
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'bigquerry-test-465502-a43bb7bb5fca.json'
+#creatre an instance big querry
+client = bigquery.Client()
 
 url = [
     '/ergast/f1/circuits/',
@@ -19,7 +27,6 @@ url = [
     '/ergast/f1/sprint/',
     '/ergast/f1/status/']
 
-
 def check_directory():
     os.makedirs('data', exist_ok=True)
     os.makedirs('data/constructor_standings', exist_ok=True)
@@ -30,6 +37,49 @@ def check_directory():
     os.makedirs('data/qualifying', exist_ok=True)
     os.makedirs('data/races', exist_ok=True)
     os.makedirs('data/results', exist_ok=True)
+
+
+def upload_to_bigquerry(client, df, table_id):
+    '''
+
+    input: df + path + table_id
+    
+    ToDo 
+    create the dataset if needed
+    create the table if needed
+    check duplicate 
+    only upload new data 
+
+    '''
+    try:
+        #get the data from the table - récupérer TOUTES les colonnes
+        query = f"SELECT * FROM `{table_id}`" #build the querry
+        existing = client.query(query).to_dataframe() #execute the querry and format it to a dataframe
+    except exceptions.NotFound:
+        # Table doesn't exist yet, create empty DataFrame avec toutes les colonnes
+        print("Table doesn't exist yet, will be created with first upload")
+        existing = pd.DataFrame(columns=df.columns)
+
+    # 2. Filter data in double - déduplication basée sur toutes les colonnes
+    if not existing.empty: #check if existing is not empty
+        # Concaténer les DataFrames pour identifier les doublons complets
+        combined = pd.concat([existing, df], ignore_index=True)
+        # Supprimer les doublons basés sur TOUTES les colonnes
+        combined_no_duplicates = combined.drop_duplicates()
+        # Garder seulement les nouvelles lignes (celles qui n'étaient pas dans 'existing')
+        df = combined_no_duplicates.iloc[len(existing):]
+
+    if not df.empty:
+        # send the date to bigquerry using a job
+        job = client.load_table_from_dataframe(df, table_id)
+        #wait that the job is done because it's asynchone 
+        job.result()
+        #display a confirmation message
+        print("✅ data sent")
+    else:
+        print('🆗 no new data to upload')
+
+    return None
     
 def handle_http_response(response, season, round=None):
     if response.status_code == 429:
@@ -44,8 +94,6 @@ def handle_http_response(response, season, round=None):
         return False
     return True
 
-
-
 def circuits():
     for season in range (1950, 2026): #2026 because the last one is escluded
         if not os.path.isfile(f'data/circuits/{season}.csv'):
@@ -57,6 +105,8 @@ def circuits():
             print('circuits: ', season, response)
             data = response.json()
             circuits = data['MRData']['CircuitTable']['Circuits']
+            season_str = data['MRData']['CircuitTable']['season']
+
             if circuits:
                 for c in circuits:
                     c['lat'] = c['Location']['lat']
@@ -64,9 +114,13 @@ def circuits():
                     c['locality'] = c['Location']['locality']
                     c['country'] = c['Location']['country']
                     del c['Location']
+                    c['season'] = season_str
+
                 df = pd.DataFrame(circuits)
-                df.to_csv(f'data/circuits/{season}.csv', index=False)
-                time.sleep(1)
+                if not df.empty:
+                    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.circuits')
+                else:
+                     print('no new data to upload') 
     return None
 
 def constructors():
@@ -80,9 +134,12 @@ def constructors():
             print('constructors: ', season, response)
             data = response.json()
             constructors = data['MRData']['ConstructorTable']['Constructors']
-            df = pd.DataFrame(constructors)
-            df.to_csv(f'data/constructors/{season}.csv', index=False)
-            time.sleep(1)
+
+            df = pd.DataFrame(constructors) 
+            if not df.empty:
+                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructors')
+            else:
+                print('no new data to upload')
     return None
     
 def constructor_standings():
@@ -106,9 +163,14 @@ def constructor_standings():
                     del c['Constructor']
                     c['season'] = standings_lists[0]['season']
                     c['round'] = standings_lists[0]['round']
+
+
                 df = pd.DataFrame(constructor_standings)
-                df.to_csv(f'data/constructor_standings/constructorstandings_{season}.csv', index=False)
-                time.sleep(1)
+
+                if not df.empty:
+                    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructor_standings')
+                else:
+                    print('no new data to upload')
     return None
 
 def drivers():
@@ -123,8 +185,11 @@ def drivers():
             data = response.json()
             drivers = data['MRData']['DriverTable']['Drivers']
             df = pd.DataFrame(drivers)
-            df.to_csv(f'data/drivers/{season}.csv', index=False)
-            time.sleep(1)
+
+            if not df.empty:
+                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.drivers')
+            else:
+                print('no new data to upload')
     return None
 
 def driver_standings():
@@ -155,8 +220,12 @@ def driver_standings():
                 d['cons_nationality'] = d['Constructors'][0]['nationality']
                 del d['Constructors']
             df = pd.DataFrame(driver_standings)
-            df.to_csv(f'data/driver_standings/{season}.csv', index=False)
-            time.sleep(1)
+            
+            if not df.empty:
+                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.driver_standings')
+            else:
+                print('no new data to upload')
+
     return None
 
 def laps():
@@ -215,9 +284,12 @@ def qualifying():
                             rows.append(row)
 
                     df = pd.DataFrame(rows)
-                    df.to_csv(f'data/qualifying/{season}_{round}.csv', index=False)
+
+                    if not df.empty:
+                        upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.qualifying')
+                    else:
+                        print('no new data to upload')
                     round +=1
-                    time.sleep(1)
     return None
 
 def races():
@@ -262,8 +334,12 @@ def races():
                 r.pop('Sprint', None)
 
             df = pd.DataFrame(races)
-            df.to_csv(f'data/races/{season}.csv', index=False)
-            time.sleep(1)
+
+            if not df.empty:
+                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.races')
+            else:
+                print('no new data to upload')
+
     return None
 
 def results():
@@ -331,10 +407,14 @@ def results():
                             rows.append(row)
                         
                         df = pd.DataFrame(rows)
-                        df.to_csv(f'data/results/{season}_{round}.csv', index=False)
+
+                        if not df.empty:
+                            upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.results')
+                        else:
+                            print('no new data to upload')
+            
                         round +=1
 
-                        time.sleep(1)
     return None
 
 
@@ -343,7 +423,9 @@ def test():
 
 def main ():
     check_directory()
+
     circuits()
+
     constructors()
     constructor_standings()
     drivers()
