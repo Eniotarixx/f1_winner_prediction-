@@ -1,2 +1,7 @@
 requests
 pandas
+pandas-gbq
+google-cloud-bigquery
+google-cloud-bigquery-storage
+pyarrow
+db-dtypes
