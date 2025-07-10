@@ -31,6 +31,19 @@ def check_directory():
     os.makedirs('data/races', exist_ok=True)
     os.makedirs('data/results', exist_ok=True)
     
+def handle_http_response(response, season, round=None):
+    if response.status_code == 429:
+        print("Too many request, break of 10 seconds...")
+        time.sleep(10)
+        return False  
+    elif response.status_code != 200:
+        if round:
+            print(f"Error HTTP {response.status_code} for {season} round {round}")
+        else:
+            print(f"Error HTTP {response.status_code} for {season}")
+        return False
+    return True
+
 
 
 def circuits():
@@ -38,12 +51,7 @@ def circuits():
         if not os.path.isfile(f'data/circuits/{season}.csv'):
             response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/circuits/')
 
-            if response.status_code == 429:
-                print("Too many request, break of 10 seconds...")
-                time.sleep(10)
-                continue  
-            elif response.status_code != 200:
-                print(f"Error HTTP {response.status_code} for {season} round {round}")
+            if not handle_http_response(response, season):
                 break
 
             print('circuits: ', season, response)
@@ -66,12 +74,7 @@ def constructors():
         if not os.path.isfile(f'data/constructors/{season}.csv'):
             response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/constructors/')
 
-            if response.status_code == 429:
-                print("Too many request, break of 10 seconds...")
-                time.sleep(10)
-                continue  
-            elif response.status_code != 200:
-                print(f"Error HTTP {response.status_code} for {season}")
+            if not handle_http_response(response, season):
                 break
 
             print('constructors: ', season, response)
@@ -87,12 +90,7 @@ def constructor_standings():
         if not os.path.isfile(f'data/constructor_standings/constructorstandings_{season}.csv'):
             response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/constructorstandings/')
 
-            if response.status_code == 429:
-                print("Too many request, break of 10 seconds...")
-                time.sleep(10)
-                continue  
-            elif response.status_code != 200:
-                print(f"Error HTTP {response.status_code} for {season}")
+            if not handle_http_response(response, season):
                 break
 
             print('constructor_standings: ', season, response)
@@ -118,12 +116,7 @@ def drivers():
         if not os.path.isfile(f'data/drivers/{season}.csv'):
             response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/drivers/')
 
-            if response.status_code == 429:
-                print("Too many request, break of 10 seconds...")
-                time.sleep(10)
-                continue  
-            elif response.status_code != 200:
-                print(f"Error HTTP {response.status_code} for {season}")
+            if not handle_http_response(response, season):
                 break
 
             print('drivers: ', season, response)
@@ -139,12 +132,7 @@ def driver_standings():
         if not os.path.isfile(f'data/driver_standings/{season}.csv'):
             response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/driverstandings/')
 
-            if response.status_code == 429:
-                print("Too many request, break of 10 seconds...")
-                time.sleep(10)
-                continue  
-            elif response.status_code != 200:
-                print(f"Error HTTP {response.status_code} for {season}")
+            if not handle_http_response(response, season):
                 break
 
             print('driver_standings: ', season, response)
@@ -185,12 +173,7 @@ def qualifying():
             if not os.path.isfile(f'data/qualifying/{season}_{round}.csv'):
                 response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/{round}/qualifying/')
 
-                if response.status_code == 429:
-                    print("Too many request, break of 10 seconds...")
-                    time.sleep(10)
-                    continue  
-                elif response.status_code != 200:
-                    print(f"Error HTTP {response.status_code} for {season} round {round}")
+                if not handle_http_response(response, season, round):
                     break
 
                 print('qualifying: ', season, round, response)
@@ -242,12 +225,7 @@ def races():
         if not os.path.isfile(f'data/races/{season}.csv'):
             response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/races/')
 
-            if response.status_code == 429:
-                print("Too many request, break of 10 seconds...")
-                time.sleep(10)
-                continue  
-            elif response.status_code != 200:
-                print(f"Error HTTP {response.status_code} for {season}")
+            if not handle_http_response(response, season):
                 break
 
             print('races: ', season, response)
@@ -296,12 +274,7 @@ def results():
             if not os.path.isfile(f'data/results/{season}_{round}.csv.csv'):
                 response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/{round}/results/')
 
-                if response.status_code == 429:
-                    print("Too many request, break of 10 seconds...")
-                    time.sleep(10)
-                    continue  
-                elif response.status_code != 200:
-                    print(f"Error HTTP {response.status_code} for {season} round {round}")
+                if not handle_http_response(response, season, round):
                     break
 
                 print('results: ', season, round, response)
