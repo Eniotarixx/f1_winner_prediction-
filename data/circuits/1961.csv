@@ -1,9 +1,0 @@
-circuitId,url,circuitName,lat,long,locality,country
-aintree,https://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit,Aintree,53.4769,-2.94056,Liverpool,UK
-monaco,https://en.wikipedia.org/wiki/Circuit_de_Monaco,Circuit de Monaco,43.7347,7.42056,Monte-Carlo,Monaco
-monza,https://en.wikipedia.org/wiki/Monza_Circuit,Autodromo Nazionale di Monza,45.6156,9.28111,Monza,Italy
-nurburgring,https://en.wikipedia.org/wiki/N%C3%BCrburgring,Nürburgring,50.3356,6.9475,Nürburg,Germany
-reims,https://en.wikipedia.org/wiki/Reims-Gueux,Reims-Gueux,49.2542,3.93083,Reims,France
-spa,https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps,Circuit de Spa-Francorchamps,50.4372,5.97139,Spa,Belgium
-watkins_glen,https://en.wikipedia.org/wiki/Watkins_Glen_International,Watkins Glen,42.3369,-76.9272,New York State,USA
-zandvoort,https://en.wikipedia.org/wiki/Circuit_Zandvoort,Circuit Park Zandvoort,52.3888,4.54092,Zandvoort,Netherlands
