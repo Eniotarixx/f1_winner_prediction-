@@ -250,17 +250,17 @@ def races():
             r['circuitId'] = r['Circuit']['circuitId']
             r['circuitName'] = r['Circuit']['circuitName']
 
-            r['first_practice_date'] = r['FirstPractice']['date']
-            r['first_practice_time'] = r['FirstPractice']['time']
+            r['first_practice_date'] = r.get('FirstPractice', {}).get('date', None)
+            r['first_practice_time'] = r.get('FirstPractice', {}).get('time', None)
 
             r['second_practice_date'] = r.get('SecondPractice', {}).get('date', None)
-            r['second_practice_date'] = r.get('SecondPractice', {}).get('time', None)        
+            r['second_practice_time'] = r.get('SecondPractice', {}).get('time', None)        
 
             r['third_practice_date'] = r.get('ThirdPractice', {}).get('date', None)
-            r['third_practice_date'] = r.get('ThirdPractice', {}).get('time', None) 
+            r['third_practice_time'] = r.get('ThirdPractice', {}).get('time', None) 
 
-            r['qualifying_date'] = r['Qualifying']['date']
-            r['qualifying_time'] = r['Qualifying']['time']
+            r['qualifying_date'] = r.get('Qualifying', {}).get('date', None)
+            r['qualifying_time'] = r.get('Qualifying', {}).get('time', None)
 
             r['sprint_qualifying_date'] = r.get('SprintQualifying', {}).get('date', None)
             r['sprint_qualifying_time'] = r.get('SprintQualifying', {}).get('time', None) 
@@ -269,10 +269,10 @@ def races():
             r['sprint_time'] = r.get('Sprint', {}).get('time', None) 
 
             del r['Circuit']
-            del r['FirstPractice']
+            r.pop('FirstPractice', None)
             r.pop('SecondPractice', None)
             r.pop('ThirdPractice', None)
-            del r['Qualifying']
+            r.pop('Qualifying', None)
             r.pop('SprintQualifying', None)
             r.pop('Sprint', None)
 
