@@ -163,6 +163,8 @@ def constructor_standings():
                     del c['Constructor']
                     c['season'] = standings_lists[0]['season']
                     c['round'] = standings_lists[0]['round']
+                    c['position'] = c.get('position', None)
+                    c['positionText'] = c.get('positionText', None)
 
 
                 df = pd.DataFrame(constructor_standings)
