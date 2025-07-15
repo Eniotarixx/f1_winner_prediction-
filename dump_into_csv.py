@@ -52,7 +52,7 @@ def upload_to_bigquerry(client, df, table_id):
 
     '''
     try:
-        #get the data from the table - récupérer TOUTES les colonnes
+        #get the data from the table - get all the columns
         query = f"SELECT * FROM `{table_id}`" #build the querry
         existing = client.query(query).to_dataframe() #execute the querry and format it to a dataframe
     except exceptions.NotFound:
@@ -81,7 +81,7 @@ def upload_to_bigquerry(client, df, table_id):
 
     return None
     
-def handle_http_response(response, season, round=None):
+def handle_http_response(response, season=None, round=None):
     if response.status_code == 429:
         print("Too many request, break of 10 seconds...")
         time.sleep(10)
@@ -95,32 +95,32 @@ def handle_http_response(response, season, round=None):
     return True
 
 def circuits():
-    for season in range (1950, 2026): #2026 because the last one is escluded
-        if not os.path.isfile(f'data/circuits/{season}.csv'):
-            response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/circuits/')
+    url = http://api.jolpi.ca/ergast/f1/circuits?limit=100
 
-            if not handle_http_response(response, season):
-                break
+    while True:
+        response = requests.get(url)
+        if handle_http_response(response):
+            break
+        elif response.status_code == 429:
+            continue
+        else:
+            return
 
-            print('circuits: ', season, response)
-            data = response.json()
-            circuits = data['MRData']['CircuitTable']['Circuits']
-            season_str = data['MRData']['CircuitTable']['season']
+    data = response.json()
+    
+    df = pd.json_normalize(data['MRData']['CircuitTable']['Circuits']) #flatten the results with the normalize at the right level of the data
 
-            if circuits:
-                for c in circuits:
-                    c['lat'] = c['Location']['lat']
-                    c['long'] = c['Location']['long']
-                    c['locality'] = c['Location']['locality']
-                    c['country'] = c['Location']['country']
-                    del c['Location']
-                    c['season'] = season_str
+    useful_data = ['circuitId', 'circuitName', 'Location.lat', 'Location.long', 'Location.locality', 'Location.country'] #create a list with the data I want
+    df = df[useful_data] #filter the data in the DF
+    
+    df = df.rename(columns={ #rename the columns to delelte the prefixe and make suitable for bigquerry
+        'Location.lat': 'Location_lat', 
+        'Location.long': 'Location_long',
+        'Location.locality': 'Location_locality',
+        'Location.country': 'Location_country'
+    })
 
-                df = pd.DataFrame(circuits)
-                if not df.empty:
-                    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.circuits')
-                else:
-                     print('no new data to upload') 
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.circuits')
     return None
 
 def constructors():
@@ -423,7 +423,7 @@ def results():
 def test():
     return None
 
-def main ():
+def main():
     check_directory()
 
     circuits()
