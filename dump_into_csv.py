@@ -95,7 +95,7 @@ def handle_http_response(response, season=None, round=None):
     return True
 
 def circuits():
-    url = http://api.jolpi.ca/ergast/f1/circuits?limit=100
+    url = 'https://api.jolpi.ca/ergast/f1/circuits?limit=100'
 
     while True:
         response = requests.get(url)
@@ -120,114 +120,208 @@ def circuits():
         'Location.country': 'Location_country'
     })
 
+    # Convert data to the right type
+    df['Location_lat'] = pd.to_numeric(df['Location_lat'], errors='coerce')
+    df['Location_long'] = pd.to_numeric(df['Location_long'], errors='coerce')
+
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.circuits')
     return None
 
 def constructors():
-    for season in range (1950, 2026): #2026 because the last one is escluded
-        if not os.path.isfile(f'data/constructors/{season}.csv'):
-            response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/constructors/')
+    offset = [0, 100, 200]
+    df = pd.DataFrame()
 
-            if not handle_http_response(response, season):
+    for i in offset:
+
+        url = f'http://api.jolpi.ca/ergast/f1/constructors?limit=100&offset={i}'
+
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
                 break
-
-            print('constructors: ', season, response)
-            data = response.json()
-            constructors = data['MRData']['ConstructorTable']['Constructors']
-
-            df = pd.DataFrame(constructors) 
-            if not df.empty:
-                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructors')
+            elif response.status_code == 429:
+                continue
             else:
-                print('no new data to upload')
+                return
+            
+        data = response.json()
+    
+        temp = pd.json_normalize(data['MRData']['ConstructorTable']['Constructors']) #flatten the results with the normalize at the right level of the data
+        
+        useful_data = ['constructorId', 'name', 'nationality']
+        temp = temp.reindex(columns=useful_data) #filter the data in the DF
+        df = pd.concat([df, temp], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructors')
     return None
     
 def constructor_standings():
+    df = pd.DataFrame()
+    df_season = pd.DataFrame()
     for season in range (1950, 2026): #2026 because the last one is escluded
-        if not os.path.isfile(f'data/constructor_standings/constructorstandings_{season}.csv'):
-            response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/constructorstandings/')
-
-            if not handle_http_response(response, season):
-                break
-
-            print('constructor_standings: ', season, response)
-            data = response.json()
-            standings_lists =data['MRData']['StandingsTable']['StandingsLists']
-            if standings_lists: #check if there's at least one element
-                constructor_standings = standings_lists[0]['ConstructorStandings']
-                for c in constructor_standings:
-                    c['constructorId'] = c['Constructor']['constructorId']
-                    c['url'] = c['Constructor']['url']
-                    c['name'] = c['Constructor']['name']
-                    c['nationality'] = c['Constructor']['nationality']
-                    del c['Constructor']
-                    c['season'] = standings_lists[0]['season']
-                    c['round'] = standings_lists[0]['round']
-                    c['position'] = c.get('position', None)
-                    c['positionText'] = c.get('positionText', None)
 
 
-                df = pd.DataFrame(constructor_standings)
+        response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/constructorstandings/')
+        data = response.json()
+        round_number = data['MRData']['StandingsTable'].get('round')
+        if round_number is None:
+            print (f'no value for season {season}')
+            continue
 
-                if not df.empty:
-                    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructor_standings')
+        round_number = int(round_number)
+
+
+        df_all_round = pd.DataFrame()
+
+        for round in range (1, round_number + 1):
+            url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/constructorstandings/'
+
+            while True:
+                response = requests.get(url)
+                if handle_http_response(response):
+                    break
+                elif response.status_code == 429:
+                    continue
                 else:
-                    print('no new data to upload')
+                    return
+            
+            print('constructor_standings: ', season, round, response)   
+
+            data = response.json()
+            df_round = pd.json_normalize(
+                data['MRData']['StandingsTable']['StandingsLists'], 
+                record_path=['ConstructorStandings'],
+                meta=['season', 'round']
+            ) #flatten the results with the normalize at the right level of the data
+           
+            useful_data = ['season', 'round', 'Constructor.constructorId', 'position', 'positionText', 'points', 'wins']
+            df_round = df_round.reindex(columns=useful_data) #filter the data in the DF
+
+            df_round['positionText'] = df_round['positionText'].replace('-', pd.NA)
+
+            df_round = df_round.rename(columns={ #rename the columns to delelte the prefixe and make suitable for bigquerry
+                'Constructor.constructorId': 'Constructor_constructorId', 
+            })
+
+            # Convert data to the right type
+            df_round['season'] = pd.to_numeric(df_round['season'], errors='coerce')
+            df_round['round'] = pd.to_numeric(df_round['round'], errors='coerce')
+            df_round['position'] = pd.to_numeric(df_round['position'], errors='coerce')
+            df_round['points'] = pd.to_numeric(df_round['points'], errors='coerce')
+            df_round['wins'] = pd.to_numeric(df_round['wins'], errors='coerce')
+
+            df_all_round = pd.concat([df_all_round, df_round], ignore_index=True)
+
+        df_season = pd.concat([df_season, df_all_round], ignore_index=True)
+
+    df = pd.concat([df, df_season], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructor_standings')
     return None
 
 def drivers():
-    for season in range (1950, 2026): #2026 because the last one is escluded
-        if not os.path.isfile(f'data/drivers/{season}.csv'):
-            response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/drivers/')
+    offset = [0, 100, 200, 300, 400, 500, 600, 700, 800]
+    df = pd.DataFrame()
 
-            if not handle_http_response(response, season):
+    for i in offset:
+
+        url = f'http://api.jolpi.ca/ergast/f1/drivers?limit=100&offset={i}'
+
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
                 break
-
-            print('drivers: ', season, response)
-            data = response.json()
-            drivers = data['MRData']['DriverTable']['Drivers']
-            df = pd.DataFrame(drivers)
-
-            if not df.empty:
-                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.drivers')
+            elif response.status_code == 429:
+                continue
             else:
-                print('no new data to upload')
+                return
+            
+        print('driver step : ', i)
+            
+        data = response.json()
+
+        temp = pd.json_normalize(data['MRData']['DriverTable']['Drivers'])
+
+        useful_data = ['driverId', 'givenName', 'familyName', 'dateOfBirth', 'nationality']
+        temp = temp[useful_data]
+
+        temp['dateOfBirth'] = pd.to_datetime(temp['dateOfBirth'], errors='coerce')
+
+        df = pd.concat([temp, df], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.drivers')
     return None
 
 def driver_standings():
+    df = pd.DataFrame()
+    df_season = pd.DataFrame()
     for season in range (1950, 2026): #2026 because the last one is escluded
-        if not os.path.isfile(f'data/driver_standings/{season}.csv'):
-            response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/driverstandings/')
 
-            if not handle_http_response(response, season):
-                break
+        # this block get the number of round
+        response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/driverstandings/')
+        data = response.json()
+        round_number = data['MRData']['StandingsTable'].get('round')
+        if round_number is None:
+            print (f'no value for driver standings season {season}')
+            continue
 
-            print('driver_standings: ', season, response)
+        round_number = int(round_number)
+
+        df_all_round = pd.DataFrame()
+
+        for round in range (1, round_number + 1):
+            url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/driverstandings?limit=100'
+
+            while True:
+                response = requests.get(url)
+                if handle_http_response(response):
+                    break
+                elif response.status_code == 429:
+                    continue
+                else:
+                    return
+                
+            print('driver_standings: ', season, round, response)
+            print('\n-----------\n')
+
             data = response.json()
-            standings_list = data['MRData']['StandingsTable']['StandingsLists']
-            driver_standings = standings_list[0]['DriverStandings']
-            for d in driver_standings:
-                d['driverId'] = d['Driver']['driverId']
-                d['permanentNumber'] = d['Driver'].get('permanentNumber', None)
-                d['code'] = d['Driver'].get('code', None)
-                d['url'] = d['Driver']['url']
-                d['givenName'] = d['Driver']['givenName']
-                d['familyName'] = d['Driver']['familyName']
-                d['dateOfBirth'] = d['Driver']['dateOfBirth']
-                d['nationality'] = d['Driver']['nationality']
-                del d['Driver']
-                d['constructorId'] = d['Constructors'][0]['constructorId']
-                d['cons_url'] = d['Constructors'][0]['url']
-                d['cons_name'] = d['Constructors'][0]['name']
-                d['cons_nationality'] = d['Constructors'][0]['nationality']
-                del d['Constructors']
-            df = pd.DataFrame(driver_standings)
-            
-            if not df.empty:
-                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.driver_standings')
-            else:
-                print('no new data to upload')
+            df_round = pd.json_normalize(
+                data['MRData']['StandingsTable']['StandingsLists'],
+                record_path=['DriverStandings'],
+                meta=['season', 'round'],
+                sep='_'
+            )
 
+            #get columns constructorId
+            df_round['constructorId'] = df_round['Constructors'].apply(
+                lambda x: x[0]['constructorId'] if isinstance(x, list) and len(x)>0 else pd.NA
+            )
+
+
+            useful_data = ['season', 'round', 'Driver_driverId', 'position', 'positionText', 'points', 'wins', 'constructorId']
+            df_round = df_round.reindex(columns=useful_data)
+
+            
+
+            df_round['positionText'] = df_round['positionText'].replace('-', pd.NA) #replace the non exsitant data with NA
+
+
+            df_round = df_round.rename(columns={ #rename the columns to delelte the prefixe and make suitable for bigquerry
+                'Driver_driverId': 'driverId', 
+            })
+
+            #convert data to the right type 
+            df_round['season'] = pd.to_numeric(df_round['season'], errors='coerce')
+            df_round['round'] = pd.to_numeric(df_round['round'], errors='coerce')
+            df_round['position'] = pd.to_numeric(df_round['position'], errors='coerce')
+            df_round['points'] = pd.to_numeric(df_round['points'], errors='coerce')
+            df_round['wins'] = pd.to_numeric(df_round['wins'], errors='coerce')
+
+            df_all_round = pd.concat([df_all_round, df_round], ignore_index=True)
+        df_season = pd.concat([df_season, df_all_round], ignore_index=True)
+    df = pd.concat([df, df_season], ignore_index=True)
+    
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.driver_standings')
     return None
 
 def laps():
