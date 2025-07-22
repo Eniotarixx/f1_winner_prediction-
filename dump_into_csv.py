@@ -282,7 +282,6 @@ def driver_standings():
                     return
                 
             print('driver_standings: ', season, round, response)
-            print('\n-----------\n')
 
             data = response.json()
             df_round = pd.json_normalize(
@@ -331,187 +330,242 @@ def pitstops():
     return None
     
 def qualifying():
+    df = pd.DataFrame()
     for season in range (1950, 2026): #2026 because the last one is escluded
-        round = 1 
-        has_more_races = True
-        while has_more_races:
-            if not os.path.isfile(f'data/qualifying/{season}_{round}.csv'):
-                response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/{round}/qualifying/')
 
-                if not handle_http_response(response, season, round):
+        url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying'
+
+        while True:
+                response = requests.get(url)
+                if handle_http_response(response):
                     break
+                elif response.status_code == 429:
+                    continue
+                else:
+                    return
+                
+        print ('Qualifying season: ', season)
 
-                print('qualifying: ', season, round, response)
-                data = response.json()
-                qualifying = data['MRData']['RaceTable']['Races']
+        data = response.json()        
+        offset_tot = int(data['MRData']['total'])
 
-                has_more_races = bool(qualifying)
-                if has_more_races:
+        if offset_tot > 0:
 
-                    rows = [] # create a row for each qualifying reslut otherwise the last entry overwrite the precedent one
-                    for q in qualifying:
-                        circuit_info = {
-                            'season' : q['season'],
-                            'round' : q['round'],
-                            'raceName' : q['raceName'],
-                            'circuitName' : q['Circuit']['circuitName'],
-                            'country' : q['Circuit']['Location']['country'], 
-                            'date' : q['date'],
-                            'time': q.get('time', None)
-                        }
+            offset_list = [i for i in range(0, offset_tot, 100)]
+            
+            for i in offset_list:
+                url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying?limit=100&offset={i}'
 
-                        for r in q['QualifyingResults']:
-                            row = circuit_info.copy()
-                            row['number'] = r['number']
-                            row['position'] = r['position']
-                            row['driverId'] = r['Driver']['driverId']
-                            row['permanentNumber'] = r['Driver'].get('permanentNumber', None)
-                            row['code'] = r['Driver'].get('code', None)
-                            row['givenName'] = r['Driver']['givenName']
-                            row['familyName'] = r['Driver']['familyName']
-                            row['dateOfBirth'] = r['Driver']['dateOfBirth']
-                            row['driver_nationality'] = r['Driver']['nationality']
-                            row['constructorId'] = r['Constructor']['constructorId']
-                            row['constructor_name'] = r['Constructor']['name']
-                            row['constructor_nationality'] = r['Constructor']['nationality']
-                            row['Q1'] = r.get('Q1', None)
-                            row['Q2'] = r.get('Q2', None)
-                            row['Q3'] = r.get('Q3', None)
-                            rows.append(row)
-
-                    df = pd.DataFrame(rows)
-
-                    if not df.empty:
-                        upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.qualifying')
+                while True:
+                    response = requests.get(url)
+                    if handle_http_response(response):
+                        break
+                    elif response.status_code == 429:
+                        continue
                     else:
-                        print('no new data to upload')
-                    round +=1
+                        return
+                    
+                print ('Qualifying step: ', i)
+
+                data = response.json()
+
+                df_season_offset = pd.json_normalize(
+                    data['MRData']['RaceTable']['Races'],
+                    record_path=['QualifyingResults'],
+                    meta=[
+                        'season',
+                        'round',
+                        'raceName', 
+                        'date',
+                        'time',
+                        ['Circuit', 'circuitId']
+                    ],
+                    record_prefix='qualifying_',
+                    meta_prefix='race_',
+                    sep='_', 
+                    errors='ignore'
+                )
+
+                useful_data = [
+                    'race_season',
+                    'race_round',
+                    'race_raceName',
+                    'race_Circuit_circuitId',
+                    'race_date',
+                    'race_time',
+                    'qualifying_number', 
+                    'qualifying_position',  
+                    'qualifying_Driver_driverId', 
+                    'qualifying_Constructor_constructorId', 
+                    'qualifying_Q1', 
+                    'qualifying_Q2', 
+                    'qualifying_Q3'
+                ]
+                
+                df_season_offset = df_season_offset.reindex(columns=useful_data)
+
+                # Convert data to the right type
+                df_season_offset['race_season'] = pd.to_numeric(df_season_offset['race_season'], errors='coerce')
+                df_season_offset['race_round'] = pd.to_numeric(df_season_offset['race_round'], errors='coerce')
+
+                df_season_offset['race_date'] = pd.to_datetime(df_season_offset['race_date']).dt.date
+                df_season_offset['race_time'] = pd.to_datetime(df_season_offset['race_time'], utc=True).dt.time
+
+                df_season_offset['qualifying_number'] = pd.to_numeric(df_season_offset['qualifying_number'], errors='coerce')
+                df_season_offset['qualifying_position'] = pd.to_numeric(df_season_offset['qualifying_position'], errors='coerce')
+                                                
+                df = pd.concat([df, df_season_offset], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.qualifying')
     return None
 
 def races():
-    for season in range (1950, 2026): #2026 because the last one is escluded
-        if not os.path.isfile(f'data/races/{season}.csv'):
-            response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/races/')
+    df = pd.DataFrame()
+    url = f'http://api.jolpi.ca/ergast/f1/races/'
 
-            if not handle_http_response(response, season):
+    while True:
+        response = requests.get(url)
+        if handle_http_response(response):
+            break
+        elif response.status_code == 429:
+            continue
+        else:
+            return
+        
+    data = response.json()        
+    offset_tot = int(data['MRData']['total'])
+
+    offset_list = [i for i in range(0, offset_tot, 100)]
+
+    for i in offset_list:
+
+        url = f'http://api.jolpi.ca/ergast/f1/races?limit=100&offset={i}'
+
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
                 break
-
-            print('races: ', season, response)
-            data = response.json()
-            races = data['MRData']['RaceTable']['Races']
-            for r in races:
-                r['circuitId'] = r['Circuit']['circuitId']
-                r['circuitName'] = r['Circuit']['circuitName']
-
-                r['first_practice_date'] = r.get('FirstPractice', {}).get('date', None)
-                r['first_practice_time'] = r.get('FirstPractice', {}).get('time', None)
-
-                r['second_practice_date'] = r.get('SecondPractice', {}).get('date', None)
-                r['second_practice_time'] = r.get('SecondPractice', {}).get('time', None)        
-
-                r['third_practice_date'] = r.get('ThirdPractice', {}).get('date', None)
-                r['third_practice_time'] = r.get('ThirdPractice', {}).get('time', None) 
-
-                r['qualifying_date'] = r.get('Qualifying', {}).get('date', None)
-                r['qualifying_time'] = r.get('Qualifying', {}).get('time', None)
-
-                r['sprint_qualifying_date'] = r.get('SprintQualifying', {}).get('date', None)
-                r['sprint_qualifying_time'] = r.get('SprintQualifying', {}).get('time', None) 
-
-                r['sprint_date'] = r.get('Sprint', {}).get('date', None)
-                r['sprint_time'] = r.get('Sprint', {}).get('time', None) 
-
-                del r['Circuit']
-                r.pop('FirstPractice', None)
-                r.pop('SecondPractice', None)
-                r.pop('ThirdPractice', None)
-                r.pop('Qualifying', None)
-                r.pop('SprintQualifying', None)
-                r.pop('Sprint', None)
-
-            df = pd.DataFrame(races)
-
-            if not df.empty:
-                upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.races')
+            elif response.status_code == 429:
+                continue
             else:
-                print('no new data to upload')
+                return
+            
+        print('Races step', i)
 
-    return None
+        data = response.json()
+
+        df_races_offset = pd.json_normalize(
+            data['MRData']['RaceTable']['Races'],
+            sep='_'
+        )
+
+        useful_data = [
+            'season', 
+            'round', 
+            'raceName', 
+            'Circuit_circuitId', 
+            'date'
+        ]
+
+        df_races_offset = df_races_offset.reindex(columns=useful_data)
+
+        df_races_offset['season'] = pd.to_numeric(df_races_offset['season'], errors='coerce')
+        df_races_offset['round'] = pd.to_numeric(df_races_offset['round'], errors='coerce')
+        df_races_offset['date'] = pd.to_datetime(df_races_offset['date']).dt.date
+
+
+        df = pd.concat([df, df_races_offset], ignore_index=True)
+  
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.races')
+    return None 
 
 def results():
-    for season in range (1950, 2026): #2026 because the last one is escluded
-        round = 1 
-        has_more_races = True
-        while has_more_races:
-            if not os.path.isfile(f'data/results/{season}_{round}.csv.csv'):
-                response = requests.get(f'https://api.jolpi.ca/ergast/f1/{season}/{round}/results/')
+    df = pd.DataFrame()
+    url = f'http://api.jolpi.ca/ergast/f1/results/'
 
-                if not handle_http_response(response, season, round):
-                    break
+    while True:
+        response = requests.get(url)
+        if handle_http_response(response):
+            break
+        elif response.status_code == 429:
+            continue
+        else:
+            return
+        
+    data = response.json()        
+    offset_tot = int(data['MRData']['total'])
 
-                print('results: ', season, round, response)
-                data = response.json()
-                results = data['MRData']['RaceTable']['Races']
+    offset_list = [i for i in range(0, offset_tot, 100)]
 
-                has_more_races = bool(results)
-                if has_more_races:
-                        
-                    rows = [] # create row for each driver
+    for i in offset_list:
 
-                    for i in results:
-                        circuit_info = {
-                            'season' : i['season'],
-                            'round' : i['round'],
-                            'raceName' : i['raceName'],
-                            'circuitName' : i['Circuit']['circuitName'],
-                            'country' : i['Circuit']['Location']['country'], 
-                            'date' : i['date'],
-                            'time': i.get('time', None)
-                            }
-                        
-                        for j in i['Results']:
-                            row = circuit_info.copy()
-                            row['number'] = j['number']
-                            row['position'] = j['position']
-                            row['points'] = j['points']
+        url = f'http://api.jolpi.ca/ergast/f1/results?limit=100&offset={i}'
 
-                            row['driverId'] = j['Driver']['driverId']
-                            row['permanentNumber'] = j['Driver'].get('permanentNumber', None)
-                            row['code'] = j['Driver'].get('code', None)
-                            row['givenName'] = j['Driver']['givenName']
-                            row['familyName'] = j['Driver']['familyName']
-                            row['dateOfBirth'] = j['Driver']['dateOfBirth']
-                            row['driver_nationality'] = j['Driver']['nationality']
-
-                            row['constructorId'] = j['Constructor']['constructorId']
-                            row['constructor_name'] = j['Constructor']['name']
-                            row['constructor_nationality'] = j['Constructor']['nationality']
-
-                            row['grid'] = j['grid']
-                            row['laps'] = j['laps']
-                            row['status'] = j['status']
-
-                            row['time'] = j.get('Time', {}).get('time', None)
-                            row['time_millis'] = j.get('Time', {}).get('millis', None)
-
-                            row['fastest_lap_rank'] = j.get('FastestLap', {}).get('rank', None)
-                            row['fastest_lap_lap'] = j.get('FastestLap', {}).get('lap', None)
-                            row['fastest_lap_time'] = j.get('FastestLap', {}).get('Time', {}).get('time', None)
-                            row['fastest_lap_avg_speed'] = j.get('FastestLap', {}).get('AverageSpeed', {}).get('speed', None)
-                            row['fastest_lap_avg_speed_units'] = j.get('FastestLap', {}).get('AverageSpeed', {}).get('units', None)
-
-                            rows.append(row)
-                        
-                        df = pd.DataFrame(rows)
-
-                        if not df.empty:
-                            upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.results')
-                        else:
-                            print('no new data to upload')
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
+                break
+            elif response.status_code == 429:
+                continue
+            else:
+                return
             
-                        round +=1
+        print('Results step', i)
 
-    return None
+        data = response.json()
+
+        df_races_offset = pd.json_normalize(
+            data['MRData']['RaceTable']['Races'],
+            record_path=['Results'],
+            meta = [
+                'season', 
+                'round', 
+                'raceName', 
+                ['Circuit', 'circuitId'], 
+                'date'
+            ],
+            record_prefix='results_',
+            meta_prefix= 'race_',
+            sep='_'
+        )
+
+        useful_data = [
+            'race_season', 
+            'race_round',
+            'race_raceName',
+            'race_Circuit_circuitId',
+            'race_date', 
+            'results_number',
+            'results_position', 
+            'results_positionText',
+            'results_points',
+            'results_Driver_driverId', 
+            'results_Constructor_constructorId', 
+            'results_grid',
+            'results_laps',
+            'results_status',
+            'results_Time_time',
+            'results_Time_millis'
+        ]
+
+        df_races_offset = df_races_offset.reindex(columns=useful_data)
+
+        #conert the data to the righ type 
+        df_races_offset['race_season'] = pd.to_numeric(df_races_offset['race_season'], errors='coerce')
+        df_races_offset['race_round'] = pd.to_numeric(df_races_offset['race_round'], errors='coerce')
+
+        df_races_offset['race_date'] = pd.to_datetime(df_races_offset['race_date']).dt.date
+
+        df_races_offset['results_number'] = pd.to_numeric(df_races_offset['results_number'], errors='coerce')
+        df_races_offset['results_position'] = pd.to_numeric(df_races_offset['results_position'], errors='coerce')
+        df_races_offset['results_points'] = pd.to_numeric(df_races_offset['results_points'], errors='coerce')
+        df_races_offset['results_grid'] = pd.to_numeric(df_races_offset['results_grid'], errors='coerce')
+        df_races_offset['results_laps'] = pd.to_numeric(df_races_offset['results_laps'], errors='coerce')
+
+        df = pd.concat([df, df_races_offset], ignore_index=True)
+  
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.results')
+    return None 
 
 
 def test():
