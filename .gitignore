@@ -5,3 +5,4 @@ data/
 test.py
 delete
 delete_table.py
+SELECT *bqsql

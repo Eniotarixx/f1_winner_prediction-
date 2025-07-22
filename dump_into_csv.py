@@ -324,7 +324,113 @@ def driver_standings():
     return None
 
 def laps():
-    return None
+    df = pd.DataFrame()
+    
+    for season in range (1996, 2026):
+
+        url = f'http://api.jolpi.ca/ergast/f1/{season}/races/'
+
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
+                break
+            elif response.status_code == 429:
+                continue
+            else:
+                return
+    
+        data = response.json()
+        round_number = data['MRData'].get('total')
+
+        if round_number is None:
+            print (f'no value for driver standings season {season}')
+            continue
+        round_number = int(round_number)
+
+        for round in range (1, round_number+1):
+
+            url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/laps/'
+    
+            while True:
+                response = requests.get(url)
+                if handle_http_response(response):
+                    break
+                elif response.status_code == 429:
+                    continue
+                else:
+                    return
+                
+            data = response.json()
+            offset_tot = int(data['MRData']['total'])
+            offset_list = [i for i in range(0, offset_tot, 100)]
+
+            for i in offset_list:
+
+                url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/laps?limit=100&offset={i}'
+                
+                while True:
+                    response = requests.get(url)
+                    if handle_http_response(response):
+                        break
+                    elif response.status_code == 429:
+                        continue
+                    else:
+                        return
+                    
+                print('laps Season: ', season, 'round', round, 'step', i)
+
+                data = response.json()
+
+                df_laps_offset = pd.json_normalize(
+                    data['MRData']['RaceTable']['Races'], 
+                    record_path=['Laps'], 
+                    meta=[
+                        'season', 
+                        'round', 
+                        'raceName', 
+                        ['Circuit', 'circuitId'],
+                        'date'
+                    ],
+                    meta_prefix= 'race_',
+                    record_prefix= 'lap_', 
+                    sep='_'
+                )
+
+                df_laps_offset = df_laps_offset.explode('lap_Timings')
+
+                df_lap_time = pd.json_normalize(df_laps_offset['lap_Timings'])
+
+                df_laps_offset = df_laps_offset.drop(columns=['lap_Timings'])
+
+                df_laps_offset = df_laps_offset.reset_index(drop=True)
+                df_lap_time = df_lap_time.reset_index(drop=True)
+
+                df_laps_offset = pd.concat([df_laps_offset, df_lap_time], axis=1)
+
+                useful_data = [
+                    'race_season', 
+                    'race_round', 
+                    'race_raceName', 
+                    'race_Circuit_circuitId', 
+                    'race_date',
+                    'lap_number',  
+                    'driverId', 
+                    'position', 
+                    'time'
+                ]
+
+                df_laps_offset = df_laps_offset.reindex(columns=useful_data)
+                
+                df_laps_offset['race_season'] = pd.to_numeric(df_laps_offset['race_season'], errors='coerce')
+                df_laps_offset['race_round'] = pd.to_numeric(df_laps_offset['race_round'], errors='coerce')
+                df_laps_offset['race_date'] = pd.to_datetime(df_laps_offset['race_date'], errors='coerce').dt.date
+                df_laps_offset['lap_number'] = pd.to_numeric(df_laps_offset['lap_number'], errors='coerce')
+                df_laps_offset['position'] = pd.to_numeric(df_laps_offset['position'], errors='coerce')
+                
+                df = pd.concat([df, df_laps_offset], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.laps')
+    return None 
 
 def pitstops():
     return None
