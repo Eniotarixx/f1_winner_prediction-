@@ -946,7 +946,7 @@ def main():
     races()
     results()
     sprint()
-    #test()
+    status()
 
 if __name__ == "__main__":
     main()
