@@ -874,6 +874,59 @@ def sprint():
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.sprint')
     return None 
 
+def status():
+    df = pd.DataFrame()
+
+    url = f'http://api.jolpi.ca/ergast/f1/status/'
+
+    while True:
+        response = requests.get(url)
+        if handle_http_response(response):
+            break
+        elif response.status_code == 429:
+            continue
+        else:
+            return
+        
+    data = response.json()
+    offset_tot = int(data['MRData']['total'])
+    offset_list = [i for i in range(0, offset_tot, 100)]
+
+    for i in offset_list:
+
+        url = f'http://api.jolpi.ca/ergast/f1/status/?limit=100&offset={i}'
+        
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
+                break
+            elif response.status_code == 429:
+                continue
+            else:
+                return
+            
+        print('status: step', i)
+
+        data = response.json()
+
+        df_status_offset = pd.json_normalize(
+            data['MRData']['StatusTable']['Status'], 
+            sep='_'
+        )
+        print('\n------------\n')
+        print(df_status_offset.columns)
+        print('\n------------\n')
+
+        
+        df_status_offset['statusId'] = pd.to_numeric(df_status_offset['statusId'], errors='coerce')
+        df_status_offset['count'] = pd.to_numeric(df_status_offset['count'], errors='coerce')
+        
+
+        df = pd.concat([df, df_status_offset], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.status')
+    return None 
+
 
 def test():
     return None
