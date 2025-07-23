@@ -780,6 +780,100 @@ def results():
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.results')
     return None 
 
+def sprint():
+    df = pd.DataFrame()
+
+    url = f'http://api.jolpi.ca/ergast/f1/sprint/'
+
+    while True:
+        response = requests.get(url)
+        if handle_http_response(response):
+            break
+        elif response.status_code == 429:
+            continue
+        else:
+            return
+        
+    data = response.json()
+    offset_tot = int(data['MRData']['total'])
+    offset_list = [i for i in range(0, offset_tot, 100)]
+
+    for i in offset_list:
+
+        url = f'http://api.jolpi.ca/ergast/f1/sprint?limit=100&offset={i}'
+        
+        while True:
+            response = requests.get(url)
+            if handle_http_response(response):
+                break
+            elif response.status_code == 429:
+                continue
+            else:
+                return
+            
+        print('sprint Season:',  'step', i)
+
+        data = response.json()
+
+        df_sprint_offset = pd.json_normalize(
+            data['MRData']['RaceTable']['Races'], 
+            record_path=['SprintResults'], 
+            meta=[
+                'season', 
+                'round', 
+                'raceName', 
+                ['Circuit', 'circuitId'],
+                'date', 
+                'time'
+            ],
+            meta_prefix= 'race_',
+            record_prefix= 'SprintResults_', 
+            sep='_'
+        )
+
+        
+        useful_data = [
+            'race_season', 
+            'race_round', 
+            'race_raceName', 
+            'race_Circuit_circuitId', 
+            'race_date',
+            'race_time',
+            'SprintResults_number', 
+            'SprintResults_position', 
+            'SprintResults_positionText', 
+            'SprintResults_points', 
+            'SprintResults_Driver_driverId', 
+            'SprintResults_Constructor_constructorId', 
+            'SprintResults_grid', 
+            'SprintResults_laps', 
+            'SprintResults_status', 
+            'SprintResults_Time_time', 
+            'SprintResults_Time_millis', 
+            'SprintResults_FastestLap_lap', 
+            'SprintResults_FastestLap_Time_time'
+        ]
+        
+        df_sprint_offset = df_sprint_offset.reindex(columns=useful_data)
+        
+        df_sprint_offset['race_season'] = pd.to_numeric(df_sprint_offset['race_season'], errors='coerce')
+        df_sprint_offset['race_round'] = pd.to_numeric(df_sprint_offset['race_round'], errors='coerce')
+
+        df_sprint_offset['race_date'] = pd.to_datetime(df_sprint_offset['race_date'], errors='coerce').dt.date
+        df_sprint_offset['race_time'] = pd.to_datetime(df_sprint_offset['race_time'], errors='coerce').dt.time
+
+        df_sprint_offset['SprintResults_number'] = pd.to_numeric(df_sprint_offset['SprintResults_number'], errors='coerce')
+        df_sprint_offset['SprintResults_position'] = pd.to_numeric(df_sprint_offset['SprintResults_position'], errors='coerce')
+        df_sprint_offset['SprintResults_points'] = pd.to_numeric(df_sprint_offset['SprintResults_points'], errors='coerce')
+        df_sprint_offset['SprintResults_grid'] = pd.to_numeric(df_sprint_offset['SprintResults_grid'], errors='coerce')
+        df_sprint_offset['SprintResults_laps'] = pd.to_numeric(df_sprint_offset['SprintResults_laps'], errors='coerce')
+        df_sprint_offset['SprintResults_FastestLap_lap'] = pd.to_numeric(df_sprint_offset['SprintResults_FastestLap_lap'], errors='coerce')
+
+        df = pd.concat([df, df_sprint_offset], ignore_index=True)
+
+    upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.sprint')
+    return None 
+
 
 def test():
     return None
@@ -798,6 +892,7 @@ def main():
     qualifying()
     races()
     results()
+    sprint()
     #test()
 
 if __name__ == "__main__":
