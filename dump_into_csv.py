@@ -910,9 +910,7 @@ def status():
     return None 
 
 def main():
-
     circuits()
-
     constructors()
     constructor_standings()
     drivers()
