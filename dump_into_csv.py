@@ -184,7 +184,7 @@ def constructor_standings():
             df_round['points'] = pd.to_numeric(df_round['points'], errors='coerce')
             df_round['wins'] = pd.to_numeric(df_round['wins'], errors='coerce')
 
-            print('constructor_standings: ', season, round, response) 
+            print('constructor_standings: ', season, round) 
 
             df = pd.concat([df, df_round], ignore_index=True)
 
@@ -272,7 +272,7 @@ def driver_standings():
             df_round['wins'] = pd.to_numeric(df_round['wins'], errors='coerce')
 
             df_all_round = pd.concat([df_all_round, df_round], ignore_index=True)
-            print('driver_standings: ', season, round, response)
+            print('driver_standings: ', season, round)
 
         df_season = pd.concat([df_season, df_all_round], ignore_index=True)
     df = pd.concat([df, df_season], ignore_index=True)
