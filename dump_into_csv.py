@@ -13,18 +13,6 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'bigquerry-test-465502-a43bb7bb5f
 client = bigquery.Client()
 
 
-def check_directory():
-    os.makedirs('data', exist_ok=True)
-    os.makedirs('data/constructor_standings', exist_ok=True)
-    os.makedirs('data/circuits', exist_ok=True)
-    os.makedirs('data/constructors', exist_ok=True)
-    os.makedirs('data/drivers', exist_ok=True)
-    os.makedirs('data/driver_standings', exist_ok=True)
-    os.makedirs('data/qualifying', exist_ok=True)
-    os.makedirs('data/races', exist_ok=True)
-    os.makedirs('data/results', exist_ok=True)
-
-
 def upload_to_bigquerry(client, df, table_id):
     '''
 
@@ -921,12 +909,7 @@ def status():
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.status')
     return None 
 
-
-def test():
-    return None
-
 def main():
-    check_directory()
 
     circuits()
 
