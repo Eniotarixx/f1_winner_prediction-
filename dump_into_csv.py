@@ -136,9 +136,7 @@ def constructors():
     
 def constructor_standings():
     df = pd.DataFrame()
-    df_season = pd.DataFrame()
     for season in range (1950, 2026): #2026 because the last one is escluded
-
 
         response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/constructorstandings/')
         data = response.json()
@@ -148,9 +146,6 @@ def constructor_standings():
             continue
 
         round_number = int(round_number)
-
-
-        df_all_round = pd.DataFrame()
 
         for round in range (1, round_number + 1):
             url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/constructorstandings/'
@@ -164,8 +159,6 @@ def constructor_standings():
                 else:
                     return
             
-              
-
             data = response.json()
             df_round = pd.json_normalize(
                 data['MRData']['StandingsTable']['StandingsLists'], 
@@ -191,11 +184,7 @@ def constructor_standings():
 
             print('constructor_standings: ', season, round, response) 
 
-            df_all_round = pd.concat([df_all_round, df_round], ignore_index=True)
-
-        df_season = pd.concat([df_season, df_all_round], ignore_index=True)
-
-    df = pd.concat([df, df_season], ignore_index=True)
+            df = pd.concat([df, df_round], ignore_index=True)
 
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.constructor_standings')
     return None
