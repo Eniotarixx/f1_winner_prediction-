@@ -12,20 +12,6 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'bigquerry-test-465502-a43bb7bb5f
 #creatre an instance big querry
 client = bigquery.Client()
 
-url = [
-    '/ergast/f1/circuits/',
-    '/ergast/f1/constructors/',
-    '/ergast/f1/{season}/constructorstandings/',
-    '/ergast/f1/drivers/', 
-    '/ergast/f1/{season}/driverstandings/', 
-    '/ergast/f1/{season}/{round}/laps/',
-    '/ergast/f1/{season}/{round}/pitstops/',
-    '/ergast/f1/{season}/qualifying/',
-    '/ergast/f1/races/',
-    '/ergast/f1/results/',
-    '/ergast/f1/seasons/',
-    '/ergast/f1/sprint/',
-    '/ergast/f1/status/']
 
 def check_directory():
     os.makedirs('data', exist_ok=True)
