@@ -54,7 +54,32 @@ def upload_to_bigquerry(client, df, table_id):
         print('🆗 no new data to upload')
 
     return None
+
+def get_data(url):
+
+    while True:
+        try:
+            response = requests.get(url)
+
+            if response.status_code == 200:
+                return response.json()
+            
+            elif response.status_code == 429:
+                print('Too many request, break of 10 seconds...')
+                time.sleep(10)
+
+            else:
+                print(f'\nHTTP error: {response.status_code} for url: {url}')
+                print(f'\n error: \n')
+                print(response.text)
+                return (None)
+
+        except Exception as e:
+            print('\n----------------')
+            print (f'\nERROR HERE FOR URL: {url}\n ERROR: {e}')
+            return None
     
+'''
 def handle_http_response(response, season=None, round=None):
     if response.status_code == 429:
         print("Too many request, break of 10 seconds...")
@@ -67,20 +92,12 @@ def handle_http_response(response, season=None, round=None):
             print(f"Error HTTP {response.status_code} for {season}")
         return False
     return True
+'''
 
 def circuits():
     url = 'https://api.jolpi.ca/ergast/f1/circuits?limit=100'
 
-    while True:
-        response = requests.get(url)
-        if handle_http_response(response):
-            break
-        elif response.status_code == 429:
-            continue
-        else:
-            return
-
-    data = response.json()
+    data = get_data(url)
     
     df = pd.json_normalize(data['MRData']['CircuitTable']['Circuits']) #flatten the results with the normalize at the right level of the data
 
@@ -110,17 +127,8 @@ def constructors():
     for i in offset:
 
         url = f'http://api.jolpi.ca/ergast/f1/constructors?limit=100&offset={i}'
-
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
             
-        data = response.json()
+        data = get_data(url)
     
         temp = pd.json_normalize(data['MRData']['ConstructorTable']['Constructors']) #flatten the results with the normalize at the right level of the data
         
@@ -138,8 +146,10 @@ def constructor_standings():
     df = pd.DataFrame()
     for season in range (1950, 2026): #2026 because the last one is escluded
 
-        response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/constructorstandings/')
-        data = response.json()
+        url = f'http://api.jolpi.ca/ergast/f1/{season}/constructorstandings/'
+
+        data = get_data(url)
+
         round_number = data['MRData']['StandingsTable'].get('round')
         if round_number is None:
             print (f'no value for season {season}')
@@ -149,17 +159,9 @@ def constructor_standings():
 
         for round in range (1, round_number + 1):
             url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/constructorstandings/'
-
-            while True:
-                response = requests.get(url)
-                if handle_http_response(response):
-                    break
-                elif response.status_code == 429:
-                    continue
-                else:
-                    return
             
-            data = response.json()
+            data = get_data(url)
+
             df_round = pd.json_normalize(
                 data['MRData']['StandingsTable']['StandingsLists'], 
                 record_path=['ConstructorStandings'],
@@ -196,17 +198,8 @@ def drivers():
     for i in offset:
 
         url = f'http://api.jolpi.ca/ergast/f1/drivers?limit=100&offset={i}'
-
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
             
-        data = response.json()
+        data = get_data(url)
 
         temp = pd.json_normalize(data['MRData']['DriverTable']['Drivers'])
 
@@ -228,8 +221,10 @@ def driver_standings():
     for season in range (1950, 2026): #2026 because the last one is escluded
 
         # this block get the number of round
-        response = requests.get(f'http://api.jolpi.ca/ergast/f1/{season}/driverstandings/')
-        data = response.json()
+        url = f'http://api.jolpi.ca/ergast/f1/{season}/driverstandings/'
+
+        data = get_data(url)
+        
         round_number = data['MRData']['StandingsTable'].get('round')
         if round_number is None:
             print (f'no value for driver standings season {season}')
@@ -242,16 +237,8 @@ def driver_standings():
         for round in range (1, round_number + 1):
             url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/driverstandings?limit=100'
 
-            while True:
-                response = requests.get(url)
-                if handle_http_response(response):
-                    break
-                elif response.status_code == 429:
-                    continue
-                else:
-                    return
+            data = get_data(url)
 
-            data = response.json()
             df_round = pd.json_normalize(
                 data['MRData']['StandingsTable']['StandingsLists'],
                 record_path=['DriverStandings'],
@@ -299,17 +286,9 @@ def laps():
     for season in range (1996, 2026):
 
         url = f'http://api.jolpi.ca/ergast/f1/{season}/races/'
-
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
     
-        data = response.json()
+        data = get_data(url)
+
         round_number = data['MRData'].get('total')
 
         if round_number is None:
@@ -320,36 +299,17 @@ def laps():
         for round in range (1, round_number+1):
 
             url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/laps/'
-    
-            while True:
-                response = requests.get(url)
-                if handle_http_response(response):
-                    break
-                elif response.status_code == 429:
-                    continue
-                else:
-                    return
                 
-            data = response.json()
+            data = get_data(url)
+
             offset_tot = int(data['MRData']['total'])
             offset_list = [i for i in range(0, offset_tot, 100)]
 
             for i in offset_list:
 
                 url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/laps?limit=100&offset={i}'
-                
-                while True:
-                    response = requests.get(url)
-                    if handle_http_response(response):
-                        break
-                    elif response.status_code == 429:
-                        continue
-                    else:
-                        return
-                    
-                
-
-                data = response.json()
+            
+                data = get_data(url)
 
                 df_laps_offset = pd.json_normalize(
                     data['MRData']['RaceTable']['Races'], 
@@ -410,17 +370,9 @@ def pitstops():
     for season in range (2011, 2026):
 
         url = f'http://api.jolpi.ca/ergast/f1/{season}/races/'
-
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
     
-        data = response.json()
+        data = get_data(url)
+
         round_number = data['MRData'].get('total')
 
         if round_number is None:
@@ -431,34 +383,17 @@ def pitstops():
         for round in range (1, round_number+1):
 
             url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/pitstops/'
-    
-            while True:
-                response = requests.get(url)
-                if handle_http_response(response):
-                    break
-                elif response.status_code == 429:
-                    continue
-                else:
-                    return
                 
-            data = response.json()
+            data = get_data(url)
+
             offset_tot = int(data['MRData']['total'])
             offset_list = [i for i in range(0, offset_tot, 100)]
 
             for i in offset_list:
 
                 url = f'http://api.jolpi.ca/ergast/f1/{season}/{round}/pitstops?limit=100&offset={i}'
-                
-                while True:
-                    response = requests.get(url)
-                    if handle_http_response(response):
-                        break
-                    elif response.status_code == 429:
-                        continue
-                    else:
-                        return
 
-                data = response.json()
+                data = get_data(url)
 
                 df_pitstops_offset = pd.json_normalize(
                     data['MRData']['RaceTable']['Races'], 
@@ -518,19 +453,10 @@ def qualifying():
     df = pd.DataFrame()
     for season in range (1950, 2026): #2026 because the last one is escluded
 
-        url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying'
+        url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying'              
 
-        while True:
-                response = requests.get(url)
-                if handle_http_response(response):
-                    break
-                elif response.status_code == 429:
-                    continue
-                else:
-                    return
-                
+        data = get_data(url)  
 
-        data = response.json()        
         offset_tot = int(data['MRData']['total'])
 
         if offset_tot > 0:
@@ -539,19 +465,8 @@ def qualifying():
             
             for i in offset_list:
                 url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying?limit=100&offset={i}'
-
-                while True:
-                    response = requests.get(url)
-                    if handle_http_response(response):
-                        break
-                    elif response.status_code == 429:
-                        continue
-                    else:
-                        return
-                    
-                
-
-                data = response.json()
+        
+                data = get_data(url)
 
                 df_season_offset = pd.json_normalize(
                     data['MRData']['RaceTable']['Races'],
@@ -608,17 +523,9 @@ def qualifying():
 def races():
     df = pd.DataFrame()
     url = f'http://api.jolpi.ca/ergast/f1/races/'
-
-    while True:
-        response = requests.get(url)
-        if handle_http_response(response):
-            break
-        elif response.status_code == 429:
-            continue
-        else:
-            return
         
-    data = response.json()        
+    data = get_data(url)
+
     offset_tot = int(data['MRData']['total'])
 
     offset_list = [i for i in range(0, offset_tot, 100)]
@@ -627,17 +534,7 @@ def races():
 
         url = f'http://api.jolpi.ca/ergast/f1/races?limit=100&offset={i}'
 
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
-            
-
-        data = response.json()
+        data = get_data(url)
 
         df_races_offset = pd.json_normalize(
             data['MRData']['RaceTable']['Races'],
@@ -667,37 +564,20 @@ def races():
 
 def results():
     df = pd.DataFrame()
+
     url = f'http://api.jolpi.ca/ergast/f1/results/'
 
-    while True:
-        response = requests.get(url)
-        if handle_http_response(response):
-            break
-        elif response.status_code == 429:
-            continue
-        else:
-            return
-        
-    data = response.json()        
+    data = get_data(url)    
+
     offset_tot = int(data['MRData']['total'])
 
     offset_list = [i for i in range(0, offset_tot, 100)]
 
     for i in offset_list:
 
-        url = f'http://api.jolpi.ca/ergast/f1/results?limit=100&offset={i}'
+        url = f'http://api.jolpi.ca/ergast/f1/results?limit=100&offset={i}'            
 
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
-            
-
-        data = response.json()
+        data = get_data(url)
 
         df_races_offset = pd.json_normalize(
             data['MRData']['RaceTable']['Races'],
@@ -758,34 +638,17 @@ def sprint():
     df = pd.DataFrame()
 
     url = f'http://api.jolpi.ca/ergast/f1/sprint/'
-
-    while True:
-        response = requests.get(url)
-        if handle_http_response(response):
-            break
-        elif response.status_code == 429:
-            continue
-        else:
-            return
         
-    data = response.json()
+    data = get_data(url)
+
     offset_tot = int(data['MRData']['total'])
     offset_list = [i for i in range(0, offset_tot, 100)]
 
     for i in offset_list:
 
         url = f'http://api.jolpi.ca/ergast/f1/sprint?limit=100&offset={i}'
-        
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
 
-        data = response.json()
+        data = get_data(url)
 
         df_sprint_offset = pd.json_normalize(
             data['MRData']['RaceTable']['Races'], 
@@ -852,35 +715,17 @@ def status():
     df = pd.DataFrame()
 
     url = f'http://api.jolpi.ca/ergast/f1/status/'
-
-    while True:
-        response = requests.get(url)
-        if handle_http_response(response):
-            break
-        elif response.status_code == 429:
-            continue
-        else:
-            return
         
-    data = response.json()
+    data = get_data(url)
+
     offset_tot = int(data['MRData']['total'])
     offset_list = [i for i in range(0, offset_tot, 100)]
 
     for i in offset_list:
 
-        url = f'http://api.jolpi.ca/ergast/f1/status/?limit=100&offset={i}'
-        
-        while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
-            
+        url = f'http://api.jolpi.ca/ergast/f1/status/?limit=100&offset={i}'         
 
-        data = response.json()
+        data = get_data(url)
 
         df_status_offset = pd.json_normalize(
             data['MRData']['StatusTable']['Status'], 
