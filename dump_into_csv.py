@@ -539,34 +539,11 @@ def pitstops():
     
 def qualifying():
     df = pd.DataFrame()
+    for season in range (1950, 2026): #2026 because the last one is escluded
 
-    url = f'http://api.jolpi.ca/ergast/f1/qualifying'
+        url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying'
 
-    while True:
-            response = requests.get(url)
-            if handle_http_response(response):
-                break
-            elif response.status_code == 429:
-                continue
-            else:
-                return
-            
-
-    data = response.json()        
-    offset_tot = int(data['MRData']['total'])
-
-    print('\n-------------\n')
-    print(offset_tot)
-    print('\n-------------\n')
-
-    if offset_tot > 0:
-
-        offset_list = [i for i in range(0, offset_tot, 100)]
-        
-        for i in offset_list:
-            url = f'http://api.jolpi.ca/ergast/f1/qualifying?limit=100&offset={i}'
-
-            while True:
+        while True:
                 response = requests.get(url)
                 if handle_http_response(response):
                     break
@@ -575,56 +552,78 @@ def qualifying():
                 else:
                     return
                 
-            print ('Qualifying step: ', i)
 
-            data = response.json()
+        data = response.json()        
+        offset_tot = int(data['MRData']['total'])
 
-            df_season_offset = pd.json_normalize(
-                data['MRData']['RaceTable']['Races'],
-                record_path=['QualifyingResults'],
-                meta=[
-                    'season',
-                    'round',
-                    'raceName', 
-                    'date',
-                    'time',
-                    ['Circuit', 'circuitId']
-                ],
-                record_prefix='qualifying_',
-                meta_prefix='race_',
-                sep='_', 
-                errors='ignore'
-            )
+        if offset_tot > 0:
 
-            useful_data = [
-                'race_season',
-                'race_round',
-                'race_raceName',
-                'race_Circuit_circuitId',
-                'race_date',
-                'race_time',
-                'qualifying_number', 
-                'qualifying_position',  
-                'qualifying_Driver_driverId', 
-                'qualifying_Constructor_constructorId', 
-                'qualifying_Q1', 
-                'qualifying_Q2', 
-                'qualifying_Q3'
-            ]
+            offset_list = [i for i in range(0, offset_tot, 100)]
             
-            df_season_offset = df_season_offset.reindex(columns=useful_data)
+            for i in offset_list:
+                url = f'http://api.jolpi.ca/ergast/f1/{season}/qualifying?limit=100&offset={i}'
 
-            # Convert data to the right type
-            df_season_offset['race_season'] = pd.to_numeric(df_season_offset['race_season'], errors='coerce')
-            df_season_offset['race_round'] = pd.to_numeric(df_season_offset['race_round'], errors='coerce')
+                while True:
+                    response = requests.get(url)
+                    if handle_http_response(response):
+                        break
+                    elif response.status_code == 429:
+                        continue
+                    else:
+                        return
+                    
+                
 
-            df_season_offset['race_date'] = pd.to_datetime(df_season_offset['race_date']).dt.date
-            df_season_offset['race_time'] = pd.to_datetime(df_season_offset['race_time'], utc=True).dt.time
+                data = response.json()
 
-            df_season_offset['qualifying_number'] = pd.to_numeric(df_season_offset['qualifying_number'], errors='coerce')
-            df_season_offset['qualifying_position'] = pd.to_numeric(df_season_offset['qualifying_position'], errors='coerce')
-                                            
-            df = pd.concat([df, df_season_offset], ignore_index=True)
+                df_season_offset = pd.json_normalize(
+                    data['MRData']['RaceTable']['Races'],
+                    record_path=['QualifyingResults'],
+                    meta=[
+                        'season',
+                        'round',
+                        'raceName', 
+                        'date',
+                        'time',
+                        ['Circuit', 'circuitId']
+                    ],
+                    record_prefix='qualifying_',
+                    meta_prefix='race_',
+                    sep='_', 
+                    errors='ignore'
+                )
+
+                useful_data = [
+                    'race_season',
+                    'race_round',
+                    'race_raceName',
+                    'race_Circuit_circuitId',
+                    'race_date',
+                    'race_time',
+                    'qualifying_number', 
+                    'qualifying_position',  
+                    'qualifying_Driver_driverId', 
+                    'qualifying_Constructor_constructorId', 
+                    'qualifying_Q1', 
+                    'qualifying_Q2', 
+                    'qualifying_Q3'
+                ]
+                
+                df_season_offset = df_season_offset.reindex(columns=useful_data)
+
+                # Convert data to the right type
+                df_season_offset['race_season'] = pd.to_numeric(df_season_offset['race_season'], errors='coerce')
+                df_season_offset['race_round'] = pd.to_numeric(df_season_offset['race_round'], errors='coerce')
+
+                df_season_offset['race_date'] = pd.to_datetime(df_season_offset['race_date']).dt.date
+                df_season_offset['race_time'] = pd.to_datetime(df_season_offset['race_time'], utc=True).dt.time
+
+                df_season_offset['qualifying_number'] = pd.to_numeric(df_season_offset['qualifying_number'], errors='coerce')
+                df_season_offset['qualifying_position'] = pd.to_numeric(df_season_offset['qualifying_position'], errors='coerce')
+
+                print ('Qualifying step: ', i)
+                                                
+                df = pd.concat([df, df_season_offset], ignore_index=True)
 
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.qualifying')
     return None
@@ -660,7 +659,6 @@ def races():
             else:
                 return
             
-        print('Races step', i)
 
         data = response.json()
 
@@ -683,6 +681,7 @@ def races():
         df_races_offset['round'] = pd.to_numeric(df_races_offset['round'], errors='coerce')
         df_races_offset['date'] = pd.to_datetime(df_races_offset['date']).dt.date
 
+        print('Races step', i)
 
         df = pd.concat([df, df_races_offset], ignore_index=True)
   
@@ -720,7 +719,6 @@ def results():
             else:
                 return
             
-        print('Results step', i)
 
         data = response.json()
 
@@ -772,6 +770,8 @@ def results():
         df_races_offset['results_grid'] = pd.to_numeric(df_races_offset['results_grid'], errors='coerce')
         df_races_offset['results_laps'] = pd.to_numeric(df_races_offset['results_laps'], errors='coerce')
 
+        print('Results step', i)
+
         df = pd.concat([df, df_races_offset], ignore_index=True)
   
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.results')
@@ -807,8 +807,6 @@ def sprint():
                 continue
             else:
                 return
-            
-        print('sprint Season:',  'step', i)
 
         data = response.json()
 
@@ -866,6 +864,8 @@ def sprint():
         df_sprint_offset['SprintResults_laps'] = pd.to_numeric(df_sprint_offset['SprintResults_laps'], errors='coerce')
         df_sprint_offset['SprintResults_FastestLap_lap'] = pd.to_numeric(df_sprint_offset['SprintResults_FastestLap_lap'], errors='coerce')
 
+        print('sprint Season:',  'step', i)
+
         df = pd.concat([df, df_sprint_offset], ignore_index=True)
 
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.sprint')
@@ -902,7 +902,6 @@ def status():
             else:
                 return
             
-        print('status: step', i)
 
         data = response.json()
 
@@ -910,15 +909,13 @@ def status():
             data['MRData']['StatusTable']['Status'], 
             sep='_'
         )
-        print('\n------------\n')
-        print(df_status_offset.columns)
-        print('\n------------\n')
 
         
         df_status_offset['statusId'] = pd.to_numeric(df_status_offset['statusId'], errors='coerce')
         df_status_offset['count'] = pd.to_numeric(df_status_offset['count'], errors='coerce')
         
-
+        print('status: step', i)
+        
         df = pd.concat([df, df_status_offset], ignore_index=True)
 
     upload_to_bigquerry(client, df, f'bigquerry-test-465502.f1_data.status')
